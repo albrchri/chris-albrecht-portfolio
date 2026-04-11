@@ -14,7 +14,7 @@ export default function Home() {
       <section className="min-h-screen flex flex-col justify-center container mx-auto px-6 md:px-12 relative pt-24">
         <div className="absolute top-0 right-0 w-1/2 h-[80vh] bg-gradient-to-bl from-primary/10 to-transparent opacity-50 blur-[120px] pointer-events-none" />
         
-        <FadeIn className="max-w-4xl relative z-10">
+        <FadeIn className="max-w-4xl relative z-10 -translate-y-8">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-foreground leading-[1.1] mb-6 tracking-tight">
             Bridging Software <br className="hidden md:block" />
             <span className="text-primary italic">Strategy</span> & Execution.
@@ -26,7 +26,7 @@ export default function Home() {
           <div className="flex flex-wrap gap-4">
             <a 
               href="#experience" 
-              className="inline-flex items-center gap-2 px-6 py-3 bg-white text-background font-medium rounded-sm hover:bg-gray-200 transition-colors"
+              className="inline-flex items-center gap-2 px-7 py-[14px] text-base bg-white text-background font-semibold rounded-sm hover:bg-gray-100 transition-colors"
               data-testid="link-hero-experience"
             >
               View Experience
@@ -34,7 +34,7 @@ export default function Home() {
             </a>
             <a 
               href="mailto:contact@cjalbrecht.com" 
-              className="inline-flex items-center gap-2 px-6 py-3 border border-white/20 text-white font-medium rounded-sm hover:bg-white/5 transition-colors"
+              className="inline-flex items-center gap-1 px-4 py-2 text-sm border border-white/10 text-white/70 font-normal rounded-sm hover:bg-white/5 transition-colors"
               data-testid="link-hero-contact"
             >
               Get in Touch
