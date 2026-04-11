@@ -211,7 +211,7 @@ export default function Home() {
                   <span className="hidden md:inline text-white/20">·</span>
                   <span>Feb 2011 – Dec 2012</span>
                 </div>
-                <h4 className="text-3xl font-serif text-white mb-8">Senior Agile Project Manager / ScrumMaster</h4>
+                <h4 className="text-3xl font-serif text-white mb-8">Agile Project Manager / ScrumMaster</h4>
                 <div className="space-y-4 text-muted-foreground">
                   <p><strong className="text-white/80">·</strong> Led global C++ exchange connectivity for high-frequency trading gateways via FIX and proprietary APIs.</p>
                   <p><strong className="text-primary">·</strong> Managed modernization of algorithmic trading platform and optimized portfolio planning for highest ROI.</p>
@@ -236,24 +236,34 @@ export default function Home() {
           <FadeIn delay={0.1} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors flex flex-col">
             <GraduationCap className="text-primary mb-5" size={20} />
             <h4 className="text-primary font-mono text-sm mb-3">Academic</h4>
-            <p className="text-white font-medium mb-1">M.S., Computer Science</p>
-            <p className="text-muted-foreground text-sm leading-relaxed">Illinois Institute of Technology &mdash; Focus: Software Engineering & Enterprise Architecture.</p>
+            <p className="text-white font-medium mb-2">Master of Science in Computer Science</p>
+            <div className="space-y-1 text-sm">
+              <p className="text-muted-foreground">Illinois Institute of Technology</p>
+              <p className="text-muted-foreground/70">Focus: Software Engineering & Enterprise Architecture</p>
+            </div>
           </FadeIn>
 
           {/* MBA */}
           <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors flex flex-col">
             <GraduationCap className="text-primary mb-5" size={20} />
             <h4 className="text-primary font-mono text-sm mb-3">Academic</h4>
-            <p className="text-white font-medium mb-1">Master of Business Administration (MBA)</p>
-            <p className="text-muted-foreground text-sm leading-relaxed">Dominican University &mdash; Focus: Global Business Strategy & Leadership. Most Outstanding Student Award recipient.</p>
+            <p className="text-white font-medium mb-2">Master of Business Administration (MBA)</p>
+            <div className="space-y-1 text-sm">
+              <p className="text-muted-foreground">Dominican University &mdash; Brennan School of Business</p>
+              <p className="text-muted-foreground/70">Focus: Global Business Strategy & Leadership</p>
+              <p className="text-muted-foreground/70">Recipient of the Most Outstanding Student Award (honored during commencement)</p>
+            </div>
           </FadeIn>
 
           {/* BS CS */}
           <FadeIn delay={0.3} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors flex flex-col">
             <GraduationCap className="text-primary mb-5" size={20} />
             <h4 className="text-primary font-mono text-sm mb-3">Academic</h4>
-            <p className="text-white font-medium mb-1">B.S., Computer Science</p>
-            <p className="text-muted-foreground text-sm leading-relaxed">Dominican University &mdash; Graduated cum laude.</p>
+            <p className="text-white font-medium mb-2">Bachelor of Science in Computer Science</p>
+            <div className="space-y-1 text-sm">
+              <p className="text-muted-foreground">Dominican University</p>
+              <p className="text-muted-foreground/70">Graduated cum laude</p>
+            </div>
           </FadeIn>
 
           {/* PMP */}
@@ -337,8 +347,10 @@ export default function Home() {
               <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
                 <li>Initiative Strategy</li>
                 <li>Operational Excellence</li>
-                <li>Executive Presence</li>
+                <li>Executive Communication</li>
                 <li>Change Management</li>
+                <li>Retrospection</li>
+                <li>Continuous Improvement</li>
               </ul>
             </FadeIn>
 
@@ -346,11 +358,9 @@ export default function Home() {
               <BookOpen className="text-primary mb-5" size={20} />
               <h4 className="text-primary font-mono text-sm mb-4">Coaching & Organizational Playbook</h4>
               <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
-                <li>Leadership Coaching (ICF)</li>
                 <li>Agile Transformation</li>
                 <li>UBS Key Talent Program</li>
                 <li>Extensive Mentorship</li>
-                <li>Strategic Planning</li>
                 <li>Stakeholder Influence</li>
                 <li>Emotional Intelligence (EQ)</li>
               </ul>
@@ -360,10 +370,10 @@ export default function Home() {
               <Layers className="text-primary mb-5" size={20} />
               <h4 className="text-primary font-mono text-sm mb-4">Modern Methodologies</h4>
               <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
-                <li>SimCorp Dimension (SCD)</li>
                 <li>Agile (Scrum / Kanban)</li>
                 <li>Lean Software Development</li>
-                <li>Scaled Agile (SAFe)</li>
+                <li>CI/CD DevOps</li>
+                <li>PMBOK (PMP)</li>
               </ul>
             </FadeIn>
 
@@ -375,8 +385,7 @@ export default function Home() {
                 <li>Python Ecosystem</li>
                 <li>C++ Trading Gateways</li>
                 <li>FIX & Proprietary APIs</li>
-                <li>GitLab</li>
-                <li>Jira, Rally, Confluence</li>
+                <li>GitLab, Jira, Confluence</li>
               </ul>
             </FadeIn>
           </div>
