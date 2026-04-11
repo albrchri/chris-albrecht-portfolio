@@ -1,0 +1,66 @@
+The "Executive Portfolio" Refinement Master Prompt
+Copy and paste the entire block below into the Replit Agent to implement all refinements. I have incorporated your specific text for the UBS experience and interests.
+
+Refinement Instructions for chrisalbrecht.com
+
+Please apply the following executive-level refinements to the existing web page structure. Maintain all current styles and the color palette.
+
+1. Rename Section: Executive Summary
+
+Locate the opening paragraph just below the Hero section.
+
+Add the following section header: Executive Summary & Impact (using the large serif font from the headline).
+
+2. Polish Spacing in "15+ Years at UBS" Timeline
+
+Increase the vertical padding or margin between each of the three job roles (blocks) on the timeline by approximately 15 pixels. This creates clear visual separation between each tenure.
+
+3. Content Polish (Timeline and Interests)
+
+Ensure the timeline uses the following refined text, making sure the job titles are in the bold font style shown. (Note: The user needs to verify the text below matches their intent; I am using placeholders or general descriptive language based on the blurry image).
+
+Job 1: Senior Initiative Manager / Leadership Coach (2020-Present)
+
+STAR Point Placeholder Text (Verify text): Situation: X global transformation program ... Task: Drive Y adoption ... Action: Designed new Z workflow ... Result: Achieved N% efficiency gain.
+
+Job 2: Initiative Manager (2015-2020)
+
+STAR Point Placeholder Text.
+
+Job 3: Project Coordinator / Analyst (2011-2015)
+
+STAR Point Placeholder Text.
+
+Update "Beyond the Boardroom" Text:
+
+Endurance Card: Marathon Training: Aiming for full 26.2. Target race: October 11, 2026. Focus, process, and discipline.
+
+Strategy Card: Chess Teacher & Player: Critical thinking, tactical focus, and patience. Instructor for elementary/middle school students.
+
+Process Card: Artisan BBQ Enthusiast: Process and procedure. The ultimate application of low-and-slow execution.
+
+Growth Card: Landscape & Lawn Restoration: A technical approach to landscape engineering. A detailed, multi-year project.
+
+4. Redesign "Stack & Skills" to a Strategic Grid
+
+Completely convert the current "Stack & Skills" lists into a grid of four clean, card-style components, matching the style, spacing, and hover effects of the "Beyond the Boardroom" section below it.
+
+Each card needs a relevant icon (using a single, consistent library like Lucide React). The pillars are:
+
+Pillar 1: Initiative Leadership & Delivery (e.g., a "target" or "flag" icon)
+
+Content: Initiative Strategy, Operational Excellence, Executive Presence, Change Management.
+
+Pillar 2: Coaching & Organizational Playbook (e.g., a "mentorship" or "blueprint" icon)
+
+Content: Leadership Coaching, Team Transformation, Agile Transformation, Organizational Design.
+
+Pillar 3: Modern Methodologies (e.g., an "agile" or "workflow" icon)
+
+Content: Agile (Scrum/Kanban), Lean Software Development, Scaled Agile (SAFe), PMBOK Frameworks.
+
+Pillar 4: Technical & Tooling Strategy (e.g., a "data/tools" icon)
+
+Content: Python Ecosystem, Jira, Rally, Confluence, Microsoft Power Platform.
+
+5. Verify Iconography: Ensure all icons throughout the page use the same consistent visual language for line weight and complexity.
