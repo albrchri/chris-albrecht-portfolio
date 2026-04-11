@@ -1,6 +1,11 @@
 import { useSeo } from "@/hooks/use-seo";
 import { PageTransition, FadeIn } from "@/components/PageTransition";
-import { ArrowRight, Activity, Briefcase, Globe, Target, BookOpen, Layers, Database } from "lucide-react";
+import { Link } from "wouter";
+import {
+  ArrowRight, Activity, Briefcase, Globe,
+  Target, BookOpen, Layers, Database,
+  GraduationCap, Award, BadgeCheck
+} from "lucide-react";
 
 export default function Home() {
   useSeo({
@@ -33,7 +38,7 @@ export default function Home() {
               <ArrowRight size={18} />
             </a>
             <a
-              href="mailto:contact@cjalbrecht.com"
+              href="mailto:albrchri@gmail.com"
               className="inline-flex items-center gap-1 px-4 py-2 text-sm border border-white/10 text-white/70 font-normal rounded-sm hover:bg-white/5 transition-colors"
               data-testid="link-hero-contact"
             >
@@ -99,6 +104,16 @@ export default function Home() {
                 <p><strong className="text-white/80">Action:</strong> Designed a comprehensive coaching curriculum and achieved certification in ICF methodologies.</p>
                 <p><strong className="text-primary">Result:</strong> Measurable improvement in delivery velocity and significantly higher team health scores across all coached units.</p>
               </div>
+              <div className="mt-8 pt-6 border-t border-white/10">
+                <Link
+                  href="/projects/major-trading-transformation"
+                  className="inline-flex items-center gap-2 text-sm text-primary hover:text-white transition-colors font-mono"
+                  data-testid="link-case-study-trading"
+                >
+                  View Case Study: Major Trading Transformation Initiative
+                  <ArrowRight size={14} />
+                </Link>
+              </div>
             </div>
           </FadeIn>
 
@@ -140,8 +155,72 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Stack & Skills — Strategic Grid */}
+      {/* Credentials & Expertise */}
       <section className="py-40 bg-white/5 border-y border-white/5">
+        <div className="container mx-auto px-6 md:px-12">
+          <FadeIn>
+            <h2 className="text-sm font-mono text-primary uppercase tracking-widest mb-4">Credentials</h2>
+            <h3 className="text-4xl md:text-5xl font-serif text-white mb-16">Credentials & Expertise</h3>
+          </FadeIn>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            {/* Left column — two prominent cards */}
+            <div className="md:col-span-2 flex flex-col gap-6">
+              <FadeIn delay={0.1} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
+                <GraduationCap className="text-primary mb-5" size={20} />
+                <h4 className="text-primary font-mono text-sm mb-6">Education Pillars</h4>
+                <div className="space-y-6">
+                  <div>
+                    <p className="text-white font-medium mb-1">Master of Business Administration (MBA)</p>
+                    <p className="text-muted-foreground text-sm leading-relaxed">Focus: Global Business Strategy & Leadership.</p>
+                  </div>
+                  <div className="h-px bg-white/10" />
+                  <div>
+                    <p className="text-white font-medium mb-1">M.S., Computer Science</p>
+                    <p className="text-muted-foreground text-sm leading-relaxed">Focus: Software Engineering & Enterprise Architecture.</p>
+                  </div>
+                </div>
+              </FadeIn>
+
+              <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
+                <Award className="text-primary mb-5" size={20} />
+                <h4 className="text-primary font-mono text-sm mb-6">Methodology Mastery</h4>
+                <div className="space-y-6">
+                  <div>
+                    <p className="text-white font-medium mb-1">Project Management Professional (PMP)</p>
+                    <p className="text-muted-foreground text-sm leading-relaxed">Certified expert in large-scale program execution and structured delivery governance.</p>
+                  </div>
+                  <div className="h-px bg-white/10" />
+                  <div>
+                    <p className="text-white font-medium mb-1">Certified Scrum Professional (CSP)</p>
+                    <p className="text-muted-foreground text-sm leading-relaxed">Expert in Agile transformation and iterative delivery at enterprise scale.</p>
+                  </div>
+                </div>
+              </FadeIn>
+            </div>
+
+            {/* Right column — two stacked certification badges */}
+            <div className="flex flex-col gap-6">
+              <FadeIn delay={0.3} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors flex-1">
+                <BadgeCheck className="text-primary mb-5" size={20} />
+                <h4 className="text-primary font-mono text-sm mb-3">ICF Coaching</h4>
+                <p className="text-white font-medium mb-2">ICF Certified Coach</p>
+                <p className="text-muted-foreground text-sm leading-relaxed">International Coaching Federation credentialed. Applied within enterprise transformation programs at UBS.</p>
+              </FadeIn>
+
+              <FadeIn delay={0.4} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors flex-1">
+                <BadgeCheck className="text-primary mb-5" size={20} />
+                <h4 className="text-primary font-mono text-sm mb-3">SAFe Certification</h4>
+                <p className="text-white font-medium mb-2">SAFe Program Consultant</p>
+                <p className="text-muted-foreground text-sm leading-relaxed">Scaled Agile Framework certified. Experienced in coordinating Agile Release Trains across distributed teams.</p>
+              </FadeIn>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Stack & Skills — Strategic Grid */}
+      <section className="py-40">
         <div className="container mx-auto px-6 md:px-12">
           <FadeIn>
             <div className="mb-16">
@@ -199,32 +278,34 @@ export default function Home() {
       </section>
 
       {/* Beyond the Boardroom */}
-      <section className="py-52 container mx-auto px-6 md:px-12">
-        <FadeIn>
-          <div className="text-center mb-24 max-w-2xl mx-auto">
-            <h2 className="text-sm font-mono text-primary uppercase tracking-widest mb-4">Personal Pursuits</h2>
-            <h3 className="text-5xl md:text-6xl font-serif text-white mb-6">Beyond the Boardroom</h3>
-            <p className="text-muted-foreground">How I apply strategy, endurance, and process outside of the office.</p>
-          </div>
-        </FadeIn>
+      <section className="py-52 bg-white/5 border-t border-white/5 container-full">
+        <div className="container mx-auto px-6 md:px-12">
+          <FadeIn>
+            <div className="text-center mb-24 max-w-2xl mx-auto">
+              <h2 className="text-sm font-mono text-primary uppercase tracking-widest mb-4">Personal Pursuits</h2>
+              <h3 className="text-5xl md:text-6xl font-serif text-white mb-6">Beyond the Boardroom</h3>
+              <p className="text-muted-foreground">How I apply strategy, endurance, and process outside of the office.</p>
+            </div>
+          </FadeIn>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <FadeIn delay={0.1} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
-            <h4 className="text-primary font-mono text-sm mb-4">Endurance</h4>
-            <p className="text-white leading-relaxed">Marathon Training: Aiming for full 26.2. Target race: October 11, 2026. Focus, process, and discipline.</p>
-          </FadeIn>
-          <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
-            <h4 className="text-primary font-mono text-sm mb-4">Strategy</h4>
-            <p className="text-white leading-relaxed">Chess Teacher & Player: Critical thinking, tactical focus, and patience. Instructor for elementary/middle school students.</p>
-          </FadeIn>
-          <FadeIn delay={0.3} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
-            <h4 className="text-primary font-mono text-sm mb-4">Process</h4>
-            <p className="text-white leading-relaxed">Artisan BBQ Enthusiast: Process and procedure. The ultimate application of low-and-slow execution.</p>
-          </FadeIn>
-          <FadeIn delay={0.4} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
-            <h4 className="text-primary font-mono text-sm mb-4">Growth</h4>
-            <p className="text-white leading-relaxed">Landscape & Lawn Restoration: A technical approach to landscape engineering. A detailed, multi-year project.</p>
-          </FadeIn>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <FadeIn delay={0.1} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
+              <h4 className="text-primary font-mono text-sm mb-4">Endurance</h4>
+              <p className="text-white leading-relaxed">Marathon Training: Aiming for full 26.2. Target race: October 11, 2026. Focus, process, and discipline.</p>
+            </FadeIn>
+            <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
+              <h4 className="text-primary font-mono text-sm mb-4">Strategy</h4>
+              <p className="text-white leading-relaxed">Chess Teacher & Player: Critical thinking, tactical focus, and patience. Instructor for elementary/middle school students.</p>
+            </FadeIn>
+            <FadeIn delay={0.3} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
+              <h4 className="text-primary font-mono text-sm mb-4">Process</h4>
+              <p className="text-white leading-relaxed">Artisan BBQ Enthusiast: Process and procedure. The ultimate application of low-and-slow execution.</p>
+            </FadeIn>
+            <FadeIn delay={0.4} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
+              <h4 className="text-primary font-mono text-sm mb-4">Growth</h4>
+              <p className="text-white leading-relaxed">Landscape & Lawn Restoration: A technical approach to landscape engineering. A detailed, multi-year project.</p>
+            </FadeIn>
+          </div>
         </div>
       </section>
     </PageTransition>

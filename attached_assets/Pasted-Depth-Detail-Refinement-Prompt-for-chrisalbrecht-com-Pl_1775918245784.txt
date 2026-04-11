@@ -1,0 +1,51 @@
+Depth & Detail Refinement Prompt for chrisalbrecht.com
+
+Please apply the following architectural updates to the website to showcase elite credentials and professional depth, maintaining the existing colors, typography, and spacing aesthetic.
+
+1. Add "Credentials & Expertise" Section:
+
+Create a new full-width section with the header Credentials & Expertise (using the large serif font style) and position it directly below the "15+ Years at UBS" timeline.
+
+2. Implement a Structured Credibility Grid:
+
+Inside the new section, create a grid with two prominent cards on the left (matching the visual style of the "Stack & Skills" section above it) and two stacked certifications on the right.
+
+Card 1 (Left): Education Pillars (Include technical/coaching icons)
+
+Title: Master of Business Administration (MBA)
+
+Description: Focus: Global Business Strategy & Leadership.
+
+Title: M.S., Computer Science
+
+Description: Focus: Software Engineering & Enterprise Architecture.
+
+Card 2 (Left): Methodology Mastery (Include waterfall/agile icons)
+
+Title: Project Management Professional (PMP)
+
+Description: (Verify credential details) Certified expert in large-scale program execution.
+
+Title: Certified Scrum Professional (CSP)
+
+Description: (Verify credential details) Expert in Agile transformation and iterative delivery.
+
+3. Set Up Project "Deep Dive" Architecture (The placeholders):
+
+Homepage update: In the "Tenure at UBS" section, find the main (highest-level) "STAR" point for your current Senior Initiative Manager role.
+
+Add Link: Below that point, add a new, minimal text link with a right arrow: "View Case Study: Major Trading Transformation Initiative →"
+
+Create New Routes/Pages: (Crucial Step for Replit Agent): Create two new sub-pages with boilerplate content (e.g., /projects/major-trading-transformation and /projects/agile-culture-shift). The link on the homepage must point to the relevant sub-page.
+
+Sub-page Content (Placeholder): On each new page, add the header Case Study: [Initiative Title] and use standard placeholders for sections:
+
+Executive Summary
+
+The Challenge ( stakeholders, scale)
+
+The Initiative Management Approach
+
+Key Results & Leadership Impact
+
+Goal: Integrate elite professional credentials directly below the career timeline, and set up the technical structure for deep-dive case studies that humanize the leadership narrative, ensuring the user can easily replace boilerplate text.
