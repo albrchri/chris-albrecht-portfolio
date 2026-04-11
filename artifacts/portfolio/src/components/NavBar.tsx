@@ -47,7 +47,7 @@ export function NavBar() {
             </Link>
           ))}
           <a
-            href="mailto:contact@cjalbrecht.com"
+            href="mailto:albrchri@gmail.com"
             className="text-sm font-medium px-4 py-2 bg-white/5 hover:bg-primary hover:text-primary-foreground transition-all rounded-sm border border-white/10"
             data-testid="link-nav-contact"
           >
@@ -88,7 +88,7 @@ export function NavBar() {
               </Link>
             ))}
             <a
-              href="mailto:contact@cjalbrecht.com"
+              href="mailto:albrchri@gmail.com"
               onClick={() => setIsOpen(false)}
               className="text-lg font-medium text-primary"
               data-testid="link-mobile-contact"
