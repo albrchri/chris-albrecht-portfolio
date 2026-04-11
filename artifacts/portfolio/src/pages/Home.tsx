@@ -92,7 +92,7 @@ export default function Home() {
       </section>
 
       {/* ── Signature Initiatives ────────────────────────────────── */}
-      <section className="py-40 container mx-auto px-6 md:px-12">
+      <section className="pt-40 pb-[220px] container mx-auto px-6 md:px-12">
         <FadeIn>
           <h2 className="text-sm font-mono text-primary uppercase tracking-widest mb-4">Highlights</h2>
           <h3 className="text-4xl md:text-5xl font-serif text-white mb-16">Signature Initiatives & Impact</h3>
@@ -129,7 +129,7 @@ export default function Home() {
       </section>
 
       {/* ── Social Proof ─────────────────────────────────────────── */}
-      <section className="py-32 bg-white/5 border-y border-white/5">
+      <section className="pt-[188px] pb-32 bg-white/5 border-y border-white/5">
         <div className="container mx-auto px-6 md:px-12 max-w-4xl">
           <FadeIn>
             <div className="flex flex-col items-center text-center gap-8">
