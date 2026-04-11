@@ -214,59 +214,80 @@ export default function Home() {
           <h3 className="text-4xl md:text-5xl font-serif text-white mb-16">Credentials & Expertise</h3>
         </FadeIn>
 
-        <div className="grid md:grid-cols-2 gap-6">
-          {/* Education Pillars */}
-          <FadeIn delay={0.1} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+          {/* MSCS */}
+          <FadeIn delay={0.1} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors flex flex-col">
             <GraduationCap className="text-primary mb-5" size={20} />
-            <h4 className="text-primary font-mono text-sm mb-6">Education Pillars</h4>
-            <div className="space-y-6">
-              <div>
-                <p className="text-white font-medium mb-1">M.S., Computer Science</p>
-                <p className="text-muted-foreground text-sm">Illinois Institute of Technology &mdash; Focus: Software Engineering & Enterprise Architecture.</p>
-              </div>
-              <div className="h-px bg-white/10" />
-              <div>
-                <p className="text-white font-medium mb-1">Master of Business Administration (MBA)</p>
-                <p className="text-muted-foreground text-sm">Dominican University &mdash; Focus: Global Business Strategy & Leadership.</p>
-              </div>
-              <div className="h-px bg-white/10" />
-              <div>
-                <p className="text-white font-medium mb-1">Bachelor of Science, Computer Science</p>
-                <p className="text-muted-foreground text-sm">Dominican University.</p>
-              </div>
-            </div>
+            <h4 className="text-primary font-mono text-sm mb-3">Academic</h4>
+            <p className="text-white font-medium mb-1">M.S., Computer Science</p>
+            <p className="text-muted-foreground text-sm leading-relaxed">Illinois Institute of Technology &mdash; Focus: Software Engineering & Enterprise Architecture.</p>
           </FadeIn>
 
-          {/* Methodologies & Certifications */}
-          <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
-            <Award className="text-primary mb-5" size={20} />
-            <h4 className="text-primary font-mono text-sm mb-6">Methodologies & Certifications</h4>
-            <div className="space-y-6">
-              <div className="flex gap-4 items-start">
-                <BadgeCheck className="text-primary shrink-0 mt-0.5" size={18} />
-                <div>
-                  <p className="text-white font-medium mb-1">Project Management Professional (PMP)</p>
-                  <p className="text-muted-foreground text-sm">PMI Certified &mdash; Expert in large-scale program execution and structured delivery governance.</p>
-                </div>
-              </div>
-              <div className="h-px bg-white/10" />
-              <div className="flex gap-4 items-start">
-                <BadgeCheck className="text-primary shrink-0 mt-0.5" size={18} />
-                <div>
-                  <p className="text-white font-medium mb-1">Certified Scrum Professional (CSP)</p>
-                  <p className="text-muted-foreground text-sm">Scrum Alliance Certified &mdash; Expert in Agile transformation and iterative delivery at enterprise scale.</p>
-                </div>
-              </div>
-              <div className="h-px bg-white/10" />
-              <div className="flex gap-4 items-start">
-                <BadgeCheck className="text-primary shrink-0 mt-0.5" size={18} />
-                <div>
-                  <p className="text-white font-medium mb-1">ICF Certified Coach</p>
-                  <p className="text-muted-foreground text-sm">International Coaching Federation &mdash; Applied within enterprise transformation programs.</p>
-                </div>
-              </div>
-            </div>
+          {/* MBA */}
+          <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors flex flex-col">
+            <GraduationCap className="text-primary mb-5" size={20} />
+            <h4 className="text-primary font-mono text-sm mb-3">Academic</h4>
+            <p className="text-white font-medium mb-1">Master of Business Administration (MBA)</p>
+            <p className="text-muted-foreground text-sm leading-relaxed">Dominican University &mdash; Focus: Global Business Strategy & Leadership.</p>
           </FadeIn>
+
+          {/* BS CS */}
+          <FadeIn delay={0.3} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors flex flex-col">
+            <GraduationCap className="text-primary mb-5" size={20} />
+            <h4 className="text-primary font-mono text-sm mb-3">Academic</h4>
+            <p className="text-white font-medium mb-1">B.S., Computer Science</p>
+            <p className="text-muted-foreground text-sm leading-relaxed">Dominican University.</p>
+          </FadeIn>
+
+          {/* PMP */}
+          <FadeIn delay={0.4} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors flex flex-col">
+            <BadgeCheck className="text-primary mb-5" size={20} />
+            <h4 className="text-primary font-mono text-sm mb-3">Certification</h4>
+            <p className="text-white font-medium mb-1">Project Management Professional (PMP)®</p>
+            <p className="text-muted-foreground text-sm leading-relaxed mb-auto">PMI Certified &mdash; Expert in large-scale program execution and structured delivery governance.</p>
+            <a
+              href="https://www.credly.com/badges/e9a631ba-311f-4fa2-a9a2-ecb30df393b5/linked_in_profile"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-xs font-mono text-white/40 hover:text-white transition-colors mt-5"
+            >
+              Verify Credential <ArrowRight size={11} />
+            </a>
+          </FadeIn>
+
+          {/* CSP */}
+          <FadeIn delay={0.5} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors flex flex-col">
+            <BadgeCheck className="text-primary mb-5" size={20} />
+            <h4 className="text-primary font-mono text-sm mb-3">Certification</h4>
+            <p className="text-white font-medium mb-1">Certified Scrum Professional® (CSP-SM)</p>
+            <p className="text-muted-foreground text-sm leading-relaxed mb-auto">Scrum Alliance Certified &mdash; Expert in Agile transformation and iterative delivery at enterprise scale.</p>
+            <a
+              href="https://bcert.me/siqjxeop"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-xs font-mono text-white/40 hover:text-white transition-colors mt-5"
+            >
+              Verify Credential <ArrowRight size={11} />
+            </a>
+          </FadeIn>
+
+          {/* UBS Certified Initiative Manager */}
+          <FadeIn delay={0.6} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors flex flex-col">
+            <ShieldCheck className="text-primary mb-5" size={20} />
+            <h4 className="text-primary font-mono text-sm mb-3">Certification</h4>
+            <p className="text-white font-medium mb-1">UBS Certified Initiative Manager</p>
+            <p className="text-muted-foreground text-sm leading-relaxed mb-auto">Internal elite certification for high-impact initiative delivery and strategic leadership within global financial services.</p>
+            <a
+              href="https://www.credly.com/badges/c8a28f1f-ba9e-41e5-8cd0-657a6fc0dedc"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-xs font-mono text-white/40 hover:text-white transition-colors mt-5"
+            >
+              Verify via Credly <ArrowRight size={11} />
+            </a>
+          </FadeIn>
+
         </div>
       </section>
 
