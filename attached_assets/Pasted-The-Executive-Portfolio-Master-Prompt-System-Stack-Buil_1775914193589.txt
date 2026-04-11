@@ -1,0 +1,40 @@
+The "Executive Portfolio" Master Prompt
+System & Stack: Build a professional, high-performance personal portfolio website using Next.js (App Router), Tailwind CSS, and Lucide React for icons. The site must be fully responsive and optimized for SEO.
+
+Aesthetic & Brand: > * Style: Minimalist Executive. Think "Vercel" or "Anthropic" design language.
+
+Theme: Deep slate/black background with crisp white typography and subtle accent colors (e.g., a professional emerald or indigo).
+
+Animations: Use subtle Framer Motion transitions for page entries. Avoid "flashy" or distracting effects.
+
+Information Architecture:
+
+Hero Section: A bold headline: "Christopher J. Albrecht | Bridging Software Strategy & Execution." Sub-headline: "Initiative Manager & Leadership Coach specializing in high-impact software delivery."
+
+Executive Summary: Highlight 13+ years of tenure at a global financial services leader (UBS), focusing on navigating complex software initiatives and organizational transformation. Mention professional coaching credentials.
+
+The "Experience" Timeline: A clean, vertical timeline. Group the UBS experience into key eras/promotions. Use the STAR method (Situation, Task, Action, Result) for bullet points.
+
+"The Dimension" (Interests): Create a grid section called "Beyond the Boardroom." Include:
+
+Endurance: Currently training for a full marathon on October 11, 2026.
+
+Strategy: Competitive chess player and instructor for elementary/middle school students.
+
+Process: Artisan BBQ enthusiast (low-and-slow brisket and pork shoulder).
+
+Growth: Current project: Residential lawn restoration and landscape engineering.
+
+The "Now" Page: A dedicated route (/now) detailing current focus areas: Marathon training, Ethereum/Bitcoin ecosystem research, and Tier 1 project management methodologies.
+
+The "Stack" Section: Display technical and leadership toolsets (Agile, Jira, SDLC, Coaching, Python/Replit).
+
+Technical Requirements:
+
+Implement a mobile-friendly navigation bar.
+
+Include a contact section with links to LinkedIn, GitHub, and a professional email trigger.
+
+Set up a metadata object in the layout for SEO (Page Title: Christopher J. Albrecht | Software Initiative Manager).
+
+Ensure all components are modular and well-commented.
