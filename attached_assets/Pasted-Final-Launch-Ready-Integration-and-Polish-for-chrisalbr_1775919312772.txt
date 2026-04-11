@@ -1,0 +1,55 @@
+Final "Launch-Ready" Integration and Polish for chrisalbrecht.com
+
+Please apply the following architectural updates and detailed content integration to the existing portfolio page structure, strictly maintaining the executive dark theme, serif typography, and card grid aesthetic.
+
+1. Final Polish on Name and Credentials (Visual Compromise):
+
+Locate your name in the main Hero section headline. Keep it prominent, using the large serif font.
+
+Immediately after your name, ensure the full professional credentials: Chris Albrecht, MSCS, MBA, PMP, CSP are present.
+
+Styling Requirement: Update the credentials suffix text to have a font size that is 25-30% smaller than your actual name and reduce its visual weight (e.g., make it a slightly lighter grey color rather than bright white). It must look like an elegant, subordinate suffix, not a second headline.
+
+2. Convert "Signature Initiatives" to a Strategic Card Grid:
+
+Find the "Signature Initiatives & Impact" section directly below the Executive Summary.
+
+Completely convert the current text-based lists into a grid of three modular card-style components, matching the style, spacing, and hover effects of the "Boardroom" section below it.
+
+Each card needs a relevant icon (using a single, consistent library like Lucide React). Populate with this precise content (using the STAR method):
+
+Card 1: Legacy-to-Cloud Transformation (Microsoft Azure icon)
+
+Content: Led transformation of locally hosted monolith into resilient, scalable Azure microservices. Result: Improved speed-to-market while reducing infrastructure costs.
+
+Card 2: Enterprise Fraud Prevention Solution (Security icon)
+
+Content: Executed end-to-end RFP, from requirements gathering through vendor evaluation and rollout. Result: Delivered high-impact solution strengthening security and client protection.
+
+Card 3: Foundational Technology Adoption (Innovation icon)
+
+Content: Initiated and led R&D team resulting in adoption of new enterprise service bus. Result: Established a foundational technology standard across the platform.
+
+3. Set Up "Case Study" Sub-Page Architecture (The placeholders):
+
+On the main homepage timeline, locate the main description for both of the Senior Initiative Manager roles.
+
+Add a minimalist text link with a right arrow directly below the text block: "View Case Study: Major Trading Transformation →" and point it to /projects/legacy-cloud-transformation. (Similarly for the other key initiative).
+
+Create New Routes/Pages: (Crucial architectural step): Create two new sub-pages with placeholder content (e.g., /projects/major-trading-transformation and /projects/simcorp-dimension-integration).
+
+Sub-page content (Placeholder): On each new page, add the header Case Study: [Initiative Title] and use standard placeholders for sections:
+
+Executive Summary
+
+The Challenge ( stakeholders, scale)
+
+The Initiative Management Approach
+
+Key Results & Leadership Impact
+
+Ensure the links on the homepage correctly point to these new pages.
+
+4. Global Check & Verification:
+
+Ensure all links for Email point to mailto:albrchri@gmail.com and all LinkedIn links point to https://www.linkedin.com/in/albrchri/.

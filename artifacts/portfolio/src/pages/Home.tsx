@@ -21,9 +21,10 @@ export default function Home() {
         <div className="absolute top-0 right-0 w-1/2 h-[80vh] bg-gradient-to-bl from-primary/10 to-transparent opacity-50 blur-[120px] pointer-events-none" />
 
         <FadeIn className="max-w-4xl relative z-10 -translate-y-8">
-          <p className="text-sm font-mono text-primary uppercase tracking-widest mb-6">
-            Chris Albrecht &mdash; {CREDENTIALS}
-          </p>
+          <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-8">
+            <span className="text-4xl md:text-5xl font-serif font-bold text-white tracking-tight">Chris Albrecht</span>
+            <span className="text-2xl md:text-3xl font-serif font-normal text-white/30 tracking-tight">{CREDENTIALS}</span>
+          </div>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-foreground leading-[1.1] mb-6 tracking-tight">
             Bridging Software <br className="hidden md:block" />
             <span className="text-primary italic">Strategy</span> & Execution.
@@ -133,7 +134,7 @@ export default function Home() {
                     className="inline-flex items-center gap-2 text-sm text-primary hover:text-white transition-colors font-mono"
                     data-testid="link-case-study-cloud"
                   >
-                    View Case Study: Legacy-to-Cloud Transformation
+                    View Case Study: Major Trading Transformation
                     <ArrowRight size={14} />
                   </Link>
                   <Link
