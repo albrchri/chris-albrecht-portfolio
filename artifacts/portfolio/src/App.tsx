@@ -5,6 +5,8 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
 import Now from "@/pages/Now";
+import LegacyCloudTransformation from "@/pages/projects/LegacyCloudTransformation";
+import SimCorpDimensionIntegration from "@/pages/projects/SimCorpDimensionIntegration";
 import MajorTradingTransformation from "@/pages/projects/MajorTradingTransformation";
 import AgileCultureShift from "@/pages/projects/AgileCultureShift";
 import { NavBar } from "@/components/NavBar";
@@ -19,6 +21,8 @@ function Router() {
       <Switch>
         <Route path="/" component={Home} />
         <Route path="/now" component={Now} />
+        <Route path="/projects/legacy-cloud-transformation" component={LegacyCloudTransformation} />
+        <Route path="/projects/simcorp-dimension-integration" component={SimCorpDimensionIntegration} />
         <Route path="/projects/major-trading-transformation" component={MajorTradingTransformation} />
         <Route path="/projects/agile-culture-shift" component={AgileCultureShift} />
         <Route component={NotFound} />
