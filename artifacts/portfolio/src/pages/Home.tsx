@@ -30,7 +30,7 @@ export default function Home() {
             <span className="text-primary italic">Strategy</span> & Execution.
           </h1>
           <p className="text-2xl md:text-3xl text-muted-foreground font-light max-w-2xl leading-relaxed mb-12">
-            Initiative Manager & Leadership Coach specializing in high-impact software delivery.
+            AI-native strategic product and technology leader specializing in high-impact enterprise transformation.
           </p>
 
           <div className="flex flex-wrap gap-4">
@@ -60,7 +60,7 @@ export default function Home() {
             <h2 className="text-sm font-mono text-primary uppercase tracking-widest mb-5">Executive Summary</h2>
             <h3 className="text-4xl md:text-5xl font-serif text-white mb-10">Executive Summary & Impact</h3>
             <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl">
-              Strategic product and technology leader with 15+ years delivering enterprise transformation in global financial services. Expert in maximizing ROI on multimillion-dollar portfolios through innovation and scalable Agile delivery.
+              Strategic leader with 15+ years in global financial services, driving enterprise-scale transformation through autonomous agent orchestration and Agile delivery to maximize ROI on multimillion-dollar portfolios.
             </p>
           </FadeIn>
         </div>
@@ -75,30 +75,30 @@ export default function Home() {
 
         <div className="grid sm:grid-cols-3 gap-6">
           <FadeIn delay={0.1} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
-            <Cloud className="text-primary mb-5" size={20} />
-            <h4 className="text-primary font-mono text-sm mb-3">Legacy-to-Cloud Transformation</h4>
+            <Sparkles className="text-primary mb-5" size={20} />
+            <h4 className="text-primary font-mono text-sm mb-3">AI-Enabled Transaction Review (OnePass PKR)</h4>
             <p className="text-white/80 text-sm leading-relaxed mb-3">
-              Led transformation of locally hosted monolith into resilient, scalable Azure microservices across global infrastructure.
+              Delivered a scalable control using autonomous agents to synthesize transaction behavior and customer risk into standardized, reviewer-ready outputs.
             </p>
-            <p className="text-muted-foreground text-sm"><span className="text-primary">Result:</span> Improved speed-to-market while reducing infrastructure costs.</p>
+            <p className="text-muted-foreground text-sm"><span className="text-primary">Result:</span> Positioned AI as a force multiplier, driving a step-change in analyst capacity and global consistency.</p>
           </FadeIn>
 
           <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
-            <ShieldCheck className="text-primary mb-5" size={20} />
-            <h4 className="text-primary font-mono text-sm mb-3">OnePass PKR Transaction Review Capability</h4>
+            <Cloud className="text-primary mb-5" size={20} />
+            <h4 className="text-primary font-mono text-sm mb-3">Legacy-to-Cloud Transformation (Microsoft Azure)</h4>
             <p className="text-white/80 text-sm leading-relaxed mb-3">
-              Led end-to-end design and delivery of an AI-augmented transaction review model, embedding automated aggregation, pattern recognition, and narrative generation into the KYC periodic review lifecycle.
+              Led the migration of a locally hosted monolith into cloud-based microservices on Azure, improving scalability, resilience, and speed-to-market.
             </p>
-            <p className="text-muted-foreground text-sm"><span className="text-primary">Result:</span> Transformed transaction risk assessment into a scalable, data-driven control — improving cycle times, review consistency, and audit defensibility.</p>
+            <p className="text-muted-foreground text-sm"><span className="text-primary">Result:</span> Significantly reduced infrastructure costs while improving platform resilience.</p>
           </FadeIn>
 
           <FadeIn delay={0.3} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
-            <Zap className="text-primary mb-5" size={20} />
-            <h4 className="text-primary font-mono text-sm mb-3">Foundational Technology Adoption</h4>
+            <Layers className="text-primary mb-5" size={20} />
+            <h4 className="text-primary font-mono text-sm mb-3">Enterprise Platform Transformation (SimCorp Dimension)</h4>
             <p className="text-white/80 text-sm leading-relaxed mb-3">
-              Initiated and led R&D team effort resulting in adoption of a new enterprise service bus across the platform.
+              Replaced a legacy investment application with the SCD accounting engine, leading technical integration and production cutover for an enterprise-scale platform.
             </p>
-            <p className="text-muted-foreground text-sm"><span className="text-primary">Result:</span> Established a foundational technology standard across the enterprise.</p>
+            <p className="text-muted-foreground text-sm"><span className="text-primary">Result:</span> Achieved zero-downtime production cutover with no post-migration issues.</p>
           </FadeIn>
         </div>
       </section>
@@ -124,9 +124,9 @@ export default function Home() {
                 </div>
                 <h4 className="text-3xl font-serif text-white mb-8">Senior Initiative Manager, Global Wealth Americas</h4>
                 <div className="space-y-4 text-muted-foreground">
-                  <p><strong className="text-white/80">·</strong> Led enterprise design and go-live of OnePass PKR Transaction Reviews, modernizing transaction risk assessment through AI-enabled analysis and standardized reviewer workflows.</p>
-                  <p><strong className="text-white/80">·</strong> Scaled marquee client experience rollout from 5K pilot to 3M accounts, directing cross-functional teams across engineering, risk, and operations.</p>
-                  <p><strong className="text-primary">·</strong> Managed $5M portfolios and championed Agile planning, guiding 40+ global members to increase delivery velocity 10x.</p>
+                  <p><strong className="text-white/80">·</strong> Delivered a scalable control utilizing autonomous agents to synthesize transaction behavior and customer risk into reviewer-ready outputs. Embedding agentic pattern recognition and narrative generation positioned AI as a force multiplier, driving a step-change in execution, analyst capacity, and global consistency.</p>
+                  <p><strong className="text-white/80">·</strong> Led the transformation of a locally hosted monolith into cloud-based microservices on Microsoft Azure, improving scalability, resilience, and speed-to-market while reducing infrastructure costs.</p>
+                  <p><strong className="text-primary">·</strong> Led the end-to-end execution of a fraud-prevention solution RFP, including vendor evaluation and rollout, to strengthen security controls.</p>
                 </div>
                 <div className="mt-8 pt-6 border-t border-white/10 flex flex-col gap-3">
                   <Link
@@ -168,9 +168,19 @@ export default function Home() {
                 </div>
                 <h4 className="text-3xl font-serif text-white mb-8">Senior Delivery Lead, Asset Management</h4>
                 <div className="space-y-4 text-muted-foreground">
-                  <p><strong className="text-white/80">·</strong> Post-merger technology consolidation: rationalized overlapping platforms across global teams to reduce technical debt.</p>
-                  <p><strong className="text-white/80">·</strong> Coordinated 50+ stakeholder roadmap sessions across global engineering, risk, and operations teams to align delivery priorities.</p>
-                  <p><strong className="text-primary">·</strong> Successfully retired 3 legacy systems, realizing $2M in annual cost savings.</p>
+                  <p><strong className="text-white/80">·</strong> Replaced a legacy investment application with the SimCorp Dimension (SCD) accounting engine. Partnered with the vendor to lead technical integration and production cutover for an enterprise-scale platform, achieving zero-downtime with no post-migration issues.</p>
+                  <p><strong className="text-white/80">·</strong> Directed cross-functional teams across product, engineering, risk, operations, and communications to streamline processes and improve the client experience, scaling from a 5K account pilot to a 3M account rollout, the year's marquee launch.</p>
+                  <p><strong className="text-primary">·</strong> Managed $5M portfolios while championing Agile planning to maximize ROI, guiding 40+ global team members to increase delivery velocity 10x.</p>
+                </div>
+                <div className="mt-8 pt-6 border-t border-white/10 flex flex-col gap-3">
+                  <Link
+                    href="/projects/simcorp-dimension-integration"
+                    className="inline-flex items-center gap-2 text-sm text-primary hover:text-white transition-colors font-mono"
+                    data-testid="link-case-study-simcorp-era2"
+                  >
+                    View Case Study: SimCorp Dimension Integration
+                    <ArrowRight size={14} />
+                  </Link>
                 </div>
               </div>
             </FadeIn>
@@ -184,11 +194,10 @@ export default function Home() {
                   <span className="hidden md:inline text-white/20">·</span>
                   <span>Dec 2012 – Mar 2014</span>
                 </div>
-                <h4 className="text-3xl font-serif text-white mb-8">Senior Software Development Manager</h4>
+                <h4 className="text-3xl font-serif text-white mb-8">Program Manager</h4>
                 <div className="space-y-4 text-muted-foreground">
-                  <p><strong className="text-white/80">·</strong> Delivered core research platform for $40B AUM fund-of-funds, aligning technology roadmaps with investment strategy.</p>
-                  <p><strong className="text-white/80">·</strong> Led major client reporting refresh, standardizing data pipelines and outputs across key stakeholders.</p>
-                  <p><strong className="text-primary">·</strong> Implemented metrics dashboards improving executive transparency and data-driven decision-making.</p>
+                  <p><strong className="text-white/80">·</strong> Delivered core research platform for $40B AUM fund-of-funds, aligning technology roadmaps with business growth.</p>
+                  <p><strong className="text-primary">·</strong> Led major Client Reporting refresh and implemented metrics dashboards to improve executive transparency.</p>
                 </div>
               </div>
             </FadeIn>
@@ -202,11 +211,10 @@ export default function Home() {
                   <span className="hidden md:inline text-white/20">·</span>
                   <span>Feb 2011 – Dec 2012</span>
                 </div>
-                <h4 className="text-3xl font-serif text-white mb-8">ScrumMaster / Project Manager</h4>
+                <h4 className="text-3xl font-serif text-white mb-8">Senior Agile Project Manager / ScrumMaster</h4>
                 <div className="space-y-4 text-muted-foreground">
-                  <p><strong className="text-white/80">·</strong> Managed modernization of algorithmic trading platform and led global C++ connectivity for HFT trading gateways.</p>
-                  <p><strong className="text-white/80">·</strong> Designed and delivered FIX & proprietary API integrations across multiple institutional client environments.</p>
-                  <p><strong className="text-primary">·</strong> Optimized portfolio planning by prioritizing initiatives with the highest ROI, improving resource allocation efficiency.</p>
+                  <p><strong className="text-white/80">·</strong> Led global C++ exchange connectivity for high-frequency trading gateways via FIX and proprietary APIs.</p>
+                  <p><strong className="text-primary">·</strong> Managed modernization of algorithmic trading platform and optimized portfolio planning for highest ROI.</p>
                 </div>
               </div>
             </FadeIn>
@@ -237,7 +245,7 @@ export default function Home() {
             <GraduationCap className="text-primary mb-5" size={20} />
             <h4 className="text-primary font-mono text-sm mb-3">Academic</h4>
             <p className="text-white font-medium mb-1">Master of Business Administration (MBA)</p>
-            <p className="text-muted-foreground text-sm leading-relaxed">Dominican University &mdash; Focus: Global Business Strategy & Leadership. Recipient of the Outstanding Student Award (honored during commencement).</p>
+            <p className="text-muted-foreground text-sm leading-relaxed">Dominican University &mdash; Focus: Global Business Strategy & Leadership. Most Outstanding Student Award recipient.</p>
           </FadeIn>
 
           {/* BS CS */}
