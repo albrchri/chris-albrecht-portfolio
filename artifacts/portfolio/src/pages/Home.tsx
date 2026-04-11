@@ -3,7 +3,7 @@ import { PageTransition, FadeIn } from "@/components/PageTransition";
 import { Link } from "wouter";
 import {
   ArrowRight, Target, BookOpen, Layers, Database,
-  GraduationCap, Award, BadgeCheck, Cloud, ShieldCheck, Zap
+  GraduationCap, Award, BadgeCheck, Cloud, ShieldCheck, Zap, Sparkles
 } from "lucide-react";
 
 const CREDENTIALS = "MSCS, MBA, PMP, CSP";
@@ -20,8 +20,8 @@ export default function Home() {
       <section className="min-h-screen flex flex-col justify-center container mx-auto px-6 md:px-12 relative pt-24">
         <div className="absolute top-0 right-0 w-1/2 h-[80vh] bg-gradient-to-bl from-primary/10 to-transparent opacity-50 blur-[120px] pointer-events-none" />
 
-        <FadeIn className="max-w-4xl relative z-10 -translate-y-8">
-          <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-8">
+        <FadeIn className="max-w-4xl relative z-10 -translate-y-16">
+          <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-14">
             <span className="text-4xl md:text-5xl font-serif font-bold text-white tracking-tight">Chris Albrecht</span>
             <span className="text-2xl md:text-3xl font-serif font-normal text-white/30 tracking-tight">{CREDENTIALS}</span>
           </div>
@@ -118,11 +118,11 @@ export default function Home() {
               <div className="relative">
                 <div className="absolute -left-[31px] md:-left-[55px] top-1 w-4 h-4 rounded-full bg-primary ring-4 ring-background" />
                 <div className="mb-3 flex flex-col md:flex-row md:items-center gap-2 md:gap-4 text-sm font-mono text-muted-foreground">
-                  <span className="text-primary">UBS &mdash; Senior Initiative Manager / Leadership Coach</span>
+                  <span className="text-primary">UBS &mdash; Senior Initiative Manager, Global Wealth Americas</span>
                   <span className="hidden md:inline text-white/20">·</span>
                   <span>2020 – Present</span>
                 </div>
-                <h4 className="text-3xl font-serif text-white mb-8">Senior Initiative Manager / Leadership Coach</h4>
+                <h4 className="text-3xl font-serif text-white mb-8">Senior Initiative Manager, Global Wealth Americas</h4>
                 <div className="space-y-4 text-muted-foreground">
                   <p><strong className="text-white/80">·</strong> Led technical integration and go-live for SimCorp Dimension (SCD), managing workstreams from environment configuration through production cutover.</p>
                   <p><strong className="text-white/80">·</strong> Scaled marquee client experience rollout from 5K pilot to 3M accounts, directing cross-functional teams across engineering, risk, and operations.</p>
@@ -154,11 +154,11 @@ export default function Home() {
               <div className="relative">
                 <div className="absolute -left-[31px] md:-left-[55px] top-1 w-4 h-4 rounded-full border-2 border-white/20 bg-background" />
                 <div className="mb-3 flex flex-col md:flex-row md:items-center gap-2 md:gap-4 text-sm font-mono text-muted-foreground">
-                  <span>UBS &mdash; Initiative Manager</span>
+                  <span>UBS &mdash; Senior Delivery Lead, Asset Management</span>
                   <span className="hidden md:inline text-white/20">·</span>
                   <span>2014 – 2020</span>
                 </div>
-                <h4 className="text-3xl font-serif text-white mb-8">Initiative Manager</h4>
+                <h4 className="text-3xl font-serif text-white mb-8">Senior Delivery Lead, Asset Management</h4>
                 <div className="space-y-4 text-muted-foreground">
                   <p><strong className="text-white/80">·</strong> Post-merger technology consolidation: rationalized overlapping platforms across global teams to reduce technical debt.</p>
                   <p><strong className="text-white/80">·</strong> Coordinated 50+ stakeholder roadmap sessions across global engineering, risk, and operations teams to align delivery priorities.</p>
@@ -176,7 +176,7 @@ export default function Home() {
                   <span className="hidden md:inline text-white/20">·</span>
                   <span>Dec 2012 – Mar 2014</span>
                 </div>
-                <h4 className="text-3xl font-serif text-white mb-8">Technology Project Manager</h4>
+                <h4 className="text-3xl font-serif text-white mb-8">Senior Software Development Manager</h4>
                 <div className="space-y-4 text-muted-foreground">
                   <p><strong className="text-white/80">·</strong> Delivered core research platform for $40B AUM fund-of-funds, aligning technology roadmaps with investment strategy.</p>
                   <p><strong className="text-white/80">·</strong> Led major client reporting refresh, standardizing data pipelines and outputs across key stakeholders.</p>
@@ -194,7 +194,7 @@ export default function Home() {
                   <span className="hidden md:inline text-white/20">·</span>
                   <span>Feb 2011 – Dec 2012</span>
                 </div>
-                <h4 className="text-3xl font-serif text-white mb-8">Project Manager / Technical Lead</h4>
+                <h4 className="text-3xl font-serif text-white mb-8">ScrumMaster / Project Manager</h4>
                 <div className="space-y-4 text-muted-foreground">
                   <p><strong className="text-white/80">·</strong> Managed modernization of algorithmic trading platform and led global C++ connectivity for HFT trading gateways.</p>
                   <p><strong className="text-white/80">·</strong> Designed and delivered FIX & proprietary API integrations across multiple institutional client environments.</p>
@@ -229,7 +229,7 @@ export default function Home() {
             <GraduationCap className="text-primary mb-5" size={20} />
             <h4 className="text-primary font-mono text-sm mb-3">Academic</h4>
             <p className="text-white font-medium mb-1">Master of Business Administration (MBA)</p>
-            <p className="text-muted-foreground text-sm leading-relaxed">Dominican University &mdash; Focus: Global Business Strategy & Leadership.</p>
+            <p className="text-muted-foreground text-sm leading-relaxed">Dominican University &mdash; Focus: Global Business Strategy & Leadership. Recipient of the Outstanding Student Award (honored during commencement).</p>
           </FadeIn>
 
           {/* BS CS */}
@@ -237,7 +237,7 @@ export default function Home() {
             <GraduationCap className="text-primary mb-5" size={20} />
             <h4 className="text-primary font-mono text-sm mb-3">Academic</h4>
             <p className="text-white font-medium mb-1">B.S., Computer Science</p>
-            <p className="text-muted-foreground text-sm leading-relaxed">Dominican University.</p>
+            <p className="text-muted-foreground text-sm leading-relaxed">Dominican University &mdash; Graduated cum laude.</p>
           </FadeIn>
 
           {/* PMP */}
@@ -302,8 +302,20 @@ export default function Home() {
             </div>
           </FadeIn>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
             <FadeIn delay={0.1} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
+              <Sparkles className="text-primary mb-5" size={20} />
+              <h4 className="text-primary font-mono text-sm mb-4">AI Strategy & Autonomous Agents</h4>
+              <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
+                <li>Autonomous Agent Workflows</li>
+                <li>LLM Orchestration</li>
+                <li>Prompt Engineering</li>
+                <li>Agentic RAG Architectures</li>
+                <li>Replit Rapid Prototyping</li>
+              </ul>
+            </FadeIn>
+
+            <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
               <Target className="text-primary mb-5" size={20} />
               <h4 className="text-primary font-mono text-sm mb-4">Initiative Leadership & Delivery</h4>
               <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
@@ -314,38 +326,41 @@ export default function Home() {
               </ul>
             </FadeIn>
 
-            <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
+            <FadeIn delay={0.3} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
               <BookOpen className="text-primary mb-5" size={20} />
               <h4 className="text-primary font-mono text-sm mb-4">Coaching & Organizational Playbook</h4>
               <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
                 <li>Leadership Coaching (ICF)</li>
-                <li>Team Transformation</li>
                 <li>Agile Transformation</li>
-                <li>Organizational Design</li>
-              </ul>
-            </FadeIn>
-
-            <FadeIn delay={0.3} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
-              <Layers className="text-primary mb-5" size={20} />
-              <h4 className="text-primary font-mono text-sm mb-4">Modern Methodologies</h4>
-              <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
-                <li>Agile (Scrum / Kanban)</li>
-                <li>Lean Software Development</li>
-                <li>Scaled Agile (SAFe)</li>
-                <li>PMBOK Frameworks</li>
+                <li>UBS Key Talent Program</li>
+                <li>Extensive Mentorship</li>
+                <li>Strategic Planning</li>
+                <li>Stakeholder Influence</li>
+                <li>Emotional Intelligence (EQ)</li>
               </ul>
             </FadeIn>
 
             <FadeIn delay={0.4} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
+              <Layers className="text-primary mb-5" size={20} />
+              <h4 className="text-primary font-mono text-sm mb-4">Modern Methodologies</h4>
+              <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
+                <li>SimCorp Dimension (SCD)</li>
+                <li>Agile (Scrum / Kanban)</li>
+                <li>Lean Software Development</li>
+                <li>Scaled Agile (SAFe)</li>
+              </ul>
+            </FadeIn>
+
+            <FadeIn delay={0.5} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
               <Database className="text-primary mb-5" size={20} />
               <h4 className="text-primary font-mono text-sm mb-4">Technical & Tooling Strategy</h4>
               <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
-                <li>SimCorp Dimension (SCD)</li>
                 <li>Microsoft Azure</li>
+                <li>Python Ecosystem</li>
                 <li>C++ Trading Gateways</li>
                 <li>FIX & Proprietary APIs</li>
+                <li>GitLab</li>
                 <li>Jira, Rally, Confluence</li>
-                <li>Python Ecosystem</li>
               </ul>
             </FadeIn>
           </div>
@@ -365,7 +380,7 @@ export default function Home() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <FadeIn delay={0.1} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
             <h4 className="text-primary font-mono text-sm mb-4">Endurance</h4>
-            <p className="text-white leading-relaxed">Target race: October 11, 2026.</p>
+            <p className="text-white leading-relaxed">Successfully ran my first half-marathon in 2025. Currently training for my first full marathon. Target race: October 11, 2026.</p>
           </FadeIn>
           <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
             <h4 className="text-primary font-mono text-sm mb-4">Strategy</h4>
@@ -373,11 +388,11 @@ export default function Home() {
           </FadeIn>
           <FadeIn delay={0.3} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
             <h4 className="text-primary font-mono text-sm mb-4">Process</h4>
-            <p className="text-white leading-relaxed">Artisan BBQ Enthusiast: Process and procedure. The ultimate application of low-and-slow execution.</p>
+            <p className="text-white leading-relaxed">Artisan Pitmaster & Wood-Fire Specialist: Dedicated to the precision and patience of low-and-slow meat smoking, applying the same focus on process and procedure found in software leadership.</p>
           </FadeIn>
           <FadeIn delay={0.4} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
             <h4 className="text-primary font-mono text-sm mb-4">Growth</h4>
-            <p className="text-white leading-relaxed">Landscape & Lawn Restoration: A technical approach to landscape engineering. A detailed, multi-year project.</p>
+            <p className="text-white leading-relaxed">Residential Landscape Engineering: A technical approach to lawn restoration and ecosystem management.</p>
           </FadeIn>
         </div>
       </section>

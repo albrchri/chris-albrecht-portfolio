@@ -1,0 +1,45 @@
+Comprehensive Portfolio Refinement & Content Update
+
+Please apply the following detailed updates across the website, maintaining the "Executive Minimalist" aesthetic and established color palette.
+
+1. Hero Section Layout Update:
+
+Adjust the layout of the Hero section so the name/credentials title ("Chris Albrecht, MSCS, MBA, PMP, CSP") sits significantly higher on the page. Increase the vertical spacing between the name and the sub-header ("Bridging Software Strategy & Execution") to create a more distinct visual hierarchy and better separation from the lower content.
+
+2. Professional Tenure (Experience) Updates:
+
+Job 1 (UBS): Update title to Senior Initiative Manager, Global Wealth Americas. Remove "Leadership Coach" from this specific job title.
+
+Job 2 (UBS): Update title to Senior Delivery Lead, Asset Management.
+
+Grosvenor Capital Management: Update title to Senior Software Development Manager.
+
+RTS Realtime Systems: Update title to ScrumMaster / Project Manager. Remove "Technical Lead" reference.
+
+3. Credentials Section Updates:
+
+B.S. in Computer Science: Add the distinction "graduated cum laude" to the description.
+
+MBA: Add: "Recipient of the Outstanding Student Award (honored during commencement)."
+
+4. Skills & Stacks Strategic Refresh:
+
+New Leading Card - AI & Autonomous Systems: Create a new card and place it as the first item in the grid.
+
+Title: AI Strategy & Autonomous Agents
+
+Content: Leveraging autonomous agents for workflow optimization, Replit-driven rapid prototyping, LLM orchestration, Prompt Engineering, and Agentic RAG architectures.
+
+Coaching Card Update: Retain "Agile Transformation." Add: "Successfully completed the UBS Key Talent program" and "Extensive Mentorship Experience." Include additional high-demand skills: Strategic Planning, Stakeholder Influence, and Emotional Intelligence (EQ) for Leadership.
+
+Technical Tools Card: Add GitLab as the first item in the list, followed by Jira, Rally, and Confluence.
+
+5. Beyond the Boardroom (Interests) Polish:
+
+Endurance Card: Update text to: "Successfully ran my first half-marathon in 2025. Currently training for my first full marathon. Target race: October 11, 2026."
+
+Process Card: Refine the language to be more sophisticated. Update text to: "Artisan Pitmaster & Wood-Fire Specialist: Dedicated to the precision and patience of low-and-slow meat smoking, applying the same focus on process and procedure found in software leadership."
+
+Growth Card: Update text to focus on the project details: "Residential Landscape Engineering: A technical approach to lawn restoration and ecosystem management." (Remove the "multi-year" reference).
+
+Goal: Ensure all content is active, quantified, and reflects a high-tier strategic leader who bridges technical MSCS depth with MBA business acumen.
