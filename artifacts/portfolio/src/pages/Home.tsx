@@ -15,7 +15,7 @@ export default function Home() {
         <div className="absolute top-0 right-0 w-1/2 h-[80vh] bg-gradient-to-bl from-primary/10 to-transparent opacity-50 blur-[120px] pointer-events-none" />
         
         <FadeIn className="max-w-4xl relative z-10">
-          <h1 className="text-6xl md:text-8xl lg:text-[10rem] font-serif font-bold text-foreground leading-[1.05] mb-8 tracking-tight">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-foreground leading-[1.1] mb-6 tracking-tight">
             Bridging Software <br className="hidden md:block" />
             <span className="text-primary italic">Strategy</span> & Execution.
           </h1>
