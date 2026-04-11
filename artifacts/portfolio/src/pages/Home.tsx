@@ -11,15 +11,15 @@ export default function Home() {
   return (
     <PageTransition>
       {/* Hero Section */}
-      <section className="min-h-[80vh] flex flex-col justify-center container mx-auto px-6 md:px-12 relative">
+      <section className="min-h-screen flex flex-col justify-center container mx-auto px-6 md:px-12 relative pt-24">
         <div className="absolute top-0 right-0 w-1/2 h-[80vh] bg-gradient-to-bl from-primary/10 to-transparent opacity-50 blur-[120px] pointer-events-none" />
         
         <FadeIn className="max-w-4xl relative z-10">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-foreground leading-[1.1] mb-6 tracking-tight">
+          <h1 className="text-6xl md:text-8xl lg:text-[10rem] font-serif font-bold text-foreground leading-[1.05] mb-8 tracking-tight">
             Bridging Software <br className="hidden md:block" />
             <span className="text-primary italic">Strategy</span> & Execution.
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground font-light max-w-2xl leading-relaxed mb-10">
+          <p className="text-2xl md:text-3xl text-muted-foreground font-light max-w-2xl leading-relaxed mb-12">
             Initiative Manager & Leadership Coach specializing in high-impact software delivery.
           </p>
           
@@ -44,7 +44,7 @@ export default function Home() {
       </section>
 
       {/* Executive Summary */}
-      <section className="py-24 bg-white/5 border-y border-white/5">
+      <section className="py-40 bg-white/5 border-y border-white/5">
         <div className="container mx-auto px-6 md:px-12">
           <FadeIn>
             <div className="grid md:grid-cols-3 gap-12">
@@ -56,21 +56,21 @@ export default function Home() {
                 <div className="flex gap-4">
                   <Globe className="text-primary shrink-0" size={24} />
                   <div>
-                    <h3 className="font-serif text-xl mb-2 text-white">Global Enterprise Scale</h3>
+                    <h3 className="font-serif text-2xl mb-3 text-white">Global Enterprise Scale</h3>
                     <p className="text-muted-foreground leading-relaxed">13+ years at UBS, a global financial services leader. Proven ability to operate within highly regulated, high-stakes environments.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <Activity className="text-primary shrink-0" size={24} />
                   <div>
-                    <h3 className="font-serif text-xl mb-2 text-white">Complex Initiatives</h3>
+                    <h3 className="font-serif text-2xl mb-3 text-white">Complex Initiatives</h3>
                     <p className="text-muted-foreground leading-relaxed">Specializes in navigating complex software initiatives, architectural consolidation, and organizational transformation.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <Briefcase className="text-primary shrink-0" size={24} />
                   <div>
-                    <h3 className="font-serif text-xl mb-2 text-white">Leadership Coaching</h3>
+                    <h3 className="font-serif text-2xl mb-3 text-white">Leadership Coaching</h3>
                     <p className="text-muted-foreground leading-relaxed">Professional coaching credentials. Focused on upskilling leaders, aligning cross-functional teams, and driving cultural shifts.</p>
                   </div>
                 </div>
@@ -81,10 +81,10 @@ export default function Home() {
       </section>
 
       {/* Experience Timeline */}
-      <section id="experience" className="py-32 container mx-auto px-6 md:px-12">
+      <section id="experience" className="py-52 container mx-auto px-6 md:px-12">
         <FadeIn>
           <h2 className="text-sm font-mono text-primary uppercase tracking-widest mb-4">Experience</h2>
-          <h3 className="text-4xl font-serif mb-16 text-white">Tenure at UBS</h3>
+          <h3 className="text-5xl md:text-6xl font-serif mb-20 text-white">Tenure at UBS</h3>
         </FadeIn>
 
         <div className="max-w-4xl border-l border-white/10 pl-6 md:pl-12 space-y-24">
@@ -94,7 +94,7 @@ export default function Home() {
               <div className="mb-2 flex flex-col md:flex-row md:items-center gap-2 md:gap-4 text-sm font-mono text-muted-foreground">
                 <span className="text-primary">Era 3 &mdash; Senior Tenure</span>
               </div>
-              <h4 className="text-2xl font-serif text-white mb-6">Senior Initiative Manager / Leadership Coach</h4>
+              <h4 className="text-3xl font-serif text-white mb-8">Senior Initiative Manager / Leadership Coach</h4>
               <div className="space-y-4 text-muted-foreground">
                 <p><strong className="text-white/80">Situation:</strong> Org-wide Agile transformation.</p>
                 <p><strong className="text-white/80">Task:</strong> Upskill 200+ PMs and engineers to operate within the new paradigm.</p>
@@ -110,7 +110,7 @@ export default function Home() {
               <div className="mb-2 flex flex-col md:flex-row md:items-center gap-2 md:gap-4 text-sm font-mono text-muted-foreground">
                 <span>Era 2 &mdash; Mid-Tenure</span>
               </div>
-              <h4 className="text-2xl font-serif text-white mb-6">Initiative Manager</h4>
+              <h4 className="text-3xl font-serif text-white mb-8">Initiative Manager</h4>
               <div className="space-y-4 text-muted-foreground">
                 <p><strong className="text-white/80">Situation:</strong> Post-merger technology consolidation landscape.</p>
                 <p><strong className="text-white/80">Task:</strong> Rationalize overlapping platforms to reduce technical debt.</p>
@@ -126,7 +126,7 @@ export default function Home() {
               <div className="mb-2 flex flex-col md:flex-row md:items-center gap-2 md:gap-4 text-sm font-mono text-muted-foreground">
                 <span>Era 1 &mdash; Early Tenure</span>
               </div>
-              <h4 className="text-2xl font-serif text-white mb-6">Project Coordinator / Analyst</h4>
+              <h4 className="text-3xl font-serif text-white mb-8">Project Coordinator / Analyst</h4>
               <div className="space-y-4 text-muted-foreground">
                 <p><strong className="text-white/80">Situation:</strong> Fast-growing global bank experiencing delivery bottlenecks.</p>
                 <p><strong className="text-white/80">Task:</strong> Manage cross-functional software delivery.</p>
@@ -139,13 +139,13 @@ export default function Home() {
       </section>
 
       {/* Stack & Toolsets */}
-      <section className="py-24 bg-white/5 border-y border-white/5">
+      <section className="py-40 bg-white/5 border-y border-white/5">
         <div className="container mx-auto px-6 md:px-12">
           <FadeIn>
             <div className="grid md:grid-cols-3 gap-12">
               <div className="md:col-span-1">
                 <h2 className="text-sm font-mono text-primary uppercase tracking-widest mb-4">Toolset</h2>
-                <h3 className="text-3xl font-serif text-white mb-6">Stack & Skills</h3>
+                <h3 className="text-4xl md:text-5xl font-serif text-white mb-8">Stack & Skills</h3>
                 <p className="text-muted-foreground">A deliberate combination of technical capabilities, framework expertise, and human-centric coaching skills.</p>
               </div>
               <div className="md:col-span-2 grid sm:grid-cols-2 gap-x-8 gap-y-12">
@@ -186,11 +186,11 @@ export default function Home() {
       </section>
 
       {/* Beyond the Boardroom */}
-      <section className="py-32 container mx-auto px-6 md:px-12">
+      <section className="py-52 container mx-auto px-6 md:px-12">
         <FadeIn>
-          <div className="text-center mb-16 max-w-2xl mx-auto">
+          <div className="text-center mb-24 max-w-2xl mx-auto">
             <h2 className="text-sm font-mono text-primary uppercase tracking-widest mb-4">Personal Pursuits</h2>
-            <h3 className="text-4xl font-serif text-white mb-6">Beyond the Boardroom</h3>
+            <h3 className="text-5xl md:text-6xl font-serif text-white mb-6">Beyond the Boardroom</h3>
             <p className="text-muted-foreground">How I apply strategy, endurance, and process outside of the office.</p>
           </div>
         </FadeIn>
