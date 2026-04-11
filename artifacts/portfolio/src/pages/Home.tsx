@@ -134,7 +134,7 @@ export default function Home() {
                     className="inline-flex items-center gap-2 text-sm text-primary hover:text-white transition-colors font-mono"
                     data-testid="link-case-study-cloud"
                   >
-                    View Case Study: Major Trading Transformation
+                    View Deep Dive Case Study: Legacy Platform Migration to Cloud
                     <ArrowRight size={14} />
                   </Link>
                   <Link
@@ -344,7 +344,7 @@ export default function Home() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <FadeIn delay={0.1} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
             <h4 className="text-primary font-mono text-sm mb-4">Endurance</h4>
-            <p className="text-white leading-relaxed">Marathon Training: Target race October 11, 2026. Focus, process, and discipline.</p>
+            <p className="text-white leading-relaxed">Target race: October 11, 2026.</p>
           </FadeIn>
           <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
             <h4 className="text-primary font-mono text-sm mb-4">Strategy</h4>

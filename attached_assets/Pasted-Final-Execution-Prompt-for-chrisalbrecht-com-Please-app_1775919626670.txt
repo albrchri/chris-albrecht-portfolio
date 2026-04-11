@@ -1,0 +1,67 @@
+Final Execution Prompt for chrisalbrecht.com
+
+Please apply the following detailed visual and architectural updates to achieve a fully polished, launch-ready portfolio platform, maintaining the executive dark theme and serif typography.
+
+1. Critical Grid Redesign: "Signature Initiatives"
+
+Find the "Signature Initiatives & Impact" section.
+
+Completely redesign this from its current text-only list format into a grid of three modular card-style components, matching the exact style, spacing, and hover effects of the "Credentials & Expertise" grid.
+
+Add relevant icons (using a single, consistent library like Lucide React). Populate each card using the existing text structure (Icon -> Title -> STAR method bullet points):
+
+Card 1: Legacy-to-Cloud Transformation (Microsoft Azure icon)
+
+Card 2: Enterprise Fraud Prevention Solution (Security icon)
+
+Card 3: Foundational Technology Adoption (Innovation icon)
+
+2. Critical Grid Redesign: "Stack & Skills"
+
+Find the "Stack & Skills" lists.
+
+Redesign these lists entirely into a grid of four clean, card-style components (matching the card design hierarchy). Add relevant icons and use this precise content:
+
+Card 1: Initiative Leadership & Delivery (e.g., a "flag" icon)
+
+Content: Initiative Strategy, Operational Excellence, Executive Presence, Change Management.
+
+Card 2: Coaching & Organizational Playbook (e.g., a "mentorship" or "blueprint" icon)
+
+Content: Leadership Coaching, Team Transformation, Agile Transformation, Organizational Design.
+
+Card 3: Modern Methodologies (e.g., an "agile" or "workflow" icon)
+
+Content: SimCorp Dimension (SCD), Agile (Scrum/Kanban), Lean Software Development, Scaled Agile (SAFe).
+
+Card 4: Technical & Tooling Strategy (e.g., a "data/tools" icon)
+
+Content: Microsoft Azure, Python Ecosystem, C++ Trading Gateways, FIX & Proprietary APIs, Jira/Rally/Confluence.
+
+3. Add Project Deep Dive Links to Career Timeline
+
+In the "Professional Tenure" timeline, find the main (highest-level) "STAR" point for your current Senior Initiative Manager role.
+
+Add a minimalist text link with a right arrow directly below the text block: "View Deep Dive Case Study: Legacy Platform Migration to Cloud →" and point it to /projects/legacy-cloud-transformation. (Similarly for the other key Senior Initiative Manager role).
+
+4. Architecture: Set Up New Page Routes (The Case Studies)
+
+(Architectural step): Create two new sub-pages with placeholder content (e.g., /projects/legacy-cloud-transformation and /projects/simcorp-dimension-integration).
+
+Sub-page content (Placeholder): On each new page, add the header Case Study: [Initiative Title] and use standard placeholders for sections:
+
+Executive Summary
+
+The Challenge (stakeholders, scale)
+
+The Initiative Management Approach
+
+Key Results & Leadership Impact
+
+Ensure the links on the main homepage correctly point to these new pages.
+
+5. Final "Snag List" Polish:
+
+Locate and correct the potential typo on the Endurance card: It must read exactly "Target race: October 11, 2026."
+
+Confirm all LinkedIn links target https://www.linkedin.com/in/albrchri/.
