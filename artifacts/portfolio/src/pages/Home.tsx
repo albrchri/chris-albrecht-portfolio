@@ -3,14 +3,14 @@ import { PageTransition, FadeIn } from "@/components/PageTransition";
 import { Link } from "wouter";
 import {
   ArrowRight, Target, BookOpen, Layers, Database,
-  GraduationCap, Award, BadgeCheck, Cloud, ShieldCheck, Zap, Sparkles
+  GraduationCap, Award, BadgeCheck, Cloud, ShieldCheck, Zap, Sparkles, Scale
 } from "lucide-react";
 
 const CREDENTIALS = "MSCS, MBA, PMP, CSP";
 
 export default function Home() {
   useSeo({
-    title: `Chris Albrecht, ${CREDENTIALS} | Initiative Manager`,
+    title: "Chris Albrecht | AI-Native Strategic Product & Technology Leader",
     description: "Strategic product and technology leader with 15+ years delivering enterprise transformation in global financial services."
   });
 
@@ -74,7 +74,7 @@ export default function Home() {
         </FadeIn>
 
         <div className="grid sm:grid-cols-3 gap-6">
-          <FadeIn delay={0.1} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
+          <FadeIn delay={0.1} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
             <Sparkles className="text-primary mb-5" size={20} />
             <h4 className="text-primary font-mono text-sm mb-3">AI-Enabled Transaction Review (OnePass PKR)</h4>
             <p className="text-white/80 text-sm leading-relaxed mb-3">
@@ -83,7 +83,7 @@ export default function Home() {
             <p className="text-muted-foreground text-sm"><span className="text-primary">Result:</span> Positioned AI as a force multiplier, driving a step-change in analyst capacity and global consistency.</p>
           </FadeIn>
 
-          <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
+          <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
             <Cloud className="text-primary mb-5" size={20} />
             <h4 className="text-primary font-mono text-sm mb-3">Legacy-to-Cloud Transformation (Microsoft Azure)</h4>
             <p className="text-white/80 text-sm leading-relaxed mb-3">
@@ -92,7 +92,7 @@ export default function Home() {
             <p className="text-muted-foreground text-sm"><span className="text-primary">Result:</span> Significantly reduced infrastructure costs while improving platform resilience.</p>
           </FadeIn>
 
-          <FadeIn delay={0.3} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
+          <FadeIn delay={0.3} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
             <Layers className="text-primary mb-5" size={20} />
             <h4 className="text-primary font-mono text-sm mb-3">Enterprise Platform Transformation (SimCorp Dimension)</h4>
             <p className="text-white/80 text-sm leading-relaxed mb-3">
@@ -233,7 +233,7 @@ export default function Home() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
           {/* MSCS */}
-          <FadeIn delay={0.1} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors flex flex-col">
+          <FadeIn delay={0.1} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200 flex flex-col">
             <GraduationCap className="text-primary mb-5" size={20} />
             <h4 className="text-primary font-mono text-sm mb-3">Academic</h4>
             <p className="text-white font-medium mb-2">Master of Science in Computer Science</p>
@@ -244,19 +244,18 @@ export default function Home() {
           </FadeIn>
 
           {/* MBA */}
-          <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors flex flex-col">
+          <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200 flex flex-col">
             <GraduationCap className="text-primary mb-5" size={20} />
             <h4 className="text-primary font-mono text-sm mb-3">Academic</h4>
             <p className="text-white font-medium mb-2">Master of Business Administration (MBA)</p>
             <div className="space-y-1 text-sm">
               <p className="text-muted-foreground">Dominican University &mdash; Brennan School of Business</p>
-              <p className="text-muted-foreground/70">Focus: Global Business Strategy & Leadership</p>
-              <p className="text-muted-foreground/70">Recipient of the Most Outstanding Student Award (honored during commencement)</p>
+              <p className="text-muted-foreground/70">Most Outstanding Student Award</p>
             </div>
           </FadeIn>
 
           {/* BS CS */}
-          <FadeIn delay={0.3} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors flex flex-col">
+          <FadeIn delay={0.3} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200 flex flex-col">
             <GraduationCap className="text-primary mb-5" size={20} />
             <h4 className="text-primary font-mono text-sm mb-3">Academic</h4>
             <p className="text-white font-medium mb-2">Bachelor of Science in Computer Science</p>
@@ -267,7 +266,7 @@ export default function Home() {
           </FadeIn>
 
           {/* PMP */}
-          <FadeIn delay={0.4} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors flex flex-col">
+          <FadeIn delay={0.4} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200 flex flex-col">
             <BadgeCheck className="text-primary mb-5" size={20} />
             <h4 className="text-primary font-mono text-sm mb-3">Certification</h4>
             <p className="text-white font-medium mb-1">Project Management Professional (PMP)®</p>
@@ -283,7 +282,7 @@ export default function Home() {
           </FadeIn>
 
           {/* CSP */}
-          <FadeIn delay={0.5} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors flex flex-col">
+          <FadeIn delay={0.5} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200 flex flex-col">
             <BadgeCheck className="text-primary mb-5" size={20} />
             <h4 className="text-primary font-mono text-sm mb-3">Certification</h4>
             <p className="text-white font-medium mb-1">Certified Scrum Professional® (CSP-SM)</p>
@@ -299,7 +298,7 @@ export default function Home() {
           </FadeIn>
 
           {/* UBS Certified Initiative Manager */}
-          <FadeIn delay={0.6} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors flex flex-col">
+          <FadeIn delay={0.6} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200 flex flex-col">
             <ShieldCheck className="text-primary mb-5" size={20} />
             <h4 className="text-primary font-mono text-sm mb-3">Certification</h4>
             <p className="text-white font-medium mb-1">UBS Certified Initiative Manager</p>
@@ -328,8 +327,8 @@ export default function Home() {
             </div>
           </FadeIn>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
-            <FadeIn delay={0.1} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <FadeIn delay={0.1} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
               <Sparkles className="text-primary mb-5" size={20} />
               <h4 className="text-primary font-mono text-sm mb-4">AI Strategy & Autonomous Agents</h4>
               <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
@@ -341,7 +340,7 @@ export default function Home() {
               </ul>
             </FadeIn>
 
-            <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
+            <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
               <Target className="text-primary mb-5" size={20} />
               <h4 className="text-primary font-mono text-sm mb-4">Initiative Leadership & Delivery</h4>
               <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
@@ -354,7 +353,7 @@ export default function Home() {
               </ul>
             </FadeIn>
 
-            <FadeIn delay={0.3} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
+            <FadeIn delay={0.3} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
               <BookOpen className="text-primary mb-5" size={20} />
               <h4 className="text-primary font-mono text-sm mb-4">Coaching & Organizational Playbook</h4>
               <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
@@ -366,7 +365,7 @@ export default function Home() {
               </ul>
             </FadeIn>
 
-            <FadeIn delay={0.4} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
+            <FadeIn delay={0.4} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
               <Layers className="text-primary mb-5" size={20} />
               <h4 className="text-primary font-mono text-sm mb-4">Modern Methodologies</h4>
               <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
@@ -377,7 +376,7 @@ export default function Home() {
               </ul>
             </FadeIn>
 
-            <FadeIn delay={0.5} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
+            <FadeIn delay={0.5} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
               <Database className="text-primary mb-5" size={20} />
               <h4 className="text-primary font-mono text-sm mb-4">Technical & Tooling Strategy</h4>
               <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
@@ -386,6 +385,17 @@ export default function Home() {
                 <li>C++ Trading Gateways</li>
                 <li>FIX & Proprietary APIs</li>
                 <li>GitLab, Jira, Confluence</li>
+              </ul>
+            </FadeIn>
+
+            <FadeIn delay={0.6} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
+              <Scale className="text-primary mb-5" size={20} />
+              <h4 className="text-primary font-mono text-sm mb-4">Strategic Governance & Risk</h4>
+              <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
+                <li>Regulatory Alignment</li>
+                <li>Audit Defensibility</li>
+                <li>Model Risk Management (MRM)</li>
+                <li>Strategic Compliance</li>
               </ul>
             </FadeIn>
           </div>
@@ -403,19 +413,19 @@ export default function Home() {
         </FadeIn>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <FadeIn delay={0.1} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
+          <FadeIn delay={0.1} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
             <h4 className="text-primary font-mono text-sm mb-4">Endurance</h4>
             <p className="text-white leading-relaxed">Successfully ran my first half-marathon in 2025. Currently training for my first full marathon. Target race: October 11, 2026.</p>
           </FadeIn>
-          <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
+          <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
             <h4 className="text-primary font-mono text-sm mb-4">Strategy</h4>
             <p className="text-white leading-relaxed">Chess Teacher & Player: Critical thinking, tactical focus, and patience. Instructor for elementary/middle school students.</p>
           </FadeIn>
-          <FadeIn delay={0.3} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
+          <FadeIn delay={0.3} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
             <h4 className="text-primary font-mono text-sm mb-4">Process</h4>
             <p className="text-white leading-relaxed">Artisan Pitmaster & Wood-Fire Specialist: Dedicated to the precision and patience of low-and-slow meat smoking, applying the same focus on process and procedure found in software leadership.</p>
           </FadeIn>
-          <FadeIn delay={0.4} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
+          <FadeIn delay={0.4} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
             <h4 className="text-primary font-mono text-sm mb-4">Growth</h4>
             <p className="text-white leading-relaxed">Residential Landscape Engineering: A technical approach to lawn restoration and ecosystem management.</p>
           </FadeIn>
