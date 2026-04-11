@@ -85,11 +85,11 @@ export default function Home() {
 
           <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
             <ShieldCheck className="text-primary mb-5" size={20} />
-            <h4 className="text-primary font-mono text-sm mb-3">Enterprise Fraud Prevention Solution</h4>
+            <h4 className="text-primary font-mono text-sm mb-3">OnePass PKR Transaction Review Capability</h4>
             <p className="text-white/80 text-sm leading-relaxed mb-3">
-              Executed end-to-end RFP, from requirements gathering through vendor evaluation and full production rollout.
+              Led end-to-end design and delivery of an AI-augmented transaction review model, embedding automated aggregation, pattern recognition, and narrative generation into the KYC periodic review lifecycle.
             </p>
-            <p className="text-muted-foreground text-sm"><span className="text-primary">Result:</span> Delivered high-impact solution strengthening security and client protection.</p>
+            <p className="text-muted-foreground text-sm"><span className="text-primary">Result:</span> Transformed transaction risk assessment into a scalable, data-driven control — improving cycle times, review consistency, and audit defensibility.</p>
           </FadeIn>
 
           <FadeIn delay={0.3} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-primary/50 transition-colors">
@@ -124,11 +124,19 @@ export default function Home() {
                 </div>
                 <h4 className="text-3xl font-serif text-white mb-8">Senior Initiative Manager, Global Wealth Americas</h4>
                 <div className="space-y-4 text-muted-foreground">
-                  <p><strong className="text-white/80">·</strong> Led technical integration and go-live for SimCorp Dimension (SCD), managing workstreams from environment configuration through production cutover.</p>
+                  <p><strong className="text-white/80">·</strong> Led enterprise design and go-live of OnePass PKR Transaction Reviews, modernizing transaction risk assessment through AI-enabled analysis and standardized reviewer workflows.</p>
                   <p><strong className="text-white/80">·</strong> Scaled marquee client experience rollout from 5K pilot to 3M accounts, directing cross-functional teams across engineering, risk, and operations.</p>
                   <p><strong className="text-primary">·</strong> Managed $5M portfolios and championed Agile planning, guiding 40+ global members to increase delivery velocity 10x.</p>
                 </div>
                 <div className="mt-8 pt-6 border-t border-white/10 flex flex-col gap-3">
+                  <Link
+                    href="/projects/onepass-pkr-transaction-review"
+                    className="inline-flex items-center gap-2 text-sm text-primary hover:text-white transition-colors font-mono"
+                    data-testid="link-case-study-pkr"
+                  >
+                    View Case Study: OnePass PKR Transaction Review Capability
+                    <ArrowRight size={14} />
+                  </Link>
                   <Link
                     href="/projects/legacy-cloud-transformation"
                     className="inline-flex items-center gap-2 text-sm text-primary hover:text-white transition-colors font-mono"

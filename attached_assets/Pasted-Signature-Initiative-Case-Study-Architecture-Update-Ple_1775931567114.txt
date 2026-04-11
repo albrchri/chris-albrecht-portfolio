@@ -1,0 +1,51 @@
+Signature Initiative & Case Study Architecture Update
+
+Please apply the following architectural and content updates to chrisalbrecht.com, maintaining the established executive dark theme and card-grid layout.
+
+1. Signature Initiatives Grid Update:
+
+Remove: The "Enterprise Fraud Prevention Solution" card.
+
+Add (First Card): OnePass PKR Transaction Review Capability
+
+Icon: Use a "Search-Check" or "AI-Shield" icon (Lucide React: ShieldCheck or FileSearch).
+
+Summary Content (STAR format):
+
+Situation: Legacy KYC periodic reviews were manual, retrospective, and rule-heavy, leading to inconsistent risk coverage and high analyst burden.
+
+Action: Led the end-to-end design and delivery of an AI-augmented transaction review model, embedding automated aggregation, pattern recognition, and narrative generation.
+
+Result: Transformed transaction risk assessment into a scalable, data-driven control, significantly improving cycle times, review consistency, and audit defensibility.
+
+2. Professional Tenure (Experience) Case Study Links:
+
+Job 1: Senior Initiative Manager, Global Wealth Americas
+
+Add this as the first link directly below the job description: "View Case Study: OnePass PKR Transaction Review Capability →" pointing to /projects/onepass-pkr-transaction-review.
+
+Job 2: Senior Delivery Lead, Asset Management
+
+Move the existing SimCorp link to be the second item.
+
+Ensure the link reads: "View Case Study: SimCorp Dimension Integration →" pointing to /projects/simcorp-dimension-integration.
+
+3. Create New Page Route: OnePass PKR Case Study
+
+Create Route: /projects/onepass-pkr-transaction-review.
+
+Content Structure: Use the "Executive Summary – OnePass PKR Transaction Reviews" text provided to populate a high-end case study page. Use the following headers:
+
+Executive Overview: (Summarize the transformation from manual to AI-augmented).
+
+Strategic Leadership: (Focus on end-to-end ownership and regulatory alignment).
+
+AI as a Force Multiplier: (Detail the aggregation, pattern recognition, and narrative generation).
+
+Measurable Business Impact: (List the cycle-time reduction, consistent outcomes, and analyst capacity gains).
+
+4. Experience Bullet Polish (Job 1):
+
+Ensure the first bullet for the Senior Initiative Manager role reflects the new OnePass PKR data: "Led enterprise design and go-live of OnePass PKR Transaction Reviews, modernizing transaction risk assessment through AI-enabled analysis and standardized reviewer workflows."
+
+Goal: Position the OnePass PKR initiative as the flagship example of your ability to lead complex, AI-driven regulatory transformations.

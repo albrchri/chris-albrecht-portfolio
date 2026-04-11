@@ -9,6 +9,7 @@ import LegacyCloudTransformation from "@/pages/projects/LegacyCloudTransformatio
 import SimCorpDimensionIntegration from "@/pages/projects/SimCorpDimensionIntegration";
 import MajorTradingTransformation from "@/pages/projects/MajorTradingTransformation";
 import AgileCultureShift from "@/pages/projects/AgileCultureShift";
+import OnePassPKRTransactionReview from "@/pages/projects/OnePassPKRTransactionReview";
 import { NavBar } from "@/components/NavBar";
 import { Footer } from "@/components/Footer";
 import { AnimatePresence } from "framer-motion";
@@ -25,6 +26,7 @@ function Router() {
         <Route path="/projects/simcorp-dimension-integration" component={SimCorpDimensionIntegration} />
         <Route path="/projects/major-trading-transformation" component={MajorTradingTransformation} />
         <Route path="/projects/agile-culture-shift" component={AgileCultureShift} />
+        <Route path="/projects/onepass-pkr-transaction-review" component={OnePassPKRTransactionReview} />
         <Route component={NotFound} />
       </Switch>
     </AnimatePresence>
