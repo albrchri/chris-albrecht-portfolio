@@ -94,7 +94,7 @@ export default function Home() {
 
           <FadeIn delay={0.3} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
             <Layers className="text-primary mb-5" size={20} />
-            <h4 className="text-primary font-mono text-sm mb-3">Enterprise Platform Transformation (SimCorp Dimension)</h4>
+            <h4 className="text-primary font-mono text-sm mb-3">Enterprise Platform Transformation (SCD)</h4>
             <p className="text-white/80 text-sm leading-relaxed mb-3">
               Replaced a legacy investment application with the SCD accounting engine, leading technical integration and production cutover for an enterprise-scale platform.
             </p>
@@ -134,23 +134,15 @@ export default function Home() {
                     className="inline-flex items-center gap-2 text-sm text-primary hover:text-white transition-colors font-mono"
                     data-testid="link-case-study-pkr"
                   >
-                    View Case Study: OnePass PKR Transaction Review Capability
+                    View Case Study: Agentic Transaction Review Capability
                     <ArrowRight size={14} />
                   </Link>
                   <Link
-                    href="/projects/legacy-cloud-transformation"
+                    href="/projects/fraud-prevention-rfp"
                     className="inline-flex items-center gap-2 text-sm text-primary hover:text-white transition-colors font-mono"
-                    data-testid="link-case-study-cloud"
+                    data-testid="link-case-study-fraud"
                   >
-                    View Deep Dive Case Study: Legacy Platform Migration to Cloud
-                    <ArrowRight size={14} />
-                  </Link>
-                  <Link
-                    href="/projects/simcorp-dimension-integration"
-                    className="inline-flex items-center gap-2 text-sm text-primary hover:text-white transition-colors font-mono"
-                    data-testid="link-case-study-simcorp"
-                  >
-                    View Case Study: SimCorp Dimension Integration
+                    View Case Study: Fraud Prevention Request For Proposal (RFP) and Implementation
                     <ArrowRight size={14} />
                   </Link>
                 </div>
@@ -178,7 +170,15 @@ export default function Home() {
                     className="inline-flex items-center gap-2 text-sm text-primary hover:text-white transition-colors font-mono"
                     data-testid="link-case-study-simcorp-era2"
                   >
-                    View Case Study: SimCorp Dimension Integration
+                    View Case Study: Enterprise Platform Transformation
+                    <ArrowRight size={14} />
+                  </Link>
+                  <Link
+                    href="/projects/legacy-cloud-transformation"
+                    className="inline-flex items-center gap-2 text-sm text-primary hover:text-white transition-colors font-mono"
+                    data-testid="link-case-study-cloud-era2"
+                  >
+                    View Case Study: Legacy Platform Migration to Cloud
                     <ArrowRight size={14} />
                   </Link>
                 </div>
@@ -197,7 +197,8 @@ export default function Home() {
                 <h4 className="text-3xl font-serif text-white mb-8">Program Manager</h4>
                 <div className="space-y-4 text-muted-foreground">
                   <p><strong className="text-white/80">·</strong> Delivered core research platform for $40B AUM fund-of-funds, aligning technology roadmaps with business growth.</p>
-                  <p><strong className="text-primary">·</strong> Led major Client Reporting refresh and implemented metrics dashboards to improve executive transparency.</p>
+                  <p><strong className="text-white/80">·</strong> Led major Client Reporting refresh and implemented metrics dashboards to improve executive transparency.</p>
+                  <p><strong className="text-primary">·</strong> Introduced dashboard metrics that improved executive transparency and enabled data-driven decisions.</p>
                 </div>
               </div>
             </FadeIn>
@@ -214,7 +215,8 @@ export default function Home() {
                 <h4 className="text-3xl font-serif text-white mb-8">Agile Project Manager / ScrumMaster</h4>
                 <div className="space-y-4 text-muted-foreground">
                   <p><strong className="text-white/80">·</strong> Led global C++ exchange connectivity for high-frequency trading gateways via FIX and proprietary APIs.</p>
-                  <p><strong className="text-primary">·</strong> Managed modernization of algorithmic trading platform and optimized portfolio planning for highest ROI.</p>
+                  <p><strong className="text-white/80">·</strong> Managed modernization of the algorithmic trading platform.</p>
+                  <p><strong className="text-primary">·</strong> Optimized portfolio planning by prioritizing project initiatives with the highest ROI.</p>
                 </div>
               </div>
             </FadeIn>
@@ -348,8 +350,7 @@ export default function Home() {
                 <li>Operational Excellence</li>
                 <li>Executive Communication</li>
                 <li>Change Management</li>
-                <li>Retrospection</li>
-                <li>Continuous Improvement</li>
+                <li>Retrospection & Continuous Improvement</li>
               </ul>
             </FadeIn>
 
@@ -359,7 +360,7 @@ export default function Home() {
               <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
                 <li>Agile Transformation</li>
                 <li>UBS Key Talent Program</li>
-                <li>Extensive Mentorship</li>
+                <li>Mentorship</li>
                 <li>Stakeholder Influence</li>
                 <li>Emotional Intelligence (EQ)</li>
               </ul>
@@ -369,10 +370,11 @@ export default function Home() {
               <Layers className="text-primary mb-5" size={20} />
               <h4 className="text-primary font-mono text-sm mb-4">Modern Methodologies</h4>
               <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
-                <li>Agile (Scrum / Kanban)</li>
-                <li>Lean Software Development</li>
-                <li>CI/CD DevOps</li>
-                <li>PMBOK (PMP)</li>
+                <li>Agile Delivery (Scrum, Kanban, Lean)</li>
+                <li>DevOps & CI/CD</li>
+                <li>Program & Portfolio Management (PMP)</li>
+                <li>Scaled Agile Model (Pods, Crews, Chapters, Guilds)</li>
+                <li>Objectives & Key Results (OKRs)</li>
               </ul>
             </FadeIn>
 
@@ -396,6 +398,7 @@ export default function Home() {
                 <li>Audit Defensibility</li>
                 <li>Model Risk Management (MRM)</li>
                 <li>Strategic Compliance</li>
+                <li>Governance, Risk & Compliance (GRC) Frameworks</li>
               </ul>
             </FadeIn>
           </div>

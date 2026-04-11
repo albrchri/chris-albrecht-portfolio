@@ -1,0 +1,49 @@
+Website Content & Architecture Refinement Prompt
+
+Please apply the following precise updates to chrisalbrecht.com to ensure perfect alignment with my professional record and modern industry standards. Maintain the current executive dark theme and modular card grid.
+
+1. Signature Initiatives Section:
+
+Locate the "Enterprise Platform Transformation" card.
+
+Change the text in the brackets from "(SimCorp Dimension)" to exactly: "(SCD)".
+
+2. Professional Tenure (Experience) - Case Study Architecture:
+
+Senior Initiative Manager (Global Wealth Americas): Ensure there are only two case study links here.
+
+a) "View Case Study: Agentic Transaction Review Capability →"
+
+b) "View Case Study: Fraud Prevention Request For Proposal (RFP) and Implementation →"
+
+Senior Delivery Lead (Asset Management): Ensure there are two case study links here.
+
+a) "View Case Study: Enterprise Platform Transformation →"
+
+b) "View Case Study: Legacy Platform Migration to Cloud →"
+
+3. Professional Tenure (Experience) - Bullet Point Updates:
+* Program Manager (Grosvenor Capital Management): Add a 3rd bullet point: "Introduced dashboard metrics that improved executive transparency and enabled data-driven decisions." RTS Realtime Systems: >     * Rename the job title to exactly: "Agile Project Manager / ScrumMaster".
+* Update the 2nd bullet to read: "Managed modernization of the algorithmic trading platform." * Add a 3rd bullet: "Optimized portfolio planning by prioritizing project initiatives with the highest ROI." 
+
+4. Stack & Skills Grid Updates:
+
+Initiative Leadership Card: Combine "Retrospection" and "Continuous Improvement" into a single line item: "Retrospection & Continuous Improvement".
+
+Coaching Card: Rename "Extensive Mentorship" to simply "Mentorship".
+
+Modern Methodologies Card:
+
+Remove "Lean Software Development".
+
+Rename "Agile (Scrum / Kanban)" to "Agile Delivery (Scrum, Kanban, Lean)".
+
+Rename "CI/CD DevOps" to "DevOps & CI/CD".
+
+Rename "PMBOK (PMP)" to "Program & Portfolio Management (PMP)".
+
+Add: "Scaled Agile Model (Pods, Crews, Chapters, Guilds)".
+
+Add: "Objectives & Key Results (OKRs)".
+
+Strategic Governance & Risk Card: Add "Governance, Risk & Compliance (GRC) Frameworks".
