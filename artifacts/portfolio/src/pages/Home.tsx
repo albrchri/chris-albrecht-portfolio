@@ -66,6 +66,31 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── Leadership Philosophy ────────────────────────────────── */}
+      <section className="py-40 container mx-auto px-6 md:px-12">
+        <FadeIn>
+          <h2 className="text-sm font-mono text-primary uppercase tracking-widest mb-4">Philosophy</h2>
+          <h3 className="text-4xl md:text-5xl font-serif text-white mb-16">Leadership Philosophy</h3>
+        </FadeIn>
+        <div className="grid sm:grid-cols-3 gap-6">
+          <FadeIn delay={0.1} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
+            <div className="text-primary font-mono text-2xl mb-5 leading-none">I.</div>
+            <h4 className="text-white font-serif text-xl mb-4">Scalable Execution</h4>
+            <p className="text-white/70 text-base leading-relaxed">Transforming complex technical debt into streamlined operational excellence within global financial systems.</p>
+          </FadeIn>
+          <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
+            <div className="text-primary font-mono text-2xl mb-5 leading-none">II.</div>
+            <h4 className="text-white font-serif text-xl mb-4">Radical Transparency</h4>
+            <p className="text-white/70 text-base leading-relaxed">Prioritizing data-driven reporting and clear communication to build trust across multi-year, multi-stakeholder initiatives.</p>
+          </FadeIn>
+          <FadeIn delay={0.3} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
+            <div className="text-primary font-mono text-2xl mb-5 leading-none">III.</div>
+            <h4 className="text-white font-serif text-xl mb-4">Empathy-Led Mentorship</h4>
+            <p className="text-white/70 text-base leading-relaxed">Leveraging professional coaching training to develop high-performing, resilient technical teams built for sustainable growth.</p>
+          </FadeIn>
+        </div>
+      </section>
+
       {/* ── Signature Initiatives ────────────────────────────────── */}
       <section className="py-40 container mx-auto px-6 md:px-12">
         <FadeIn>
@@ -99,6 +124,25 @@ export default function Home() {
               Replaced a legacy investment application with the SCD accounting engine, leading technical integration and production cutover for an enterprise-scale platform.
             </p>
             <p className="text-muted-foreground text-sm"><span className="text-primary">Result:</span> Achieved zero-downtime production cutover with no post-migration issues.</p>
+          </FadeIn>
+        </div>
+      </section>
+
+      {/* ── Social Proof ─────────────────────────────────────────── */}
+      <section className="py-32 bg-white/5 border-y border-white/5">
+        <div className="container mx-auto px-6 md:px-12 max-w-4xl">
+          <FadeIn>
+            <div className="flex flex-col items-center text-center gap-8">
+              <div className="text-primary/40 font-serif text-8xl leading-none select-none">&ldquo;</div>
+              <blockquote className="text-2xl md:text-3xl font-serif text-white/90 leading-relaxed -mt-10">
+                Chris consistently delivers results in high-stakes environments, balancing technical precision with executive-level strategy.
+              </blockquote>
+              <div className="flex items-center gap-3">
+                <div className="w-8 h-px bg-primary/40" />
+                <p className="text-primary font-mono text-sm">Ana Soric — Managing Director, UBS</p>
+                <div className="w-8 h-px bg-primary/40" />
+              </div>
+            </div>
           </FadeIn>
         </div>
       </section>
@@ -333,7 +377,7 @@ export default function Home() {
             <FadeIn delay={0.1} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
               <Sparkles className="text-primary mb-5" size={20} />
               <h4 className="text-primary font-mono text-sm mb-4">AI Strategy & Autonomous Agents</h4>
-              <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
+              <ul className="space-y-2 text-white/80 text-base leading-relaxed">
                 <li>Autonomous Agent Workflows</li>
                 <li>LLM Orchestration</li>
                 <li>Prompt Engineering</li>
@@ -345,7 +389,7 @@ export default function Home() {
             <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
               <Target className="text-primary mb-5" size={20} />
               <h4 className="text-primary font-mono text-sm mb-4">Initiative Leadership & Delivery</h4>
-              <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
+              <ul className="space-y-2 text-white/80 text-base leading-relaxed">
                 <li>Initiative Strategy</li>
                 <li>Operational Excellence</li>
                 <li>Executive Communication</li>
@@ -357,7 +401,7 @@ export default function Home() {
             <FadeIn delay={0.3} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
               <BookOpen className="text-primary mb-5" size={20} />
               <h4 className="text-primary font-mono text-sm mb-4">Coaching & Organizational Playbook</h4>
-              <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
+              <ul className="space-y-2 text-white/80 text-base leading-relaxed">
                 <li>Agile Transformation</li>
                 <li>UBS Key Talent Program</li>
                 <li>Mentorship</li>
@@ -369,7 +413,7 @@ export default function Home() {
             <FadeIn delay={0.4} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
               <Layers className="text-primary mb-5" size={20} />
               <h4 className="text-primary font-mono text-sm mb-4">Modern Methodologies</h4>
-              <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
+              <ul className="space-y-2 text-white/80 text-base leading-relaxed">
                 <li>Agile Delivery (Scrum, Kanban, Lean)</li>
                 <li>DevOps & CI/CD</li>
                 <li>Program & Portfolio Management (PMP)</li>
@@ -381,7 +425,7 @@ export default function Home() {
             <FadeIn delay={0.5} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
               <Database className="text-primary mb-5" size={20} />
               <h4 className="text-primary font-mono text-sm mb-4">Technical & Tooling Strategy</h4>
-              <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
+              <ul className="space-y-2 text-white/80 text-base leading-relaxed">
                 <li>Microsoft Azure</li>
                 <li>Python Ecosystem</li>
                 <li>C++ Trading Gateways</li>
@@ -393,7 +437,7 @@ export default function Home() {
             <FadeIn delay={0.6} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
               <Scale className="text-primary mb-5" size={20} />
               <h4 className="text-primary font-mono text-sm mb-4">Strategic Governance & Risk</h4>
-              <ul className="space-y-2 text-white/80 text-sm leading-relaxed">
+              <ul className="space-y-2 text-white/80 text-base leading-relaxed">
                 <li>Regulatory Alignment</li>
                 <li>Audit Defensibility</li>
                 <li>Model Risk Management (MRM)</li>
@@ -417,12 +461,12 @@ export default function Home() {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <FadeIn delay={0.1} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
-            <h4 className="text-primary font-mono text-sm mb-4">Endurance</h4>
-            <p className="text-white leading-relaxed">Successfully ran my first half-marathon in 2025. Currently training for my first full marathon. Target race: October 11, 2026.</p>
+            <h4 className="text-primary font-mono text-sm mb-4">Endurance & Discipline</h4>
+            <p className="text-white leading-relaxed">Completed my first half-marathon in 2025 and currently training for my first full marathon (October 2026). The sustained commitment marathon training demands — managing fatigue, maintaining form across miles — mirrors the stamina required to shepherd multi-year enterprise programs through complexity without losing momentum.</p>
           </FadeIn>
           <FadeIn delay={0.2} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
-            <h4 className="text-primary font-mono text-sm mb-4">Strategy</h4>
-            <p className="text-white leading-relaxed">Chess Teacher & Player: Critical thinking, tactical focus, and patience. Instructor for elementary/middle school students.</p>
+            <h4 className="text-primary font-mono text-sm mb-4">Strategic Mentorship</h4>
+            <p className="text-white leading-relaxed">Chess teacher for elementary and middle school students. Teaching chess is fundamentally an exercise in developing strategic thinkers — the same skill I apply when mentoring engineers and PMs. Both require patience, pattern recognition, and the ability to make complex cause-and-effect visible to someone learning to see it for the first time.</p>
           </FadeIn>
           <FadeIn delay={0.3} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
             <h4 className="text-primary font-mono text-sm mb-4">Process</h4>
@@ -431,6 +475,25 @@ export default function Home() {
           <FadeIn delay={0.4} className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/25 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/5 transition-all duration-200">
             <h4 className="text-primary font-mono text-sm mb-4">Growth</h4>
             <p className="text-white leading-relaxed">Residential Landscape Engineering: A technical approach to lawn restoration and ecosystem management.</p>
+          </FadeIn>
+        </div>
+      </section>
+      {/* ── Bottom CTA ───────────────────────────────────────────── */}
+      <section className="py-32 bg-white/5 border-t border-white/5">
+        <div className="container mx-auto px-6 md:px-12 text-center">
+          <FadeIn>
+            <h3 className="text-4xl md:text-5xl font-serif text-white mb-6">Let's Connect</h3>
+            <p className="text-muted-foreground text-xl mb-10 max-w-xl mx-auto">
+              Open to strategic leadership conversations, advisory opportunities, and executive collaboration.
+            </p>
+            <a
+              href="mailto:albrchri@gmail.com"
+              className="inline-flex items-center gap-2 px-8 py-4 text-base bg-white text-background font-semibold rounded-sm hover:bg-gray-100 transition-colors"
+              data-testid="link-bottom-contact"
+            >
+              Get in Touch
+              <ArrowRight size={18} />
+            </a>
           </FadeIn>
         </div>
       </section>

@@ -1,0 +1,35 @@
+Update my personal portfolio website with the following content and design improvements. Maintain the current premium dark-mode aesthetic and high-contrast serif typography.
+
+1. Content Additions:
+
+Add a 'Leadership Philosophy' Section: Place this after the 'Executive Summary.' Use a three-column layout or 'Pillars' format.
+
+Pillar 1: Scalable Execution. Focused on transforming complex technical debt into streamlined operational excellence within global financial systems.
+
+Pillar 2: Radical Transparency. Prioritizing data-driven reporting and clear communication to build trust across multi-year initiatives.
+
+Pillar 3: Empathy-Led Mentorship. Leveraging my professional coaching training to develop high-performing, resilient technical teams.
+
+Add a 'Social Proof' Section: Place this prominently after 'Signature Initiatives.'
+
+Content: Use a large, clean block-quote: 'Chris consistently delivers results in high-stakes environments, balancing technical precision with executive-level strategy.' — Ana Soric, Managing Director, UBS.
+
+2. Copywriting & Messaging Updates:
+
+Refine 'Beyond the Boardroom': Update the cards to link personal discipline to professional leadership:
+
+Chess Card: Frame as 'Strategic Mentorship,' highlighting how teaching chess translates to developing technical talent.
+
+Fitness Card: Frame as 'Endurance & Discipline,' linking marathon training to the stamina required for long-term project lifecycles.
+
+3. UI/UX & Design Enhancements:
+
+Typography Readability: Increase the body font size in the 'Professional Tenure' and 'Stack & Skills' sections to at least 16px. Ensure the text color has a high enough contrast ratio against the dark background for WCAG compliance.
+
+Navigation & CTAs: Add a secondary 'Contact' or 'Get in Touch' Call-to-Action button at the very bottom of the page so users don't have to scroll back up.
+
+Visual Interest: Ensure the Social Proof section includes a subtle icon (like a LinkedIn logo or a quotation mark) to ground the testimonial in reality.
+
+4. Technical Maintenance:
+
+Ensure the 'Credentials & Expertise' section remains prominent, highlighting the MBA, PMP, and CSM certifications as they are core to the executive brand.
