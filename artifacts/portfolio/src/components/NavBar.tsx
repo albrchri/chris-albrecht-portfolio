@@ -28,8 +28,8 @@ export function NavBar() {
       }`}
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
-        <Link href="/" className="font-serif text-xl tracking-wide" data-testid="link-home">
-          <span className="font-bold">C.</span><span className="font-light italic opacity-70">J.</span><span className="font-bold">A.</span>
+        <Link href="/" className="text-xl font-serif font-semibold tracking-wide" data-testid="link-home">
+          C.J.A.
         </Link>
 
         {/* Desktop Nav */}
