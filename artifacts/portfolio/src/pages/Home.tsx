@@ -225,12 +225,12 @@ export default function Home() {
             </p>
             <button
               onClick={() => openDrawer(
-                "Enterprise Platform Transformation — SimCorp Dimension",
+                "Enterprise Platform Transformation",
                 <>
                   <p><strong className="text-white font-sans font-medium">The Problem:</strong> A legacy investment accounting application had reached end-of-life, creating regulatory risk and blocking the Asset Management division from adopting modern portfolio capabilities.</p>
                   <p><strong className="text-white font-sans font-medium">The Approach:</strong> Partnered with SimCorp and internal engineering teams to lead a full technical integration of the SCD accounting engine. Designed and executed a cutover strategy that maintained dual-run reconciliation until production confidence was validated.</p>
-                  <p><strong className="text-white font-sans font-medium">Technical Nuance:</strong> The program required deep coordination with SimCorp's professional services team, extensive data migration validation, and integration testing across downstream risk and reporting systems — all within strict regulatory reporting timelines.</p>
-                  <p><strong className="text-white font-sans font-medium">Outcome:</strong> Zero-downtime production cutover with no post-migration incidents. The platform has operated without regression and unlocked a new generation of portfolio analytics capabilities for the division.</p>
+                  <p><strong className="text-white font-sans font-medium">Technical Nuance:</strong> The program required deep coordination with SimCorp's professional services team, extensive data migration validation, and integration testing across downstream risk and reporting systems.</p>
+                  <p><strong className="text-white font-sans font-medium">Outcome:</strong> I led the global deployment team consisting of a 60-hour weekend production cutover and resulted in no SLA downtime and no post-migration incidents. The platform has since operated without regression and unlocked modern portfolio analytics capabilities for the division.</p>
                 </>,
                 "Signature Initiative"
               )}
