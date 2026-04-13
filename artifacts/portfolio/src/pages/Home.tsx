@@ -336,7 +336,7 @@ export default function Home() {
       </section>
 
       {/* ── Professional Tenure ──────────────────────────────────── */}
-      <section id="experience" className="py-64 bg-[#121212] border-y border-white/8">
+      <section id="experience" className="pt-20 pb-64 bg-[#121212] border-y border-white/8">
         <div className="container mx-auto px-6 md:px-12">
           <FadeIn>
             <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Experience</h2>
