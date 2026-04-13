@@ -4,7 +4,7 @@ import { PageTransition, FadeIn } from "@/components/PageTransition";
 import { DetailDrawer } from "@/components/DetailDrawer";
 import {
   ArrowRight, Target, BookOpen, Layers, Database,
-  GraduationCap, BadgeCheck, Cloud, ShieldCheck, Sparkles, Scale, Plus, Users
+  GraduationCap, BadgeCheck, Cloud, ShieldCheck, Sparkles, Scale, Plus, Users, Zap
 } from "lucide-react";
 
 const CREDENTIALS = "MSCS, MBA, PMP, CSP";
@@ -293,18 +293,19 @@ export default function Home() {
 
           {/* Card 6 */}
           <FadeIn delay={0.6} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col">
-            <Scale className="text-[#A1A1A6] mb-5" size={20} />
-            <h4 className="text-white font-sans font-semibold text-sm mb-4">Rapid Agile Delivery Improvement</h4>
+            <Zap className="text-[#A1A1A6] mb-5" size={20} />
+            <h4 className="text-white font-sans font-semibold text-sm mb-4">High-Velocity Agile Evolution</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Established a repeatable governance framework integrating model risk management and compliance into Agile delivery, improving audit transparency and review consistency across complex global regulatory environments.
+              Led the evolution of a traditional waterfall development model into a high-velocity Agile delivery organization, increasing deployment cadence from quarterly to weekly through CI/CD integration and modern engineering standards.
             </p>
             <button
               onClick={() => openDrawer(
-                "Rapid Agile Delivery Improvement",
+                "High-Velocity Agile Evolution",
                 <>
-                  <p><strong className="text-white font-sans font-medium">Situation:</strong> Operating in complex regulatory environments where technical execution required absolute audit transparency — existing delivery processes lacked the rigor and repeatability required by internal audit and regulators.</p>
-                  <p><strong className="text-white font-sans font-medium">Action:</strong> Designed and embedded a scalable governance framework that integrated model risk management and compliance checkpoints directly into Agile delivery cadences, enabling teams to move fast without sacrificing defensibility.</p>
-                  <p><strong className="text-white font-sans font-medium">Result:</strong> Improved review consistency and delivery outcomes globally, providing clear and defensible documentation that satisfied internal audit requirements and built sustained confidence with regulators.</p>
+                  <p><strong className="text-white font-sans font-medium">The Problem:</strong> The existing software development teams operated under rigid, waterfall-based methodologies, resulting in a slow quarterly deployment cadence. This lack of agility created significant bottlenecks, high lead times for new features, and an inability to respond rapidly to critical ad-hoc fixes or changing market demands.</p>
+                  <p><strong className="text-white font-sans font-medium">The Approach:</strong> I spearheaded a strategic, comprehensive shift to an iterative, high-velocity model by integrating Agile techniques from planning through execution and retrospection. I championed a culture of mutual accountability, frequent iterative feedback, and automation to shift the team's mindset from task management to rapid value delivery.</p>
+                  <p><strong className="text-white font-sans font-medium">Technical Nuance:</strong> The transformation required a deep architectural and process overhaul, including the implementation of modern CI/CD DevOps pipelines and comprehensive automated testing tools. We adopted the Scaled Agile Model (Pods, Crews, Chapters, Guilds) and integrated Objectives & Key Results (OKRs) to align technical velocity with business-value ROI.</p>
+                  <p><strong className="text-white font-sans font-medium">Outcome:</strong> Successfully moved the deployment cadence from quarterly to monthly, and ultimately to weekly releases. This delivered a 10x increase in delivery velocity while providing the team with the capability to deploy high-priority ad-hoc fixes immediately without platform regression.</p>
                 </>,
                 "Signature Initiative"
               )}
