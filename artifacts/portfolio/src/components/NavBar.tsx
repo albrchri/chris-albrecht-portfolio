@@ -24,22 +24,21 @@ export function NavBar() {
   return (
     <header
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        scrolled ? "bg-background/80 backdrop-blur-md border-b border-white/5 py-4" : "bg-transparent py-6"
+        scrolled ? "bg-black/90 backdrop-blur-md border-b border-white/8 py-4" : "bg-transparent py-6"
       }`}
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
-        <Link href="/" className="text-xl font-serif font-semibold tracking-wide" data-testid="link-home">
+        <Link href="/" className="text-xl font-serif font-semibold tracking-wide text-white" data-testid="link-home">
           C.J.A.
         </Link>
 
-        {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className={`text-sm font-medium transition-colors hover:text-primary ${
-                location === link.href ? "text-primary" : "text-muted-foreground"
+              className={`text-sm font-sans font-medium transition-colors hover:text-white ${
+                location === link.href ? "text-white" : "text-[#A1A1A6]"
               }`}
               data-testid={`link-nav-${link.label.toLowerCase()}`}
             >
@@ -48,16 +47,15 @@ export function NavBar() {
           ))}
           <a
             href="mailto:albrchri@gmail.com"
-            className="text-sm font-medium px-4 py-2 bg-white/5 hover:bg-primary hover:text-primary-foreground transition-all rounded-sm border border-white/10"
+            className="text-sm font-sans font-medium px-4 py-2 border border-white/60 text-white rounded-sm hover:bg-white hover:text-black transition-all duration-200"
             data-testid="link-nav-contact"
           >
             Contact
           </a>
         </nav>
 
-        {/* Mobile Toggle */}
         <button
-          className="md:hidden p-2 text-foreground"
+          className="md:hidden p-2 text-white"
           onClick={() => setIsOpen(!isOpen)}
           data-testid="button-mobile-menu"
         >
@@ -65,22 +63,21 @@ export function NavBar() {
         </button>
       </div>
 
-      {/* Mobile Nav */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="absolute top-full left-0 w-full bg-background border-b border-white/5 py-6 px-6 md:hidden flex flex-col gap-6 shadow-2xl"
+            className="absolute top-full left-0 w-full bg-black border-b border-white/10 py-6 px-6 md:hidden flex flex-col gap-6 shadow-2xl"
           >
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
-                className={`text-lg font-medium transition-colors hover:text-primary ${
-                  location === link.href ? "text-primary" : "text-muted-foreground"
+                className={`text-lg font-sans font-medium transition-colors hover:text-white ${
+                  location === link.href ? "text-white" : "text-[#A1A1A6]"
                 }`}
                 data-testid={`link-mobile-${link.label.toLowerCase()}`}
               >
@@ -90,7 +87,7 @@ export function NavBar() {
             <a
               href="mailto:albrchri@gmail.com"
               onClick={() => setIsOpen(false)}
-              className="text-lg font-medium text-primary"
+              className="text-lg font-sans font-medium text-white"
               data-testid="link-mobile-contact"
             >
               Contact
