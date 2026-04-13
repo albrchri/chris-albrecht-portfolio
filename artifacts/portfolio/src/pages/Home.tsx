@@ -600,8 +600,8 @@ export default function Home() {
             <p className="text-white font-sans text-sm leading-relaxed">Wood-Fire BBQ Enthusiast. The precision and patience of low-and-slow smoking mirrors the process discipline I bring to software delivery.</p>
           </FadeIn>
           <FadeIn delay={0.4} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200">
-            <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Decentralized Finance</h4>
-            <p className="text-white font-sans text-sm leading-relaxed">Exploring how blockchain technologies can transform global markets, including as an Ethereum hobbyist home staker.</p>
+            <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Growth</h4>
+            <p className="text-white font-sans text-sm leading-relaxed">Exploring how blockchain technologies and decentralized finance can transform global markets, including as an Ethereum hobbyist home staker.</p>
           </FadeIn>
         </div>
       </section>
