@@ -244,18 +244,18 @@ export default function Home() {
           {/* Card 4 */}
           <FadeIn delay={0.4} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col">
             <ShieldCheck className="text-[#A1A1A6] mb-5" size={20} />
-            <h4 className="text-white font-sans font-semibold text-sm mb-4">Fraud Prevention RFP & Implementation</h4>
+            <h4 className="text-white font-sans font-semibold text-sm mb-4">Fraud Prevention: RFP & Rollout</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
               Led end-to-end RFP execution for a fraud-prevention solution strengthening security controls and client protection across the division.
             </p>
             <button
               onClick={() => openDrawer(
-                "Fraud Prevention RFP & Implementation",
+                "Fraud Prevention: RFP & Rollout",
                 <>
-                  <p><strong className="text-white font-sans font-medium">The Problem:</strong> The existing security landscape had critical gaps in fraud detection for high-stakes client transactions, creating a vulnerability that required an enterprise-grade, modern solution to strengthen institutional controls.</p>
-                  <p><strong className="text-white font-sans font-medium">The Approach:</strong> Orchestrated the end-to-end RFP process by aligning business, security, and compliance stakeholders on a unified requirement set. I led the vendor evaluation and designed an implementation roadmap that ensured the new solution integrated seamlessly with existing client protection workflows.</p>
-                  <p><strong className="text-white font-sans font-medium">Technical Nuance:</strong> The initiative required evaluating vendor capabilities against strict global regulatory standards and internal model risk management protocols to ensure full audit defensibility.</p>
-                  <p><strong className="text-white font-sans font-medium">Outcome:</strong> I successfully delivered a high-impact security solution that strengthened client protection across the division and reduced material risk.</p>
+                  <p><strong className="text-white font-sans font-medium">The Problem:</strong> The existing security landscape had critical gaps in fraud detection for high-stakes transactions, creating a vulnerability that required a modern solution to strengthen institutional controls and prevent unauthorized access.</p>
+                  <p><strong className="text-white font-sans font-medium">The Approach:</strong> Orchestrated an end-to-end RFP process and vendor engagement to identify a robust Two-Factor Authentication (2FA) solution. I aligned business, security, and compliance stakeholders on a unified requirement set and designed an implementation roadmap for seamless integration into existing client workflows.</p>
+                  <p><strong className="text-white font-sans font-medium">Technical Nuance:</strong> The initiative required evaluating vendor capabilities against strict regulatory standards and internal model risk management protocols to ensure full audit defensibility.</p>
+                  <p><strong className="text-white font-sans font-medium">Outcome:</strong> Successfully delivered a high-impact security solution that strengthened client protection across the division and reduced material risk by mandating Two-Factor Authentication.</p>
                 </>,
                 "Signature Initiative"
               )}
