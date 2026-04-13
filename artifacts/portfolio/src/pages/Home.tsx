@@ -269,17 +269,18 @@ export default function Home() {
           {/* Card 5 */}
           <FadeIn delay={0.5} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col">
             <Users className="text-[#A1A1A6] mb-5" size={20} />
-            <h4 className="text-white font-sans font-semibold text-sm mb-4">Cross-Functional Client Experience Enhancement</h4>
+            <h4 className="text-white font-sans font-semibold text-sm mb-4">Cross-Functional Client Experience Launch</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
               Directed cross-functional teams across engineering, risk, and operations to scale a marquee wealth management client experience from a 5,000-account pilot to a global population of 3 million accounts.
             </p>
             <button
               onClick={() => openDrawer(
-                "Cross-Functional Client Experience Enhancement",
+                "Cross-Functional Client Experience Launch",
                 <>
-                  <p><strong className="text-white font-sans font-medium">Situation:</strong> Tasked with scaling a marquee wealth management client experience from a limited pilot to the full global account population — a program requiring coordination across multiple organizational boundaries.</p>
-                  <p><strong className="text-white font-sans font-medium">Action:</strong> Directed cross-functional teams spanning engineering, risk, compliance, and operations. Established a configuration governance model and rollout sequencing strategy that allowed incremental expansion while preserving platform integrity.</p>
-                  <p><strong className="text-white font-sans font-medium">Result:</strong> Successfully scaled the rollout from 5,000 to 3 million accounts with 100% platform stability maintained throughout, setting a new internal benchmark for large-scale client experience delivery.</p>
+                  <p><strong className="text-white font-sans font-medium">The Problem:</strong> Onboarding new clients and conducting the regular review process had become excessively cumbersome, creating significant friction and taking too long to execute.</p>
+                  <p><strong className="text-white font-sans font-medium">The Approach:</strong> I directed global cross-functional teams to streamline internal processes and simplify the client questionnaire to reduce onboarding friction. I unified stakeholders across product, engineering, risk, and operations to ensure a seamless transition from pilot to full-scale production.</p>
+                  <p><strong className="text-white font-sans font-medium">Technical Nuance:</strong> The initiative required synchronizing an immense number of distinct domains, ranging from backend services and data pipelines to multiple front-end systems. This was balanced against strict model risk governance frameworks, legal reviews, and coordinated communication and training for front-facing field teams to ensure operational readiness.</p>
+                  <p><strong className="text-white font-sans font-medium">Outcome:</strong> Successfully executed the marquee launch for the division that year, scaling the experience from a limited Pilot to 3 million accounts with zero service disruption.</p>
                 </>,
                 "Signature Initiative"
               )}
