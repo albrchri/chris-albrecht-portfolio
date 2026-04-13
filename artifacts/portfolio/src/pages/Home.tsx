@@ -1,11 +1,10 @@
 import { useState, useCallback } from "react";
 import { useSeo } from "@/hooks/use-seo";
 import { PageTransition, FadeIn } from "@/components/PageTransition";
-import { Link } from "wouter";
 import { DetailDrawer } from "@/components/DetailDrawer";
 import {
   ArrowRight, Target, BookOpen, Layers, Database,
-  GraduationCap, BadgeCheck, Cloud, ShieldCheck, Zap, Sparkles, Scale, Plus
+  GraduationCap, BadgeCheck, Cloud, ShieldCheck, Sparkles, Scale, Plus
 } from "lucide-react";
 
 const CREDENTIALS = "MSCS, MBA, PMP, CSP";
@@ -63,11 +62,11 @@ export default function Home() {
 
           <div className="flex flex-wrap gap-4">
             <a
-              href="#experience"
+              href="#philosophy"
               className="inline-flex items-center gap-2 px-7 py-[14px] text-base font-sans font-medium border border-white text-white rounded-sm hover:bg-white hover:text-black transition-all duration-200"
               data-testid="link-hero-experience"
             >
-              View Experience
+              Career Overview
               <ArrowRight size={18} />
             </a>
             <a
@@ -81,21 +80,8 @@ export default function Home() {
         </FadeIn>
       </section>
 
-      {/* ── Executive Summary ────────────────────────────────────── */}
-      <section className="py-48 bg-[#121212] border-y border-white/8">
-        <div className="container mx-auto px-6 md:px-12">
-          <FadeIn>
-            <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-5">Executive Summary</h2>
-            <h3 className="text-4xl md:text-5xl font-serif text-white mb-10">Impact at Scale</h3>
-            <p className="text-lg text-[#A1A1A6] font-sans leading-relaxed max-w-3xl">
-              15+ years in global financial services, driving enterprise-scale transformation through autonomous agent orchestration and Agile delivery — maximizing ROI on multimillion-dollar portfolios.
-            </p>
-          </FadeIn>
-        </div>
-      </section>
-
       {/* ── Leadership Philosophy ────────────────────────────────── */}
-      <section className="py-48 container mx-auto px-6 md:px-12">
+      <section id="philosophy" className="py-48 container mx-auto px-6 md:px-12">
         <FadeIn>
           <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Philosophy</h2>
           <h3 className="text-4xl md:text-5xl font-serif text-white mb-20">Leadership Philosophy</h3>
@@ -305,16 +291,6 @@ export default function Home() {
                       <p>Delivered a scalable control utilizing autonomous agents to synthesize transaction behavior and customer risk into reviewer-ready outputs. Embedding agentic pattern recognition and narrative generation positioned AI as a force multiplier, driving a step-change in execution, analyst capacity, and global consistency.</p>
                       <p>Led the transformation of a locally hosted monolith into cloud-based microservices on Microsoft Azure, improving scalability, resilience, and speed-to-market while significantly reducing infrastructure costs.</p>
                       <p>Led the end-to-end execution of a fraud-prevention solution RFP — including vendor evaluation, due diligence, and rollout — to strengthen security controls across the Americas wealth platform.</p>
-                      <div className="pt-4 border-t border-white/10 space-y-3">
-                        <Link
-                          href="/projects/onepass-pkr-transaction-review"
-                          className="inline-flex items-center gap-2 text-sm text-white hover:text-[#A1A1A6] transition-colors font-sans"
-                          data-testid="link-case-study-pkr"
-                        >
-                          Case Study: Agentic Transaction Review
-                          <ArrowRight size={14} />
-                        </Link>
-                      </div>
                     </>,
                     "Professional Tenure"
                   )}
@@ -347,25 +323,6 @@ export default function Home() {
                       <p>Replaced a legacy investment application with the SimCorp Dimension (SCD) accounting engine. Partnered with the vendor to lead technical integration and production cutover for an enterprise-scale platform, achieving zero-downtime with no post-migration issues.</p>
                       <p>Directed cross-functional teams across product, engineering, risk, operations, and communications to streamline processes and improve the client experience — scaling from a 5K account pilot to a 3M account rollout, the year's marquee launch.</p>
                       <p>Managed $5M portfolios while championing Agile planning to maximize ROI, guiding 40+ global team members to increase delivery velocity 10x.</p>
-                      <div className="pt-4 border-t border-white/10 space-y-3">
-                        <Link
-                          href="/projects/simcorp-dimension-integration"
-                          className="inline-flex items-center gap-2 text-sm text-white hover:text-[#A1A1A6] transition-colors font-sans"
-                          data-testid="link-case-study-simcorp-era2"
-                        >
-                          Case Study: Enterprise Platform Transformation
-                          <ArrowRight size={14} />
-                        </Link>
-                        <br />
-                        <Link
-                          href="/projects/legacy-cloud-transformation"
-                          className="inline-flex items-center gap-2 text-sm text-white hover:text-[#A1A1A6] transition-colors font-sans"
-                          data-testid="link-case-study-cloud-era2"
-                        >
-                          Case Study: Legacy Platform Migration to Cloud
-                          <ArrowRight size={14} />
-                        </Link>
-                      </div>
                     </>,
                     "Professional Tenure"
                   )}

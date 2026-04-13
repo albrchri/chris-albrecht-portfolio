@@ -18,7 +18,6 @@ export function NavBar() {
 
   const navLinks = [
     { href: "/", label: "Portfolio" },
-    { href: "/now", label: "Now" },
   ];
 
   return (
