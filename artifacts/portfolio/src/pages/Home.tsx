@@ -246,7 +246,7 @@ export default function Home() {
             <ShieldCheck className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-white font-sans font-semibold text-sm mb-4">Fraud Prevention RFP & Implementation</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Led end-to-end RFP execution for a fraud-prevention solution strengthening security controls and client protection across the enterprise.
+              Led end-to-end RFP execution for a fraud-prevention solution strengthening security controls and client protection across the division.
             </p>
             <button
               onClick={() => openDrawer(
