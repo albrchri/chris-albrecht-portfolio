@@ -296,7 +296,7 @@ export default function Home() {
             <Zap className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-white font-sans font-semibold text-sm mb-4">High-Velocity Agile Evolution</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Led the evolution of a traditional waterfall development model into a high-velocity Agile delivery organization, increasing deployment cadence from quarterly to weekly through CI/CD integration and modern engineering standards.
+              Led the evolution of a traditional waterfall development approach into a high-velocity Agile delivery organization, increasing deployment cadence from quarterly to weekly through CI/CD integration and modern engineering standards.
             </p>
             <button
               onClick={() => openDrawer(
