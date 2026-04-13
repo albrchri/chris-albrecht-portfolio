@@ -158,10 +158,10 @@ export default function Home() {
       </section>
 
       {/* ── Signature Initiatives ────────────────────────────────── */}
-      <section className="pt-48 pb-[264px] container mx-auto px-6 md:px-12">
+      <section className="pt-48 pb-24 container mx-auto px-6 md:px-12">
         <FadeIn>
           <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Highlights</h2>
-          <h3 className="text-4xl md:text-5xl font-serif text-white mb-20">Signature Initiatives</h3>
+          <h3 className="text-4xl md:text-5xl font-serif text-white mb-20">Signature Accomplishments</h3>
         </FadeIn>
 
         <div className="grid md:grid-cols-3 gap-6">
@@ -320,7 +320,7 @@ export default function Home() {
       </section>
 
       {/* ── Social Proof ─────────────────────────────────────────── */}
-      <section className="py-32 bg-black border-b border-white/8">
+      <section className="pt-32 pb-64 bg-black border-b border-white/8">
         <div className="container mx-auto px-6 md:px-12 max-w-3xl">
           <FadeIn>
             <div className="flex flex-col gap-8">
@@ -618,7 +618,7 @@ export default function Home() {
               <ul className="space-y-2 text-white font-sans text-sm leading-relaxed">
                 <li>Agile Delivery (Scrum, Kanban, Lean)</li>
                 <li>DevOps & CI/CD</li>
-                <li>Program & Portfolio Management (PMP)</li>
+                <li>Program & Portfolio Management</li>
                 <li>Scaled Agile Model (Pods, Crews, Chapters, Guilds)</li>
                 <li>Objectives & Key Results (OKRs)</li>
               </ul>
@@ -642,7 +642,7 @@ export default function Home() {
               <ul className="space-y-2 text-white font-sans text-sm leading-relaxed">
                 <li>Regulatory Alignment</li>
                 <li>Audit Defensibility</li>
-                <li>Model Risk Management (MRM)</li>
+                <li>Model Risk Management</li>
                 <li>Strategic Compliance</li>
                 <li>RAID Log & Risk Mitigation</li>
               </ul>
