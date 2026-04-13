@@ -175,12 +175,12 @@ export default function Home() {
             </p>
             <button
               onClick={() => openDrawer(
-                "AI-Enabled Transaction Review (OnePass PKR)",
+                "AI-Enabled Transaction Review",
                 <>
-                  <p><strong className="text-white font-sans font-medium">The Problem:</strong> Periodic Know-Your-Risk (PKR) reviews were manual, inconsistent across geographies, and created unsustainable analyst workloads during peak cycles.</p>
-                  <p><strong className="text-white font-sans font-medium">The Approach:</strong> Architected a control utilizing autonomous LLM agents to analyze transaction histories, surface behavioral anomalies, and generate structured narrative outputs aligned to regulatory review standards. Integrated agentic RAG pipelines to synthesize customer risk profiles across disparate internal data sources.</p>
+                  <p><strong className="text-white font-sans font-medium">The Problem:</strong> Periodic transaction reviews were manual, inconsistent across geographies, and created unsustainable analyst workloads during peak cycles.</p>
+                  <p><strong className="text-white font-sans font-medium">The Approach:</strong> Architected a control utilizing autonomous LLM agents to analyze transaction histories, surface behavioral anomalies, and generate structured narrative outputs aligned to regulatory review standards. Integrated agentic pipelines to synthesize customer risk profiles across disparate internal data sources.</p>
                   <p><strong className="text-white font-sans font-medium">Technical Nuance:</strong> The solution required model risk governance sign-off, audit-defensible prompt architecture, and a phased rollout that validated output quality against expert-reviewed baselines before production deployment.</p>
-                  <p><strong className="text-white font-sans font-medium">Outcome:</strong> Significantly reduced periodic review cycle times. Positioned AI as a force multiplier within the compliance function, enabling analysts to focus on judgment-intensive edge cases rather than routine synthesis.</p>
+                  <p><strong className="text-white font-sans font-medium">Outcome:</strong> Significantly reduced review cycle times. Positioned AI as a force multiplier within the compliance function, enabling analysts to focus on judgment-intensive edge cases rather than routine synthesis.</p>
                 </>,
                 "Signature Initiative"
               )}
