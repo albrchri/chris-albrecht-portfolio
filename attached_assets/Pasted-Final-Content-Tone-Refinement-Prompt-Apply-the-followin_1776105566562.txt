@@ -1,0 +1,49 @@
+Final Content & Tone Refinement Prompt
+
+Apply the following text updates to finalized the site's professional tone and content accuracy.
+
+1. Leadership Philosophy:
+
+Update titles and text to:
+
+Operational Excellence: Applying best-in-class methodologies and unwavering discipline to ensure high-quality delivery, regardless of project scale.
+
+Data-Driven Alignment: Prioritizing strategic transparency which build trust and maintain momentum across complex, multi-year initiatives.
+
+Adaptive Leadership: Focused on developing high-performing, resilient teams through active development and engagement.
+
+2. Signature Initiatives:
+
+AI Card: Change "synthesize" to "summarize." Remove the em-dash and replace with a comma.
+
+Cloud Card: Title is now "Legacy-to-Cloud Migration." In the text, change "migration" to "transformation."
+
+Platform Card: Remove "(SCD)" from title. Add "critical" before "legacy" in the text.
+
+3. Professional Tenure:
+
+Global Wealth Americas: Remove "AI-native." Use: "Led the delivery of agentic transaction review capabilities to modernize risk assessment..."
+
+Asset Management: Update text to: "Focused on scaling Agile delivery and modernizing investment infrastructure through global stakeholder alignment."
+
+Grosvenor: Change "Delivered" to "Responsible for the upgrade and maintenance of..."
+
+4. Stack & Skills:
+
+Remove "- built for enterprise scale" from the section description.
+
+AI Card: Replace "Agentic RAG Architectures" with "Human-in-the-Loop Systems."
+
+Coaching Card: Rename "Mentorship" to "Empathy-Led Mentorship."
+
+Governance Card: Replace "GRC Frameworks" with "RAID Log & Risk Mitigation."
+
+5. Beyond the Boardroom:
+
+Remove the em-dash from the section subtitle.
+
+Rename cards to "Discipline" and "Mentorship."
+
+BBQ Card: Use "Wood-Fire BBQ Enthusiast" and "low-and-slow meat smoking."
+
+Growth Card: Replace the lawn restoration text with: "Decentralized Finance & Blockchain: Exploring how decentralized technologies can transform global markets; Ethereum hobbyist home staker."

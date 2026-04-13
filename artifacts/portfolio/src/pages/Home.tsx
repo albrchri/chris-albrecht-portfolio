@@ -90,13 +90,13 @@ export default function Home() {
 
           <FadeIn delay={0.1} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
             <div className="text-[#A1A1A6] font-mono text-2xl mb-5 leading-none">I.</div>
-            <h4 className="text-white font-serif text-xl mb-4">Scalable Execution</h4>
+            <h4 className="text-white font-serif text-xl mb-4">Operational Excellence</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Eliminating technical debt to unlock operational velocity at enterprise scale.
+              Applying best-in-class methodologies and unwavering discipline to ensure high-quality delivery, regardless of project scale.
             </p>
             <button
               onClick={() => openDrawer(
-                "Scalable Execution",
+                "Operational Excellence",
                 <>
                   <p>In global financial services, technical debt is not an abstract risk — it is a daily tax on delivery speed, engineer morale, and client trust. My approach systematically identifies and retires legacy constraints before they become blockers.</p>
                   <p>This means establishing rigorous backlog hygiene, partnering with architects to deprecate aging integrations, and building delivery frameworks that prioritize long-term platform health alongside near-term feature output.</p>
@@ -113,13 +113,13 @@ export default function Home() {
 
           <FadeIn delay={0.2} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
             <div className="text-[#A1A1A6] font-mono text-2xl mb-5 leading-none">II.</div>
-            <h4 className="text-white font-serif text-xl mb-4">Radical Transparency</h4>
+            <h4 className="text-white font-serif text-xl mb-4">Data-Driven Alignment</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Data-driven communication that builds trust across complex, multi-year initiatives.
+              Prioritizing strategic transparency which builds trust and maintains momentum across complex, multi-year initiatives.
             </p>
             <button
               onClick={() => openDrawer(
-                "Radical Transparency",
+                "Data-Driven Alignment",
                 <>
                   <p>Multi-stakeholder programs fail most often not from technical errors, but from information asymmetry. Executives make decisions on stale data. Engineers lose context on strategic intent. Trust erodes.</p>
                   <p>Radical Transparency means establishing single sources of truth — structured dashboards, cadenced reporting, and explicit escalation paths — so every stakeholder, from engineer to MD, operates from the same picture.</p>
@@ -136,13 +136,13 @@ export default function Home() {
 
           <FadeIn delay={0.3} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
             <div className="text-[#A1A1A6] font-mono text-2xl mb-5 leading-none">III.</div>
-            <h4 className="text-white font-serif text-xl mb-4">Empathy-Led Mentorship</h4>
+            <h4 className="text-white font-serif text-xl mb-4">Adaptive Leadership</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Coaching-trained leadership that cultivates high-performing, resilient teams.
+              Focused on developing high-performing, resilient teams through active development and engagement.
             </p>
             <button
               onClick={() => openDrawer(
-                "Empathy-Led Mentorship",
+                "Adaptive Leadership",
                 <>
                   <p>Technical skill alone does not build durable teams. The highest-performing engineers and PMs I have worked with share one trait: they felt genuinely seen and invested in.</p>
                   <p>Drawing on professional coaching training, I apply structured 1:1 frameworks, individualized growth plans, and psychological safety practices that allow team members to raise risk early and take ownership confidently.</p>
@@ -173,7 +173,7 @@ export default function Home() {
             <Sparkles className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-white font-sans font-medium text-sm mb-3">AI-Enabled Transaction Review</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Deployed autonomous agents to synthesize transaction behavior and customer risk into standardized, reviewer-ready outputs — driving a step-change in analyst capacity and global consistency.
+              Deployed autonomous agents to summarize transaction behavior and customer risk into standardized, reviewer-ready outputs, driving a step-change in analyst capacity and global consistency.
             </p>
             <button
               onClick={() => openDrawer(
@@ -195,9 +195,9 @@ export default function Home() {
 
           <FadeIn delay={0.2} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
             <Cloud className="text-[#A1A1A6] mb-5" size={20} />
-            <h4 className="text-white font-sans font-medium text-sm mb-3">Legacy-to-Cloud Transformation</h4>
+            <h4 className="text-white font-sans font-medium text-sm mb-3">Legacy-to-Cloud Migration</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Led the migration of a locally hosted monolith to cloud-based microservices on Microsoft Azure, improving scalability, resilience, and speed-to-market.
+              Led the transformation of a locally hosted monolith to cloud-based microservices on Microsoft Azure, improving scalability, resilience, and speed-to-market.
             </p>
             <button
               onClick={() => openDrawer(
@@ -219,9 +219,9 @@ export default function Home() {
 
           <FadeIn delay={0.3} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
             <Layers className="text-[#A1A1A6] mb-5" size={20} />
-            <h4 className="text-white font-sans font-medium text-sm mb-3">Enterprise Platform Transformation (SCD)</h4>
+            <h4 className="text-white font-sans font-medium text-sm mb-3">Enterprise Platform Transformation</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Replaced a legacy investment application with the SimCorp Dimension accounting engine, achieving zero-downtime production cutover with no post-migration issues.
+              Replaced a critical legacy investment application with the SimCorp Dimension accounting engine, achieving zero-downtime production cutover with no post-migration issues.
             </p>
             <button
               onClick={() => openDrawer(
@@ -281,7 +281,7 @@ export default function Home() {
                 </div>
                 <h4 className="text-3xl font-serif text-white mb-6">Senior Initiative Manager, Global Wealth Americas</h4>
                 <p className="text-[#A1A1A6] font-sans text-base leading-relaxed mb-8">
-                  Driving AI-native transformation and enterprise program delivery across Global Wealth Management Americas, from autonomous compliance tooling to major platform migrations.
+                  Led the delivery of agentic transaction review capabilities to modernize risk assessment, alongside cloud platform migrations and strategic vendor programs across Global Wealth Americas.
                 </p>
                 <button
                   onClick={() => openDrawer(
@@ -313,7 +313,7 @@ export default function Home() {
                 </div>
                 <h4 className="text-3xl font-serif text-white mb-6">Senior Delivery Lead, Asset Management</h4>
                 <p className="text-[#A1A1A6] font-sans text-base leading-relaxed mb-8">
-                  Led enterprise platform transformation and scaled Agile delivery across Asset Management — from a zero-downtime platform cutover to the year's marquee product launch scaling to 3M accounts.
+                  Focused on scaling Agile delivery and modernizing investment infrastructure through global stakeholder alignment.
                 </p>
                 <button
                   onClick={() => openDrawer(
@@ -345,7 +345,7 @@ export default function Home() {
                 </div>
                 <h4 className="text-3xl font-serif text-white mb-6">Program Manager</h4>
                 <p className="text-[#A1A1A6] font-sans text-base leading-relaxed mb-8">
-                  Delivered core research platform and client reporting infrastructure for a $40B AUM fund-of-funds, aligning technology roadmaps to business growth.
+                  Responsible for the upgrade and maintenance of core research platform and client reporting infrastructure for a $40B AUM fund-of-funds, aligning technology roadmaps to business growth.
                 </p>
                 <button
                   onClick={() => openDrawer(
@@ -496,7 +496,7 @@ export default function Home() {
             <div className="mb-20">
               <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Toolset</h2>
               <h3 className="text-4xl md:text-5xl font-serif text-white mb-6">Stack & Skills</h3>
-              <p className="text-[#A1A1A6] font-sans max-w-xl">Leadership frameworks, modern methodologies, and technical capabilities — built for enterprise scale.</p>
+              <p className="text-[#A1A1A6] font-sans max-w-xl">Leadership frameworks, modern methodologies, and technical capabilities.</p>
             </div>
           </FadeIn>
 
@@ -508,7 +508,7 @@ export default function Home() {
                 <li>Autonomous Agent Workflows</li>
                 <li>LLM Orchestration</li>
                 <li>Prompt Engineering</li>
-                <li>Agentic RAG Architectures</li>
+                <li>Human-in-the-Loop Systems</li>
                 <li>Replit Rapid Prototyping</li>
               </ul>
             </FadeIn>
@@ -531,7 +531,7 @@ export default function Home() {
               <ul className="space-y-2 text-white font-sans text-sm leading-relaxed">
                 <li>Agile Transformation</li>
                 <li>UBS Key Talent Program</li>
-                <li>Mentorship</li>
+                <li>Empathy-Led Mentorship</li>
                 <li>Stakeholder Influence</li>
                 <li>Emotional Intelligence (EQ)</li>
               </ul>
@@ -569,7 +569,7 @@ export default function Home() {
                 <li>Audit Defensibility</li>
                 <li>Model Risk Management (MRM)</li>
                 <li>Strategic Compliance</li>
-                <li>Governance, Risk & Compliance (GRC) Frameworks</li>
+                <li>RAID Log & Risk Mitigation</li>
               </ul>
             </FadeIn>
           </div>
@@ -582,26 +582,26 @@ export default function Home() {
           <div className="text-center mb-28 max-w-2xl mx-auto">
             <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Personal Pursuits</h2>
             <h3 className="text-5xl md:text-6xl font-serif text-white mb-6">Beyond the Boardroom</h3>
-            <p className="text-[#A1A1A6] font-sans">Strategy, endurance, and process — applied outside the office.</p>
+            <p className="text-[#A1A1A6] font-sans">Strategy, endurance, and process applied outside the office.</p>
           </div>
         </FadeIn>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <FadeIn delay={0.1} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200">
-            <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Endurance & Discipline</h4>
+            <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Discipline</h4>
             <p className="text-white font-sans text-sm leading-relaxed">Completed first half-marathon in 2025. Training for a full marathon in October 2026. The sustained commitment mirrors the stamina required to shepherd multi-year enterprise programs without losing momentum.</p>
           </FadeIn>
           <FadeIn delay={0.2} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200">
-            <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Strategic Mentorship</h4>
+            <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Mentorship</h4>
             <p className="text-white font-sans text-sm leading-relaxed">Chess teacher for elementary and middle school students. Teaching strategic thinking to young minds applies the same patience and pattern recognition I use mentoring engineers and PMs.</p>
           </FadeIn>
           <FadeIn delay={0.3} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200">
             <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Process</h4>
-            <p className="text-white font-sans text-sm leading-relaxed">Artisan Pitmaster & Wood-Fire Specialist. The precision and patience of low-and-slow smoking mirrors the process discipline I bring to software delivery.</p>
+            <p className="text-white font-sans text-sm leading-relaxed">Wood-Fire BBQ Enthusiast. The precision and patience of low-and-slow meat smoking mirrors the process discipline I bring to software delivery.</p>
           </FadeIn>
           <FadeIn delay={0.4} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200">
             <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Growth</h4>
-            <p className="text-white font-sans text-sm leading-relaxed">Residential Landscape Engineering — a technical approach to lawn restoration and ecosystem management.</p>
+            <p className="text-white font-sans text-sm leading-relaxed">Decentralized Finance & Blockchain: Exploring how decentralized technologies can transform global markets. Ethereum hobbyist home staker.</p>
           </FadeIn>
         </div>
       </section>
