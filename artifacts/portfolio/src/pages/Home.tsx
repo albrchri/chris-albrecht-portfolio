@@ -200,11 +200,11 @@ export default function Home() {
             </p>
             <button
               onClick={() => openDrawer(
-                "Legacy-to-Cloud Transformation (Microsoft Azure)",
+                "Legacy-to-Cloud Migration",
                 <>
                   <p><strong className="text-white font-sans font-medium">The Problem:</strong> A locally hosted monolithic platform was constraining release velocity, creating infrastructure fragility, and generating unsustainable operational overhead as the business scaled.</p>
-                  <p><strong className="text-white font-sans font-medium">The Approach:</strong> Led a phased decomposition of the monolith into domain-aligned microservices on Microsoft Azure. Established a strangler-fig migration pattern to de-risk cutover and maintain production stability throughout the transition.</p>
-                  <p><strong className="text-white font-sans font-medium">Technical Nuance:</strong> The program required close coordination across engineering, infrastructure, security, and operations to manage service-level agreements, credential rotation, and regulatory data residency requirements during migration.</p>
+                  <p><strong className="text-white font-sans font-medium">The Approach:</strong> Led a phased decomposition of the monolith into domain-aligned microservices on Microsoft Azure. Established a migration pattern to de-risk cutover and maintain production stability throughout the transition.</p>
+                  <p><strong className="text-white font-sans font-medium">Technical Nuance:</strong> The program required close coordination across engineering, infrastructure, security, and operations to manage service-level agreements, credential rotation, and regulatory requirements during migration.</p>
                   <p><strong className="text-white font-sans font-medium">Outcome:</strong> Significantly reduced infrastructure costs while improving platform resilience and enabling independent service deployments that reduced time-to-production for new features.</p>
                 </>,
                 "Signature Initiative"
