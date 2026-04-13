@@ -271,7 +271,7 @@ export default function Home() {
             <Users className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-white font-sans font-semibold text-sm mb-4">Cross-Functional Client Experience Launch</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Directed cross-functional teams across engineering, risk, and operations to scale a marquee wealth management client experience from a 5,000-account pilot to a global population of 3 million accounts.
+              Directed global cross-functional teams to streamline cumbersome onboarding and review processes, successfully scaling a marquee client experience from a 5K pilot to full global account rollout.
             </p>
             <button
               onClick={() => openDrawer(
@@ -280,7 +280,7 @@ export default function Home() {
                   <p><strong className="text-white font-sans font-medium">The Problem:</strong> Onboarding new clients and conducting the regular review process had become excessively cumbersome, creating significant friction and taking too long to execute.</p>
                   <p><strong className="text-white font-sans font-medium">The Approach:</strong> I directed global cross-functional teams to streamline internal processes and simplify the client questionnaire to reduce onboarding friction. I unified stakeholders across product, engineering, risk, and operations to ensure a seamless transition from pilot to full-scale production.</p>
                   <p><strong className="text-white font-sans font-medium">Technical Nuance:</strong> The initiative required synchronizing an immense number of distinct domains, ranging from backend services and data pipelines to multiple front-end systems. This was balanced against strict model risk governance frameworks, legal reviews, and coordinated communication and training for front-facing field teams to ensure operational readiness.</p>
-                  <p><strong className="text-white font-sans font-medium">Outcome:</strong> Successfully executed the marquee launch for the division that year, scaling the experience from a limited Pilot to 3 million accounts with zero service disruption.</p>
+                  <p><strong className="text-white font-sans font-medium">Outcome:</strong> Successfully executed the marquee launch for the division that year, scaling the experience from a limited pilot to millions of accounts with zero service disruption.</p>
                 </>,
                 "Signature Initiative"
               )}
