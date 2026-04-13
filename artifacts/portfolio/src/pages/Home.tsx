@@ -92,7 +92,7 @@ export default function Home() {
             <div className="text-[#A1A1A6] font-mono text-2xl mb-5 leading-none">I.</div>
             <h4 className="text-white font-serif text-xl mb-4">Operational Excellence</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Applying best-in-class methodologies and unwavering discipline to ensure high-quality delivery, regardless of project scale.
+              Apply best-in-class methodologies and unwavering discipline to ensure high-quality delivery, regardless of project scale.
             </p>
             <button
               onClick={() => openDrawer(
@@ -113,13 +113,13 @@ export default function Home() {
 
           <FadeIn delay={0.2} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
             <div className="text-[#A1A1A6] font-mono text-2xl mb-5 leading-none">II.</div>
-            <h4 className="text-white font-serif text-xl mb-4">Data-Driven Alignment</h4>
+            <h4 className="text-white font-serif text-xl mb-4">Stakeholder Alignment</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Prioritizing strategic transparency which builds trust and maintains momentum across complex, multi-year initiatives.
+              Enable data-driven decision making which builds trust and maintains momentum across complex, multi-year initiatives.
             </p>
             <button
               onClick={() => openDrawer(
-                "Data-Driven Alignment",
+                "Stakeholder Alignment",
                 <>
                   <p>Multi-stakeholder programs fail most often not from technical errors, but from information asymmetry. Executives make decisions on stale data. Engineers lose context on strategic intent. Trust erodes.</p>
                   <p>Radical Transparency means establishing single sources of truth — structured dashboards, cadenced reporting, and explicit escalation paths — so every stakeholder, from engineer to MD, operates from the same picture.</p>
@@ -138,7 +138,7 @@ export default function Home() {
             <div className="text-[#A1A1A6] font-mono text-2xl mb-5 leading-none">III.</div>
             <h4 className="text-white font-serif text-xl mb-4">Adaptive Leadership</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Focused on developing high-performing, resilient teams through active development and engagement.
+              Focus on developing high-performing, resilient teams through active development, engagement, and empowerment.
             </p>
             <button
               onClick={() => openDrawer(
@@ -281,7 +281,7 @@ export default function Home() {
                 </div>
                 <h4 className="text-3xl font-serif text-white mb-6">Senior Initiative Manager, Global Wealth Americas</h4>
                 <p className="text-[#A1A1A6] font-sans text-base leading-relaxed mb-8">
-                  Led the delivery of agentic transaction review capabilities to modernize risk assessment, alongside cloud platform migrations and strategic vendor programs across Global Wealth Americas.
+                  Managed strategic enterprise transformations including a global AI-enabled transaction review capability, overseeing the migration of legacy platforms to Microsoft Azure, and directing global cross-functional teams to launch a marquee client experience rollout to 3 million accounts.
                 </p>
                 <button
                   onClick={() => openDrawer(
@@ -313,7 +313,7 @@ export default function Home() {
                 </div>
                 <h4 className="text-3xl font-serif text-white mb-6">Senior Delivery Lead, Asset Management</h4>
                 <p className="text-[#A1A1A6] font-sans text-base leading-relaxed mb-8">
-                  Focused on scaling Agile delivery and modernizing investment infrastructure through global stakeholder alignment.
+                  Directed the successful technical integration of the SCD accounting engine, overseeing vendor engagement and managing $5M portfolios to drive a 10x increase in delivery velocity through disciplined Agile execution.
                 </p>
                 <button
                   onClick={() => openDrawer(
@@ -345,7 +345,7 @@ export default function Home() {
                 </div>
                 <h4 className="text-3xl font-serif text-white mb-6">Program Manager</h4>
                 <p className="text-[#A1A1A6] font-sans text-base leading-relaxed mb-8">
-                  Responsible for the upgrade and maintenance of core research platform and client reporting infrastructure for a $40B AUM fund-of-funds, aligning technology roadmaps to business growth.
+                  Responsible for the upgrade and maintenance of the core research platform and client reporting infrastructure for a $40B AUM fund-of-funds, aligning technology roadmaps to business growth.
                 </p>
                 <button
                   onClick={() => openDrawer(
@@ -589,19 +589,19 @@ export default function Home() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <FadeIn delay={0.1} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200">
             <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Discipline</h4>
-            <p className="text-white font-sans text-sm leading-relaxed">Completed first half-marathon in 2025. Training for a full marathon in October 2026. The sustained commitment mirrors the stamina required to shepherd multi-year enterprise programs without losing momentum.</p>
+            <p className="text-white font-sans text-sm leading-relaxed">Completed my first half-marathon in 2025. Training for a full marathon in the fall of 2026. The sustained commitment mirrors the stamina required to shepherd multi-year enterprise programs without losing momentum.</p>
           </FadeIn>
           <FadeIn delay={0.2} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200">
             <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Mentorship</h4>
-            <p className="text-white font-sans text-sm leading-relaxed">Chess teacher for elementary and middle school students. Teaching strategic thinking to young minds applies the same patience and pattern recognition I use mentoring engineers and PMs.</p>
+            <p className="text-white font-sans text-sm leading-relaxed">Chess teacher for elementary and middle school students. Teaching strategic thinking applies the same patience and pattern recognition I use mentoring engineers and PMs.</p>
           </FadeIn>
           <FadeIn delay={0.3} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200">
             <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Process</h4>
-            <p className="text-white font-sans text-sm leading-relaxed">Wood-Fire BBQ Enthusiast. The precision and patience of low-and-slow meat smoking mirrors the process discipline I bring to software delivery.</p>
+            <p className="text-white font-sans text-sm leading-relaxed">Wood-Fire BBQ Enthusiast. The precision and patience of low-and-slow smoking mirrors the process discipline I bring to software delivery.</p>
           </FadeIn>
           <FadeIn delay={0.4} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200">
-            <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Growth</h4>
-            <p className="text-white font-sans text-sm leading-relaxed">Decentralized Finance & Blockchain: Exploring how decentralized technologies can transform global markets. Ethereum hobbyist home staker.</p>
+            <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Decentralized Finance</h4>
+            <p className="text-white font-sans text-sm leading-relaxed">Exploring how blockchain technologies can transform global markets, including as an Ethereum hobbyist home staker.</p>
           </FadeIn>
         </div>
       </section>

@@ -1,0 +1,15 @@
+In the Leadership Philosophy section:
+1. In the Operational Excellence card, change the word Applying to "Apply"
+2. In the Data-Driven Alignment card, change the title to "Stakeholder Alignment" and the text should read "Enable data-driven decision making which builds trust and maintains momentum across complex, multi-year initiatives."
+3. In the Adaptive Leadership card, change the text to "Focus on developing high-performing, resilient teams through active development, engagement, and empowerment."
+
+In the Professional Tenure section:
+1. Replace the description text in the Global Wealth Americas bullet with the following: "Managed strategic enterprise transformations including a global AI-enabled transaction review capability, overseeing the migration of legacy platforms to Microsoft Azure, and directing global cross-functional teams to launch a marquee client experience rollout to 3 million accounts"
+2. Replace the description text in the Asset Management bullet with the following: "Directed the successful technical integration of the SCD accounting engine, overseeing vendor engagement and managing $5M portfolios to drive a 10x increase in delivery velocity through disciplined Agile execution"
+3. Replace the description text in the Program Manager bullet with the following: "Responsible for the upgrade and maintenance of the core research platform and client reporting infrastructure for a $40B AUM fund-of-funds, aligning technology roadmaps to business growth."
+
+In the Beyond the Boardroom section:
+1. Replace the description text in the Discipline card with the following: "Completed my first half-marathon in 2025. Training for a full marathon in the fall of 2026. The sustained commitment mirrors the stamina required to shepherd multi-year enterprise programs without losing momentum."
+2. Replace the description text in the Mentorship card with the following: "Chess teacher for elementary and middle school students. Teaching strategic thinking applies the same patience and pattern recognition I use mentoring engineers and PMs."
+3. Replace the description text in the Process card with the following: "Wood-Fire BBQ Enthusiast. The precision and patience of low-and-slow smoking mirrors the process discipline I bring to software delivery."
+4. Replace the title of the Growth card to "Decentralized Finance" and the description text with the following: "Exploring how blockchain technologies can transform global markets, including as an Ethereum hobbyist home staker."
