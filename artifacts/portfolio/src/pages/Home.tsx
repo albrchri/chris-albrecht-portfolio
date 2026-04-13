@@ -98,9 +98,8 @@ export default function Home() {
               onClick={() => openDrawer(
                 "Operational Excellence",
                 <>
-                  <p>In global financial services, technical debt is not an abstract risk — it is a daily tax on delivery speed, engineer morale, and client trust. My approach systematically identifies and retires legacy constraints before they become blockers.</p>
-                  <p>This means establishing rigorous backlog hygiene, partnering with architects to deprecate aging integrations, and building delivery frameworks that prioritize long-term platform health alongside near-term feature output.</p>
-                  <p>The result: teams that accelerate quarter over quarter instead of slowing under accumulated complexity. At UBS, this approach directly enabled a 10x increase in delivery velocity across a 40-person global program.</p>
+                  <p>High-quality delivery isn't an accident. It's the result of a culture built on discipline and consistency. I focus on the practical foundations of every initiative, aligning governance and best practices to remove friction.</p>
+                  <p>Ultimately, I believe the best outcomes occur when we instill purpose in our mission. Tackling hard problems should be meaningful and even enjoyable. When a team is motivated by a shared mission and mutual accountability, they consistently deliver at their best.</p>
                 </>,
                 "Leadership Philosophy"
               )}
@@ -121,9 +120,8 @@ export default function Home() {
               onClick={() => openDrawer(
                 "Stakeholder Alignment",
                 <>
-                  <p>Multi-stakeholder programs fail most often not from technical errors, but from information asymmetry. Executives make decisions on stale data. Engineers lose context on strategic intent. Trust erodes.</p>
-                  <p>Radical Transparency means establishing single sources of truth — structured dashboards, cadenced reporting, and explicit escalation paths — so every stakeholder, from engineer to MD, operates from the same picture.</p>
-                  <p>In practice, this looks like weekly metric reviews that surface risk before it becomes incident, and initiative status reports that eliminate ambiguity rather than paper over it. This discipline has been a consistent differentiator across every program I have led at UBS and Grosvenor Capital.</p>
+                  <p>Trust is the primary currency in multi-year initiatives. I prioritize data-driven decisions and transparency in reporting to ensure stakeholders are never surprised. By socializing risk early and using objective metrics, I build the political and operational capital needed to maintain momentum through complex transformations.</p>
+                  <p>Alignment is about more than just status updates. It is about creating a shared understanding of success so that every stakeholder remains invested in the final outcome.</p>
                 </>,
                 "Leadership Philosophy"
               )}
@@ -144,9 +142,8 @@ export default function Home() {
               onClick={() => openDrawer(
                 "Adaptive Leadership",
                 <>
-                  <p>Technical skill alone does not build durable teams. The highest-performing engineers and PMs I have worked with share one trait: they felt genuinely seen and invested in.</p>
-                  <p>Drawing on professional coaching training, I apply structured 1:1 frameworks, individualized growth plans, and psychological safety practices that allow team members to raise risk early and take ownership confidently.</p>
-                  <p>This approach builds organizational resilience. Teams mentored this way navigate ambiguity, absorb change, and deliver consistently — not because they are managed more tightly, but because they are trusted more fully. At UBS, members of my extended teams have gone on to senior leadership roles across global technology organizations.</p>
+                  <p>Systems are only as resilient as the people who build them. My leadership focuses on developing high-performing teams by fostering a culture of continuous improvement. I believe that the most robust solutions come from an environment where it is safe to fail fast and learn through rapid iterations based on early user feedback.</p>
+                  <p>I view my role as a force multiplier, unblocking talent and instilling a sense of purpose so that teams remain motivated and effective even when navigating the complexities of technical environments.</p>
                 </>,
                 "Leadership Philosophy"
               )}
