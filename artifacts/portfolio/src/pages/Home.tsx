@@ -4,7 +4,7 @@ import { PageTransition, FadeIn } from "@/components/PageTransition";
 import { DetailDrawer } from "@/components/DetailDrawer";
 import {
   ArrowRight, Target, BookOpen, Layers, Database,
-  GraduationCap, BadgeCheck, Cloud, ShieldCheck, Sparkles, Scale, Plus
+  GraduationCap, BadgeCheck, Cloud, ShieldCheck, Sparkles, Scale, Plus, Users
 } from "lucide-react";
 
 const CREDENTIALS = "MSCS, MBA, PMP, CSP";
@@ -167,14 +167,17 @@ export default function Home() {
           <h3 className="text-4xl md:text-5xl font-serif text-white mb-20">Signature Initiatives</h3>
         </FadeIn>
 
-        <div className="grid sm:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-3 gap-6">
 
-          <FadeIn delay={0.1} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
+          {/* Card 1 */}
+          <FadeIn delay={0.1} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col">
             <Sparkles className="text-[#A1A1A6] mb-5" size={20} />
-            <h4 className="text-white font-sans font-medium text-sm mb-3">AI-Enabled Transaction Review</h4>
-            <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Deployed autonomous agents to summarize transaction behavior and customer risk into standardized, reviewer-ready outputs, driving a step-change in analyst capacity and global consistency.
-            </p>
+            <h4 className="text-white font-sans font-semibold text-sm mb-4">AI-Enabled Transaction Review</h4>
+            <ul className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1 space-y-2">
+              <li><span className="text-white/40 font-medium">S —</span> Manual, inconsistent PKR reviews created unsustainable analyst workloads across global geographies.</li>
+              <li><span className="text-white/40 font-medium">A —</span> Architected autonomous LLM agents to synthesize transaction behavior and customer risk into standardized reviewer-ready outputs.</li>
+              <li><span className="text-white/40 font-medium">R —</span> Step-change in analyst capacity and global consistency, significantly reducing periodic review cycle times.</li>
+            </ul>
             <button
               onClick={() => openDrawer(
                 "AI-Enabled Transaction Review (OnePass PKR)",
@@ -193,12 +196,15 @@ export default function Home() {
             </button>
           </FadeIn>
 
-          <FadeIn delay={0.2} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
+          {/* Card 2 */}
+          <FadeIn delay={0.2} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col">
             <Cloud className="text-[#A1A1A6] mb-5" size={20} />
-            <h4 className="text-white font-sans font-medium text-sm mb-3">Legacy-to-Cloud Migration</h4>
-            <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Led the transformation of a locally hosted monolith to cloud-based microservices on Microsoft Azure, improving scalability, resilience, and speed-to-market.
-            </p>
+            <h4 className="text-white font-sans font-semibold text-sm mb-4">Legacy-to-Cloud Migration</h4>
+            <ul className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1 space-y-2">
+              <li><span className="text-white/40 font-medium">S —</span> A locally hosted monolith constrained release velocity, created infrastructure fragility, and generated unsustainable operational overhead.</li>
+              <li><span className="text-white/40 font-medium">A —</span> Led phased decomposition into domain-aligned microservices on Microsoft Azure using a strangler-fig migration pattern to de-risk cutover.</li>
+              <li><span className="text-white/40 font-medium">R —</span> Significantly reduced infrastructure costs while improving resilience and enabling independent service deployments.</li>
+            </ul>
             <button
               onClick={() => openDrawer(
                 "Legacy-to-Cloud Transformation (Microsoft Azure)",
@@ -217,12 +223,15 @@ export default function Home() {
             </button>
           </FadeIn>
 
-          <FadeIn delay={0.3} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
+          {/* Card 3 */}
+          <FadeIn delay={0.3} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col">
             <Layers className="text-[#A1A1A6] mb-5" size={20} />
-            <h4 className="text-white font-sans font-medium text-sm mb-3">Enterprise Platform Transformation</h4>
-            <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Replaced a critical legacy investment application with the SimCorp Dimension accounting engine, achieving zero-downtime production cutover with no post-migration issues.
-            </p>
+            <h4 className="text-white font-sans font-semibold text-sm mb-4">Enterprise Platform Transformation</h4>
+            <ul className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1 space-y-2">
+              <li><span className="text-white/40 font-medium">S —</span> A legacy investment accounting application reached end-of-life, creating regulatory risk and blocking modern portfolio capabilities.</li>
+              <li><span className="text-white/40 font-medium">A —</span> Led full technical integration of SimCorp Dimension with a dual-run reconciliation cutover strategy validated against production baselines.</li>
+              <li><span className="text-white/40 font-medium">R —</span> Zero-downtime cutover with no post-migration incidents, unlocking a new generation of portfolio analytics for the division.</li>
+            </ul>
             <button
               onClick={() => openDrawer(
                 "Enterprise Platform Transformation — SimCorp Dimension",
@@ -231,6 +240,84 @@ export default function Home() {
                   <p><strong className="text-white font-sans font-medium">The Approach:</strong> Partnered with SimCorp and internal engineering teams to lead a full technical integration of the SCD accounting engine. Designed and executed a cutover strategy that maintained dual-run reconciliation until production confidence was validated.</p>
                   <p><strong className="text-white font-sans font-medium">Technical Nuance:</strong> The program required deep coordination with SimCorp's professional services team, extensive data migration validation, and integration testing across downstream risk and reporting systems — all within strict regulatory reporting timelines.</p>
                   <p><strong className="text-white font-sans font-medium">Outcome:</strong> Zero-downtime production cutover with no post-migration incidents. The platform has operated without regression and unlocked a new generation of portfolio analytics capabilities for the division.</p>
+                </>,
+                "Signature Initiative"
+              )}
+              className="inline-flex items-center gap-1.5 text-xs font-sans font-medium text-[#A1A1A6] hover:text-white transition-colors group"
+            >
+              <Plus size={12} className="group-hover:rotate-45 transition-transform duration-200" />
+              View Case Study
+            </button>
+          </FadeIn>
+
+          {/* Card 4 */}
+          <FadeIn delay={0.4} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col">
+            <ShieldCheck className="text-[#A1A1A6] mb-5" size={20} />
+            <h4 className="text-white font-sans font-semibold text-sm mb-4">Enterprise Fraud Prevention RFP</h4>
+            <ul className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1 space-y-2">
+              <li><span className="text-white/40 font-medium">S —</span> Evaluated the existing security landscape to identify gaps in fraud detection for high-stakes transactions and implemented the solution.</li>
+              <li><span className="text-white/40 font-medium">A —</span> Led end-to-end RFP execution, including requirements gathering, vendor evaluation, and global rollout.</li>
+              <li><span className="text-white/40 font-medium">R —</span> Delivered a high-impact solution that strengthened security controls and client protection across the enterprise.</li>
+            </ul>
+            <button
+              onClick={() => openDrawer(
+                "Enterprise Fraud Prevention RFP",
+                <>
+                  <p><strong className="text-white font-sans font-medium">Situation:</strong> Evaluated the existing security landscape to identify gaps in fraud detection for high-stakes transactions and determined that a targeted vendor solution was required to close critical exposure.</p>
+                  <p><strong className="text-white font-sans font-medium">Action:</strong> Led end-to-end RFP execution across requirements gathering, cross-functional stakeholder alignment, vendor due diligence and scoring, and coordinated a phased global rollout across affected business lines.</p>
+                  <p><strong className="text-white font-sans font-medium">Result:</strong> Delivered a high-impact fraud prevention solution that materially strengthened security controls and client protection across the enterprise, with sustained adoption and no post-launch incidents.</p>
+                </>,
+                "Signature Initiative"
+              )}
+              className="inline-flex items-center gap-1.5 text-xs font-sans font-medium text-[#A1A1A6] hover:text-white transition-colors group"
+            >
+              <Plus size={12} className="group-hover:rotate-45 transition-transform duration-200" />
+              View Case Study
+            </button>
+          </FadeIn>
+
+          {/* Card 5 */}
+          <FadeIn delay={0.5} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col">
+            <Users className="text-[#A1A1A6] mb-5" size={20} />
+            <h4 className="text-white font-sans font-semibold text-sm mb-4">Cross-Functional Client Experience Enhancement</h4>
+            <ul className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1 space-y-2">
+              <li><span className="text-white/40 font-medium">S —</span> Tasked with scaling a marquee wealth management client experience from a limited pilot to a global population.</li>
+              <li><span className="text-white/40 font-medium">A —</span> Directed cross-functional teams across engineering, risk, and operations to ensure seamless environment configuration.</li>
+              <li><span className="text-white/40 font-medium">R —</span> Successfully scaled the rollout from 5,000 to 3 million accounts, maintaining 100% platform stability.</li>
+            </ul>
+            <button
+              onClick={() => openDrawer(
+                "Cross-Functional Client Experience Enhancement",
+                <>
+                  <p><strong className="text-white font-sans font-medium">Situation:</strong> Tasked with scaling a marquee wealth management client experience from a limited pilot to the full global account population — a program requiring coordination across multiple organizational boundaries.</p>
+                  <p><strong className="text-white font-sans font-medium">Action:</strong> Directed cross-functional teams spanning engineering, risk, compliance, and operations. Established a configuration governance model and rollout sequencing strategy that allowed incremental expansion while preserving platform integrity.</p>
+                  <p><strong className="text-white font-sans font-medium">Result:</strong> Successfully scaled the rollout from 5,000 to 3 million accounts with 100% platform stability maintained throughout, setting a new internal benchmark for large-scale client experience delivery.</p>
+                </>,
+                "Signature Initiative"
+              )}
+              className="inline-flex items-center gap-1.5 text-xs font-sans font-medium text-[#A1A1A6] hover:text-white transition-colors group"
+            >
+              <Plus size={12} className="group-hover:rotate-45 transition-transform duration-200" />
+              View Case Study
+            </button>
+          </FadeIn>
+
+          {/* Card 6 */}
+          <FadeIn delay={0.6} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col">
+            <Scale className="text-[#A1A1A6] mb-5" size={20} />
+            <h4 className="text-white font-sans font-semibold text-sm mb-4">Rapid Agile Delivery Improvement</h4>
+            <ul className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1 space-y-2">
+              <li><span className="text-white/40 font-medium">S —</span> Navigated complex regulatory environments where technical execution required absolute audit transparency.</li>
+              <li><span className="text-white/40 font-medium">A —</span> Established a repeatable, scalable governance framework integrating model risk management and compliance.</li>
+              <li><span className="text-white/40 font-medium">R —</span> Improved review consistency and global outcomes with clear, defensible documentation for internal audit and regulators.</li>
+            </ul>
+            <button
+              onClick={() => openDrawer(
+                "Rapid Agile Delivery Improvement",
+                <>
+                  <p><strong className="text-white font-sans font-medium">Situation:</strong> Operating in complex regulatory environments where technical execution required absolute audit transparency — existing delivery processes lacked the rigor and repeatability required by internal audit and regulators.</p>
+                  <p><strong className="text-white font-sans font-medium">Action:</strong> Designed and embedded a scalable governance framework that integrated model risk management and compliance checkpoints directly into Agile delivery cadences, enabling teams to move fast without sacrificing defensibility.</p>
+                  <p><strong className="text-white font-sans font-medium">Result:</strong> Improved review consistency and delivery outcomes globally, providing clear and defensible documentation that satisfied internal audit requirements and built sustained confidence with regulators.</p>
                 </>,
                 "Signature Initiative"
               )}
