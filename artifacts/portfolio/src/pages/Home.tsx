@@ -245,7 +245,7 @@ export default function Home() {
       </section>
 
       {/* ── Social Proof ─────────────────────────────────────────── */}
-      <section className="py-32 bg-black border-y border-white/8">
+      <section className="py-32 bg-black border-b border-white/8">
         <div className="container mx-auto px-6 md:px-12 max-w-3xl">
           <FadeIn>
             <div className="flex flex-col gap-8">
