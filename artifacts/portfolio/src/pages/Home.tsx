@@ -428,7 +428,7 @@ export default function Home() {
                       <p className="text-xs font-sans uppercase tracking-widest text-white/40 mb-4">Dec 2012 – Mar 2014</p>
                       <p>Managed the strategic upgrade and maintenance of a core research platform for a $40B AUM fund-of-funds, led a major client reporting refresh, and introduced executive metrics to enable data-driven portfolio decisions.</p>
                       <ul className="mt-4 space-y-4 list-none">
-                        <li><strong className="text-white font-sans font-medium">Core Research Platform Evolution:</strong> Responsible for the upgrade and maintenance of the core research platform for a $40B AUM fund-of-funds, closely aligning technology roadmaps with business growth priorities and investment research workflows.</li>
+                        <li><strong className="text-white font-sans font-medium">Core Research Platform Evolution:</strong> Responsible for the upgrade and maintenance of the core research platform, closely aligning technology roadmaps with business growth priorities and investment research workflows.</li>
                         <li><strong className="text-white font-sans font-medium">Institutional Client Reporting Refresh:</strong> Led a major Client Reporting refresh that standardized data architecture to improve accuracy, presentation quality, and turnaround times for global institutional deliverables.</li>
                         <li><strong className="text-white font-sans font-medium">Executive Transparency:</strong> Introduced executive dashboard metrics that improved transparency across the senior leadership team, enabling data-driven portfolio management decisions at the program level.</li>
                       </ul>
