@@ -13,6 +13,7 @@ interface DrawerState {
   isOpen: boolean;
   title: string;
   subtitle?: string;
+  jobTitle?: string;
   content: React.ReactNode;
 }
 
@@ -26,8 +27,8 @@ export default function Home() {
 
   const [drawer, setDrawer] = useState<DrawerState>(CLOSED_DRAWER);
 
-  const openDrawer = useCallback((title: string, content: React.ReactNode, subtitle?: string) => {
-    setDrawer({ isOpen: true, title, subtitle, content });
+  const openDrawer = useCallback((title: string, content: React.ReactNode, subtitle?: string, jobTitle?: string) => {
+    setDrawer({ isOpen: true, title, subtitle, jobTitle, content });
   }, []);
 
   const closeDrawer = useCallback(() => {
@@ -41,6 +42,7 @@ export default function Home() {
         onClose={closeDrawer}
         title={drawer.title}
         subtitle={drawer.subtitle}
+        jobTitle={drawer.jobTitle}
       >
         {drawer.content}
       </DetailDrawer>
@@ -363,7 +365,8 @@ export default function Home() {
                         <li><strong className="text-white font-sans font-medium">Fraud Prevention RFP & Rollout:</strong> Led the end-to-end execution of a fraud-prevention solution RFP, including requirements gathering, vendor evaluation, and global implementation to strengthen enterprise security controls.</li>
                       </ul>
                     </>,
-                    "Professional Tenure"
+                    "Professional Tenure",
+                    "Senior Initiative Manager"
                   )}
                   className="inline-flex items-center gap-1.5 text-xs font-sans font-medium text-[#A1A1A6] hover:text-white border border-white/20 hover:border-white/60 px-4 py-2 rounded-sm transition-all duration-200 group"
                 >
@@ -398,7 +401,8 @@ export default function Home() {
                         <li><strong className="text-white font-sans font-medium">High-Velocity Agile Evolution:</strong> Transitioned rigid waterfall methodologies to a rapid, iterative delivery model, integrating modern CI/CD pipelines to accelerate deployment cadence from quarterly to weekly.</li>
                       </ul>
                     </>,
-                    "Professional Tenure"
+                    "Professional Tenure",
+                    "Senior Delivery Lead"
                   )}
                   className="inline-flex items-center gap-1.5 text-xs font-sans font-medium text-[#A1A1A6] hover:text-white border border-white/20 hover:border-white/60 px-4 py-2 rounded-sm transition-all duration-200 group"
                 >

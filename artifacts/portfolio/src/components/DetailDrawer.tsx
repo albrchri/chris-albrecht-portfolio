@@ -7,10 +7,11 @@ interface DetailDrawerProps {
   onClose: () => void;
   title: string;
   subtitle?: string;
+  jobTitle?: string;
   children: React.ReactNode;
 }
 
-export function DetailDrawer({ isOpen, onClose, title, subtitle, children }: DetailDrawerProps) {
+export function DetailDrawer({ isOpen, onClose, title, subtitle, jobTitle, children }: DetailDrawerProps) {
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = "hidden";
@@ -58,6 +59,9 @@ export function DetailDrawer({ isOpen, onClose, title, subtitle, children }: Det
                     </p>
                   )}
                   <h2 className="text-2xl font-serif text-white leading-snug">{title}</h2>
+                  {jobTitle && (
+                    <p className="text-sm font-sans text-[#A1A1A6] mt-1">{jobTitle}</p>
+                  )}
                 </div>
                 <button
                   onClick={onClose}
