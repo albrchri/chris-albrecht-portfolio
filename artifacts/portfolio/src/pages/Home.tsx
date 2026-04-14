@@ -21,7 +21,7 @@ const CLOSED_DRAWER: DrawerState = { isOpen: false, title: "", content: null };
 
 export default function Home() {
   useSeo({
-    title: "Chris Albrecht | Bridging Software Strategy & Execution",
+    title: "Chris Albrecht | AI-Native Strategic Delivery Leader",
     description: "Strategic product and technology leader with 15+ years delivering enterprise transformation in global financial services."
   });
 
