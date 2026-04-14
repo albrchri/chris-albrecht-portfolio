@@ -66,7 +66,7 @@ export default function Home() {
               className="inline-flex items-center gap-2 px-7 py-[14px] text-base font-sans font-medium border border-white text-white rounded-sm hover:bg-white hover:text-black transition-all duration-200"
               data-testid="link-hero-experience"
             >
-              ↓ View Work
+              ↓ Explore Profile
             </a>
           </div>
         </FadeIn>
