@@ -378,22 +378,25 @@ export default function Home() {
               <div className="relative">
                 <div className="absolute -left-[31px] md:-left-[55px] top-1 w-4 h-4 rounded-full border-2 border-white/20 bg-black" />
                 <div className="mb-3 flex flex-col md:flex-row md:items-center gap-2 md:gap-4 text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest">
-                  <span>UBS — Senior Delivery Lead, Asset Management</span>
+                  <span>UBS — Asset Management</span>
                   <span className="hidden md:inline text-white/20">·</span>
                   <span>2014 – 2020</span>
                 </div>
-                <h4 className="text-3xl font-serif text-white mb-6">Senior Delivery Lead, Asset Management</h4>
+                <h4 className="text-3xl font-serif text-white mb-6">Senior Delivery Lead</h4>
                 <p className="text-[#A1A1A6] font-sans text-base leading-relaxed mb-8">
-                  Directed the successful technical integration of the SCD accounting engine, overseeing vendor engagement and managing $5M portfolios to drive a 10x increase in delivery velocity through disciplined Agile execution.
+                  Directed the enterprise-scale integration of a modern accounting engine, led a global digital portal modernization program, and transitioned traditional waterfall development into a high-velocity Agile organization.
                 </p>
                 <button
                   onClick={() => openDrawer(
-                    "UBS — Senior Delivery Lead, Asset Management",
+                    "UBS — Asset Management",
                     <>
                       <p className="text-xs font-sans uppercase tracking-widest text-white/40 mb-4">2014 – 2020</p>
-                      <p>Replaced a legacy investment application with the SimCorp Dimension (SCD) accounting engine. Partnered with the vendor to lead technical integration and production cutover for an enterprise-scale platform, achieving zero-downtime with no post-migration issues.</p>
-                      <p>Directed cross-functional teams across product, engineering, risk, operations, and communications to streamline processes and improve the client experience — scaling from a 5K account pilot to a 3M account rollout, the year's marquee launch.</p>
-                      <p>Managed $5M portfolios while championing Agile planning to maximize ROI, guiding 40+ global team members to increase delivery velocity 10x.</p>
+                      <p>Directed the enterprise-scale integration of a modern accounting engine, led a global digital portal modernization program, and transitioned traditional waterfall development into a high-velocity Agile organization.</p>
+                      <ul className="mt-4 space-y-4 list-none">
+                        <li><strong className="text-white font-sans font-medium">Enterprise Platform Transformation:</strong> Orchestrated the replacement of a critical legacy investment application with the SimCorp Dimension (SCD) accounting engine, achieving a flawless production cutover with no post-migration incidents.</li>
+                        <li><strong className="text-white font-sans font-medium">Digital Portal Modernization:</strong> Executed a unified client portal vision across a fragmented 20+ application landscape, leading the decommissioning of legacy apps and streamlining user journeys across the global client lifecycle.</li>
+                        <li><strong className="text-white font-sans font-medium">High-Velocity Agile Evolution:</strong> Transitioned rigid waterfall methodologies to a rapid, iterative delivery model, integrating modern CI/CD pipelines to accelerate deployment cadence from quarterly to weekly.</li>
+                      </ul>
                     </>,
                     "Professional Tenure"
                   )}
