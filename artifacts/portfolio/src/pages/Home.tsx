@@ -457,21 +457,24 @@ export default function Home() {
                   <span className="hidden md:inline text-white/20">·</span>
                   <span>Feb 2011 – Dec 2012</span>
                 </div>
-                <h4 className="text-3xl font-serif text-white mb-6">Agile Project Manager / ScrumMaster</h4>
+                <h4 className="text-3xl font-serif text-white mb-6">Agile Project Manager</h4>
                 <p className="text-[#A1A1A6] font-sans text-base leading-relaxed mb-8">
-                  Led global C++ exchange connectivity and algorithmic trading platform modernization for high-frequency trading gateways via FIX and proprietary APIs.
+                  Led global C++ exchange connectivity development for high-frequency trading gateways, managed the modernization of an algorithmic trading platform, and optimized portfolio planning through ROI-driven prioritization.
                 </p>
                 <button
                   onClick={() => openDrawer(
-                    "RTS Realtime Systems — Agile Project Manager / ScrumMaster",
+                    "RTS Realtime Systems",
                     <>
                       <p className="text-xs font-sans uppercase tracking-widest text-white/40 mb-4">Feb 2011 – Dec 2012</p>
-                      <p>Led global C++ exchange connectivity development for high-frequency trading gateways, coordinating delivery across FIX protocol and proprietary exchange APIs for institutional trading clients.</p>
-                      <p>Managed the modernization of the algorithmic trading platform, establishing Agile delivery practices in a highly technical, latency-sensitive environment.</p>
-                      <p>Optimized portfolio planning by applying ROI-driven prioritization to a constrained engineering backlog, maximizing throughput for the highest-value exchange connectivity initiatives.</p>
+                      <p>Led global C++ exchange connectivity development for high-frequency trading gateways, managed the modernization of an algorithmic trading platform, and optimized portfolio planning through ROI-driven prioritization.</p>
+                      <ul className="mt-4 space-y-4 list-none">
+                        <li><strong className="text-white font-sans font-medium">High-Frequency Trading Connectivity:</strong> Led global C++ exchange connectivity development for high-frequency trading gateways, coordinating delivery across FIX protocol and proprietary exchange APIs for institutional trading clients.</li>
+                        <li><strong className="text-white font-sans font-medium">Algorithmic Platform Modernization:</strong> Managed the modernization of the algorithmic trading platform, establishing Agile delivery practices in a highly technical, latency-sensitive environment.</li>
+                        <li><strong className="text-white font-sans font-medium">Strategic Backlog Optimization:</strong> Optimized portfolio planning by applying ROI-driven prioritization to a constrained engineering backlog, maximizing throughput for the highest-value exchange connectivity initiatives.</li>
+                      </ul>
                     </>,
                     "Professional Tenure",
-                    "Agile Project Manager / ScrumMaster"
+                    "Agile Project Manager"
                   )}
                   className="inline-flex items-center gap-1.5 text-xs font-sans font-medium text-[#A1A1A6] hover:text-white border border-white/20 hover:border-white/60 px-4 py-2 rounded-sm transition-all duration-200 group"
                 >
