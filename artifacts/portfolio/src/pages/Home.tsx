@@ -427,7 +427,7 @@ export default function Home() {
                 </p>
                 <button
                   onClick={() => openDrawer(
-                    "Grosvenor Capital Management — Program Manager",
+                    "Grosvenor Capital Management",
                     <>
                       <p className="text-xs font-sans uppercase tracking-widest text-white/40 mb-4">Dec 2012 – Mar 2014</p>
                       <p>Managed the strategic upgrade and maintenance of a core research platform for a $40B AUM fund-of-funds, led a major client reporting refresh, and introduced executive metrics to enable data-driven portfolio decisions.</p>
