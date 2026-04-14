@@ -66,15 +66,7 @@ export default function Home() {
               className="inline-flex items-center gap-2 px-7 py-[14px] text-base font-sans font-medium border border-white text-white rounded-sm hover:bg-white hover:text-black transition-all duration-200"
               data-testid="link-hero-experience"
             >
-              Career Overview
-              <ArrowRight size={18} />
-            </a>
-            <a
-              href="mailto:albrchri@gmail.com"
-              className="inline-flex items-center gap-1 px-6 py-[14px] text-base font-sans border border-white/20 text-[#A1A1A6] rounded-sm hover:border-white/60 hover:text-white transition-all duration-200"
-              data-testid="link-hero-contact"
-            >
-              Get in Touch
+              ↓ View Work
             </a>
           </div>
         </FadeIn>
