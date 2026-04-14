@@ -342,22 +342,26 @@ export default function Home() {
               <div className="relative">
                 <div className="absolute -left-[31px] md:-left-[55px] top-1 w-4 h-4 rounded-full bg-white ring-4 ring-black" />
                 <div className="mb-3 flex flex-col md:flex-row md:items-center gap-2 md:gap-4 text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest">
-                  <span className="text-white">UBS — Senior Initiative Manager, Global Wealth Americas</span>
+                  <span className="text-white">UBS — Global Wealth Americas</span>
                   <span className="hidden md:inline text-white/20">·</span>
                   <span>2020 – Present</span>
                 </div>
-                <h4 className="text-3xl font-serif text-white mb-6">Senior Initiative Manager, Global Wealth Americas</h4>
+                <h4 className="text-3xl font-serif text-white mb-6">Senior Initiative Manager</h4>
                 <p className="text-[#A1A1A6] font-sans text-base leading-relaxed mb-8">
-                  Managed strategic enterprise transformations including a global AI-enabled transaction review capability, overseeing the migration of legacy platforms to Microsoft Azure, and directing global cross-functional teams to launch a marquee client experience rollout to 3 million accounts.
+                  Managed strategic enterprise transformations including a global AI-enabled transaction review capability, the migration of legacy platforms to Microsoft Azure, a marquee client experience rollout, and the end-to-end execution of a fraud-prevention RFP.
                 </p>
                 <button
                   onClick={() => openDrawer(
-                    "UBS — Senior Initiative Manager, Global Wealth Americas",
+                    "UBS — Global Wealth Americas",
                     <>
                       <p className="text-xs font-sans uppercase tracking-widest text-white/40 mb-4">2020 – Present</p>
-                      <p>Delivered a scalable control utilizing autonomous agents to synthesize transaction behavior and customer risk into reviewer-ready outputs. Embedding agentic pattern recognition and narrative generation positioned AI as a force multiplier, driving a step-change in execution, analyst capacity, and global consistency.</p>
-                      <p>Led the transformation of a locally hosted monolith into cloud-based microservices on Microsoft Azure, improving scalability, resilience, and speed-to-market while significantly reducing infrastructure costs.</p>
-                      <p>Led the end-to-end execution of a fraud-prevention solution RFP — including vendor evaluation, due diligence, and rollout — to strengthen security controls across the Americas wealth platform.</p>
+                      <p>Managed strategic enterprise transformations including a global AI-enabled transaction review capability, the migration of legacy platforms to Microsoft Azure, a marquee client experience rollout, and the end-to-end execution of a fraud-prevention RFP.</p>
+                      <ul className="mt-4 space-y-4 list-none">
+                        <li><strong className="text-white font-sans font-medium">AI-Enabled Transaction Review Capability:</strong> Delivered a scalable control utilizing autonomous agents to synthesize transaction behavior and customer risk into reviewer-ready outputs. Embedding agentic pattern recognition and narrative generation positioned AI as a force multiplier, driving a step-change in analyst capacity and global consistency.</li>
+                        <li><strong className="text-white font-sans font-medium">Legacy-to-Cloud Transformation:</strong> Led the transformation of a locally hosted monolith into cloud-based microservices on Microsoft Azure, improving scalability, resilience, and speed-to-market while significantly reducing infrastructure costs.</li>
+                        <li><strong className="text-white font-sans font-medium">Global Marquee Client Launch:</strong> Directed cross-functional teams across product, engineering, risk, and operations to streamline onboarding and review processes, scaling a wealth management experience from a 5K pilot to a global rollout.</li>
+                        <li><strong className="text-white font-sans font-medium">Fraud Prevention RFP & Rollout:</strong> Led the end-to-end execution of a fraud-prevention solution RFP, including requirements gathering, vendor evaluation, and global implementation to strengthen enterprise security controls.</li>
+                      </ul>
                     </>,
                     "Professional Tenure"
                   )}
