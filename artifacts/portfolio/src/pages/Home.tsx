@@ -57,7 +57,7 @@ export default function Home() {
             <span className="text-[#A1A1A6] italic">Strategy</span> & Execution.
           </h1>
           <p className="text-xl md:text-2xl text-[#A1A1A6] font-sans font-light max-w-2xl leading-relaxed mb-12">
-            AI-native strategic product and technology leader. 15+ years of enterprise transformation in global financial services.
+            AI-native delivery leader driving platform transformations, cloud migration, and AI-enabled solutions at enterprise scale.
           </p>
 
           <div className="flex flex-wrap gap-4">
