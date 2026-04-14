@@ -437,7 +437,8 @@ export default function Home() {
                         <li><strong className="text-white font-sans font-medium">Executive Transparency:</strong> Introduced executive dashboard metrics that improved transparency across the senior leadership team, enabling data-driven portfolio management decisions at the program level.</li>
                       </ul>
                     </>,
-                    "Professional Tenure"
+                    "Professional Tenure",
+                    "Program Manager"
                   )}
                   className="inline-flex items-center gap-1.5 text-xs font-sans font-medium text-[#A1A1A6] hover:text-white border border-white/20 hover:border-white/60 px-4 py-2 rounded-sm transition-all duration-200 group"
                 >
@@ -469,7 +470,8 @@ export default function Home() {
                       <p>Managed the modernization of the algorithmic trading platform, establishing Agile delivery practices in a highly technical, latency-sensitive environment.</p>
                       <p>Optimized portfolio planning by applying ROI-driven prioritization to a constrained engineering backlog, maximizing throughput for the highest-value exchange connectivity initiatives.</p>
                     </>,
-                    "Professional Tenure"
+                    "Professional Tenure",
+                    "Agile Project Manager / ScrumMaster"
                   )}
                   className="inline-flex items-center gap-1.5 text-xs font-sans font-medium text-[#A1A1A6] hover:text-white border border-white/20 hover:border-white/60 px-4 py-2 rounded-sm transition-all duration-200 group"
                 >
