@@ -4,7 +4,7 @@ import { PageTransition, FadeIn } from "@/components/PageTransition";
 import { DetailDrawer } from "@/components/DetailDrawer";
 import {
   ArrowRight, Target, BookOpen, Layers, Database,
-  GraduationCap, BadgeCheck, Cloud, ShieldCheck, Sparkles, Scale, Plus, Users, Zap
+  GraduationCap, BadgeCheck, Cloud, ShieldCheck, Sparkles, Scale, Plus, Users, Zap, ExternalLink
 } from "lucide-react";
 
 const CREDENTIALS = "MSCS, MBA, PMP, CSP";
@@ -519,7 +519,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 text-xs font-sans text-[#A1A1A6]/50 hover:text-white transition-colors mt-5"
             >
-              Verify Credential <ArrowRight size={11} />
+              Verify Credential <ExternalLink size={11} />
             </a>
           </FadeIn>
 
@@ -534,12 +534,12 @@ export default function Home() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 text-xs font-sans text-[#A1A1A6]/50 hover:text-white transition-colors mt-5"
             >
-              Verify Credential <ArrowRight size={11} />
+              Verify Credential <ExternalLink size={11} />
             </a>
           </FadeIn>
 
           <FadeIn delay={0.6} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
-            <ShieldCheck className="text-[#A1A1A6] mb-5" size={20} />
+            <BadgeCheck className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-3">Certification</h4>
             <p className="text-white font-sans font-medium mb-1">UBS Certified Initiative Manager</p>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-auto">Internal elite certification for high-impact initiative delivery and strategic leadership within global financial services.</p>
@@ -549,7 +549,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 text-xs font-sans text-[#A1A1A6]/50 hover:text-white transition-colors mt-5"
             >
-              Verify via Credly <ArrowRight size={11} />
+              Verify Credential <ExternalLink size={11} />
             </a>
           </FadeIn>
 
