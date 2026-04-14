@@ -92,7 +92,7 @@ export default function Home() {
             <div className="text-[#A1A1A6] font-mono text-2xl mb-5 leading-none">I.</div>
             <h4 className="text-white font-serif text-xl mb-4">Operational Excellence</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Apply best-in-class methodologies and unwavering discipline to ensure high-quality delivery, regardless of project scale.
+              Apply proven methodologies with disciplined execution to ensure consistent, high-quality delivery at any scale.
             </p>
             <button
               onClick={() => openDrawer(
@@ -114,13 +114,13 @@ export default function Home() {
             <div className="text-[#A1A1A6] font-mono text-2xl mb-5 leading-none">II.</div>
             <h4 className="text-white font-serif text-xl mb-4">Stakeholder Alignment</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Enable data-driven decision making which builds trust and maintains momentum across complex, multi-year initiatives.
+              Drive data-informed decisions that build trust and sustain momentum across complex, multi-year initiatives.
             </p>
             <button
               onClick={() => openDrawer(
                 "Stakeholder Alignment",
                 <>
-                  <p>Trust is the primary currency in multi-year initiatives. I prioritize data-driven decisions and transparency in reporting to ensure stakeholders are never surprised. By socializing risk early and using objective metrics, I build the political and operational capital needed to maintain momentum through complex transformations.</p>
+                  <p>Trust is the primary currency in multi-year initiatives. I prioritize data-driven decisions and transparency in reporting to ensure stakeholders are never surprised. By surfacing risk early and using objective metrics, I build the political and operational capital needed to maintain momentum through complex transformations.</p>
                   <p>Alignment is about more than just status updates. It is about creating a shared understanding of success so that every stakeholder remains invested in the final outcome.</p>
                 </>,
                 "Leadership Philosophy"
@@ -136,13 +136,13 @@ export default function Home() {
             <div className="text-[#A1A1A6] font-mono text-2xl mb-5 leading-none">III.</div>
             <h4 className="text-white font-serif text-xl mb-4">Adaptive Leadership</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Focus on developing high-performing, resilient teams through active development, engagement, and empowerment.
+              Build high-performing, resilient teams through active development, engagement, and empowerment.
             </p>
             <button
               onClick={() => openDrawer(
                 "Adaptive Leadership",
                 <>
-                  <p>Systems are only as resilient as the people who build them. My leadership focuses on developing high-performing teams by fostering a culture of continuous improvement. I believe that the most robust solutions come from an environment where it is safe to fail fast and learn through rapid iterations based on early user feedback.</p>
+                  <p>Systems are only as resilient as the people who build them. My leadership focuses on developing high-performing teams by fostering a culture of continuous improvement. I believe that the most robust solutions come from an environment where it is safe to experiment, learn quickly, and iterate based on real feedback.</p>
                   <p>I view my role as a force multiplier, unblocking talent and instilling a sense of purpose so that teams remain motivated and effective even when navigating the complexities of technical environments.</p>
                 </>,
                 "Leadership Philosophy"
@@ -171,14 +171,14 @@ export default function Home() {
             <Sparkles className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-white font-sans font-semibold text-sm mb-4">AI-Enabled Transaction Review</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Deployed autonomous agents to summarize transaction behavior and customer risk into standardized, reviewer-ready outputs, driving a step-change in analyst capacity and global consistency.
+              Deployed autonomous agents to summarize transaction behavior and customer risk into standardized, reviewer-ready outputs, significantly increasing analyst capacity and consistency.
             </p>
             <button
               onClick={() => openDrawer(
                 "AI-Enabled Transaction Review",
                 <>
                   <p><strong className="text-white font-sans font-medium">The Problem:</strong> Periodic transaction reviews were manual, inconsistent across geographies, and created unsustainable analyst workloads during peak cycles.</p>
-                  <p><strong className="text-white font-sans font-medium">The Approach:</strong> Architected a control utilizing autonomous LLM agents to analyze transaction histories, surface behavioral anomalies, and generate structured narrative outputs aligned to regulatory review standards. Integrated agentic pipelines to synthesize customer risk profiles across disparate internal data sources.</p>
+                  <p><strong className="text-white font-sans font-medium">The Approach:</strong> Designed and implemented a control using autonomous LLM agents to analyze transaction histories, surface behavioral anomalies, and generate structured narrative outputs aligned to regulatory review standards. Integrated agentic pipelines to synthesize customer risk profiles across disparate internal data sources.</p>
                   <p><strong className="text-white font-sans font-medium">Technical Nuance:</strong> The solution required model risk governance sign-off, audit-defensible prompt architecture, and a phased rollout that validated output quality against expert-reviewed baselines before production deployment.</p>
                   <p><strong className="text-white font-sans font-medium">Outcome:</strong> Significantly reduced review cycle times. Positioned AI as a force multiplier within the compliance function, enabling analysts to focus on judgment-intensive edge cases rather than routine synthesis.</p>
                 </>,
@@ -196,7 +196,7 @@ export default function Home() {
             <Cloud className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-white font-sans font-semibold text-sm mb-4">Legacy-to-Cloud Migration</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Led the transformation of a locally hosted monolith to cloud-based microservices on Microsoft Azure, improving scalability, resilience, and speed-to-market.
+              Led the transformation of an on-premise monolith to cloud-based microservices on Microsoft Azure, improving scalability, resilience, and speed-to-market.
             </p>
             <button
               onClick={() => openDrawer(
@@ -230,7 +230,7 @@ export default function Home() {
                   <p><strong className="text-white font-sans font-medium">The Problem:</strong> A legacy investment accounting application had reached end-of-life, creating regulatory risk and blocking the Asset Management division from adopting modern portfolio capabilities.</p>
                   <p><strong className="text-white font-sans font-medium">The Approach:</strong> Partnered with SimCorp and internal engineering teams to lead a full technical integration of the SCD accounting engine. Designed and executed a cutover strategy that maintained dual-run reconciliation until production confidence was validated.</p>
                   <p><strong className="text-white font-sans font-medium">Technical Nuance:</strong> The program required deep coordination with SimCorp's professional services team, extensive data migration validation, and integration testing across downstream risk and reporting systems.</p>
-                  <p><strong className="text-white font-sans font-medium">Outcome:</strong> I led the global deployment team consisting of a 60-hour weekend production cutover and resulted in no SLA downtime and no post-migration incidents. The platform has since operated without regression and unlocked modern portfolio analytics capabilities for the division.</p>
+                  <p><strong className="text-white font-sans font-medium">Outcome:</strong> I led a global deployment team through a 60-hour weekend cutover with zero SLA downtime and no post-migration incidents. The platform has since operated without regression and unlocked modern portfolio analytics capabilities for the division.</p>
                 </>,
                 "Signature Initiative"
               )}
@@ -244,13 +244,13 @@ export default function Home() {
           {/* Card 4 */}
           <FadeIn delay={0.4} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col">
             <ShieldCheck className="text-[#A1A1A6] mb-5" size={20} />
-            <h4 className="text-white font-sans font-semibold text-sm mb-4">Fraud Prevention: RFP & Rollout</h4>
+            <h4 className="text-white font-sans font-semibold text-sm mb-4">Fraud Prevention RFP & Rollout</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
               Led end-to-end RFP execution for a fraud-prevention solution strengthening security controls and client protection across the division.
             </p>
             <button
               onClick={() => openDrawer(
-                "Fraud Prevention: RFP & Rollout",
+                "Fraud Prevention RFP & Rollout",
                 <>
                   <p><strong className="text-white font-sans font-medium">The Problem:</strong> The existing security landscape had critical gaps in fraud detection for high-stakes transactions, creating a vulnerability that required a modern solution to strengthen institutional controls and prevent unauthorized access.</p>
                   <p><strong className="text-white font-sans font-medium">The Approach:</strong> Orchestrated an end-to-end RFP process and vendor engagement to identify a robust Two-Factor Authentication (2FA) solution. I aligned business, security, and compliance stakeholders on a unified requirement set and designed an implementation roadmap for seamless integration into existing client workflows.</p>
@@ -271,7 +271,7 @@ export default function Home() {
             <Users className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-white font-sans font-semibold text-sm mb-4">Cross-Functional Client Experience Launch</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Directed global cross-functional teams to streamline cumbersome onboarding and review processes, successfully scaling a marquee client experience from a 5K pilot to full global account rollout.
+              Directed global cross-functional teams to streamline onboarding and review processes, scaling a critical client experience from a 5K pilot to full global rollout.
             </p>
             <button
               onClick={() => openDrawer(

@@ -1,0 +1,14 @@
+In the Leadership Philosophy section:
+1. In the Operational Excellence card, change description text from "Apply best-in-class methodologies and unwavering discipline to ensure high-quality delivery, regardless of project scale." to “Apply proven methodologies with disciplined execution to ensure consistent, high-quality delivery at any scale.”
+2. In the Stakeholder Alignment card, change description text from "Enable data-driven decision making which builds trust and maintains momentum across complex, multi-year initiatives." to “Drive data-informed decisions that build trust and sustain momentum across complex, multi-year initiatives.”
+3. In the Stakeholder Alignment card, change the hidden text by swapping out the term "socializing risk" to "surfacing risk"
+4. In the Adaptive Leadership card, change description text from "Focus on developing high-performing, resilient teams through active development, engagement, and empowerment." to “Build high-performing, resilient teams through active development, engagement, and empowerment.”
+5. In the Stakeholder Alignment card, change the hidden text by swapping out "safe to fail fast and learn through rapid iterations based on early user feedback." to “safe to experiment, learn quickly, and iterate based on real feedback.”
+
+In the Signature Accomplishments section:
+1. In the AI-Enabled Transaction Review card, replace description text from "driving a step-change in analyst capacity" to “significantly increasing analyst capacity and consistency”
+2. In the AI-Enabled Transaction Review card. replace the hidden text from "Architected a control utilizing autonomous LLM agents…" to "Designed and implemented a control using autonomous LLM agents…"
+3. In the Legacy-to-Cloud Migration card, replace description text from "locally hosted monolith" to “on-premise monolith”
+4. In the Enterprise Platform Transformation card. replace the hidden text from "I led the global deployment team consisting of a 60-hour weekend production cutover and resulted in no SLA downtime and no post-migration incidents." to "I led a global deployment team through a 60-hour weekend cutover with zero SLA downtime and no post-migration incidents."
+5. In the Fraud Prevention card, change the title from "Fraud Prevention: RFP & Rollout" to "Fraud Prevention RFP & Rollout"
+6. In the Cross-Functional Client Experience Launch card, replace description text from "Directed global cross-functional teams to streamline cumbersome onboarding and review processes, successfully scaling a marquee client experience from a 5K pilot to full global account rollout." to “Directed global cross-functional teams to streamline onboarding and review processes, scaling a critical client experience from a 5K pilot to full global rollout.”
