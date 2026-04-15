@@ -684,20 +684,20 @@ export default function Home() {
           </div>
         </FadeIn>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <FadeIn delay={0.1} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch">
+          <FadeIn delay={0.1} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col h-full justify-center">
             <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Discipline</h4>
-            <p className="text-white font-sans text-sm leading-relaxed">Completed my first half-marathon in 2025. Training for a full marathon in the fall of 2026. The sustained commitment mirrors the stamina required to shepherd multi-year enterprise programs without losing momentum.</p>
+            <p className="text-white font-sans text-sm leading-relaxed">Completed a half-marathon in 2025 and training for a full in 2026. This endurance mirrors the stamina required to shepherd multi-year programs without losing momentum.</p>
           </FadeIn>
-          <FadeIn delay={0.2} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200">
+          <FadeIn delay={0.2} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col h-full justify-center">
             <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Mentorship</h4>
             <p className="text-white font-sans text-sm leading-relaxed">Chess teacher for elementary and middle school students. Teaching strategic thinking applies the same patience and pattern recognition I use mentoring engineers and PMs.</p>
           </FadeIn>
-          <FadeIn delay={0.3} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200">
+          <FadeIn delay={0.3} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col h-full justify-center">
             <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Process</h4>
             <p className="text-white font-sans text-sm leading-relaxed">Wood-Fire BBQ Enthusiast. The precision and patience of low-and-slow smoking mirrors the process discipline I bring to software delivery.</p>
           </FadeIn>
-          <FadeIn delay={0.4} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200">
+          <FadeIn delay={0.4} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col h-full justify-center">
             <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Growth</h4>
             <p className="text-white font-sans text-sm leading-relaxed">Exploring how blockchain technologies, smart contracts, and decentralized finance can reshape global markets, including as an Ethereum home staker.</p>
           </FadeIn>
