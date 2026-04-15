@@ -340,7 +340,7 @@ export default function Home() {
       </section>
 
       {/* ── Professional Tenure ──────────────────────────────────── */}
-      <section id="experience" className="scroll-mt-20 pt-20 pb-28 bg-black">
+      <section id="experience" className="scroll-mt-20 pt-20 pb-[40vh] bg-black">
         <div className="container mx-auto px-6 md:px-12">
           <FadeIn>
             <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Experience</h2>
@@ -588,7 +588,7 @@ export default function Home() {
       </section>
 
       {/* ── Stack & Skills ───────────────────────────────────────── */}
-      <section id="skills" className="scroll-mt-20 pt-16 pb-28 bg-[#0C0C0C]">
+      <section id="skills" className="scroll-mt-20 pt-16 pb-[40vh] bg-[#0C0C0C]">
         <div className="container mx-auto px-6 md:px-12">
           <FadeIn>
             <div className="mb-20">
