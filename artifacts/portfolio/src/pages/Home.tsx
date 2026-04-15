@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback } from "react";
 import { useSeo } from "@/hooks/use-seo";
 import { PageTransition, FadeIn } from "@/components/PageTransition";
 import { DetailDrawer } from "@/components/DetailDrawer";
@@ -36,24 +36,6 @@ export default function Home() {
     setDrawer(prev => ({ ...prev, isOpen: false }));
   }, []);
 
-  useEffect(() => {
-    const sections = document.querySelectorAll(".snap-section");
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("section-visible");
-          } else {
-            entry.target.classList.remove("section-visible");
-          }
-        });
-      },
-      { threshold: 0.12 }
-    );
-    sections.forEach((el) => observer.observe(el));
-    return () => observer.disconnect();
-  }, []);
-
   return (
     <PageTransition>
       <ScrollSpy />
@@ -68,7 +50,7 @@ export default function Home() {
       </DetailDrawer>
 
       {/* ── Hero ─────────────────────────────────────────────────── */}
-      <section id="intro" className="snap-section scroll-mt-20 min-h-screen flex flex-col justify-center container mx-auto px-6 md:px-12 relative pt-24">
+      <section id="intro" className="scroll-mt-20 min-h-screen flex flex-col justify-center container mx-auto px-6 md:px-12 relative pt-24">
         <FadeIn className="max-w-4xl relative z-10 -translate-y-16">
           <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-14">
             <span className="text-4xl md:text-5xl font-serif font-bold text-white tracking-tight">Chris Albrecht</span>
@@ -95,7 +77,7 @@ export default function Home() {
       </section>
 
       {/* ── Leadership Philosophy ────────────────────────────────── */}
-      <section id="philosophy" className="snap-section scroll-mt-20 pt-16 pb-32 container mx-auto px-6 md:px-12">
+      <section id="philosophy" className="scroll-mt-20 pt-16 pb-32 container mx-auto px-6 md:px-12">
         <FadeIn>
           <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Philosophy</h2>
           <h3 className="text-4xl md:text-5xl font-serif text-white mb-20">Leadership Philosophy</h3>
@@ -172,7 +154,7 @@ export default function Home() {
       </section>
 
       {/* ── Signature Initiatives ────────────────────────────────── */}
-      <section id="accomplishments" className="snap-section scroll-mt-20 pt-16 pb-24 bg-[#0C0C0C]">
+      <section id="accomplishments" className="scroll-mt-20 pt-16 pb-24 bg-[#0C0C0C]">
         <div className="container mx-auto px-6 md:px-12">
         <FadeIn>
           <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Highlights</h2>
@@ -336,7 +318,7 @@ export default function Home() {
       </section>
 
       {/* ── Social Proof ─────────────────────────────────────────── */}
-      <section id="endorsements" className="snap-section scroll-mt-20 py-32 bg-black">
+      <section id="endorsements" className="scroll-mt-20 py-32 bg-black">
         <div className="container mx-auto px-6 md:px-12">
           <FadeIn>
             <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Endorsements</h2>
@@ -358,7 +340,7 @@ export default function Home() {
       </section>
 
       {/* ── Professional Tenure ──────────────────────────────────── */}
-      <section id="experience" className="snap-section scroll-mt-20 pt-20 pb-28 bg-black">
+      <section id="experience" className="scroll-mt-20 pt-20 pb-28 bg-black">
         <div className="container mx-auto px-6 md:px-12">
           <FadeIn>
             <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Experience</h2>
@@ -517,7 +499,7 @@ export default function Home() {
       </section>
 
       {/* ── Credentials & Expertise ──────────────────────────────── */}
-      <section id="credentials" className="snap-section scroll-mt-20 pt-16 pb-28 bg-[#0C0C0C]">
+      <section id="credentials" className="scroll-mt-20 pt-16 pb-28 bg-[#0C0C0C]">
         <div className="container mx-auto px-6 md:px-12">
         <FadeIn>
           <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Credentials</h2>
@@ -606,7 +588,7 @@ export default function Home() {
       </section>
 
       {/* ── Stack & Skills ───────────────────────────────────────── */}
-      <section id="skills" className="snap-section scroll-mt-20 pt-16 pb-28 bg-[#0C0C0C]">
+      <section id="skills" className="scroll-mt-20 pt-16 pb-28 bg-[#0C0C0C]">
         <div className="container mx-auto px-6 md:px-12">
           <FadeIn>
             <div className="mb-20">
@@ -693,7 +675,7 @@ export default function Home() {
       </section>
 
       {/* ── Beyond the Boardroom ─────────────────────────────────── */}
-      <section id="personal" className="snap-section scroll-mt-20 py-28 container mx-auto px-6 md:px-12">
+      <section id="personal" className="scroll-mt-20 py-28 container mx-auto px-6 md:px-12">
         <FadeIn>
           <div className="text-center mb-28 max-w-2xl mx-auto">
             <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Personal Pursuits</h2>
@@ -723,7 +705,7 @@ export default function Home() {
       </section>
 
       {/* ── Bottom CTA ───────────────────────────────────────────── */}
-      <section id="contact" className="snap-section scroll-mt-20 py-24 bg-black">
+      <section id="contact" className="scroll-mt-20 py-24 bg-black">
         <div className="container mx-auto px-6 md:px-12 text-center">
           <FadeIn>
             <h3 className="text-4xl md:text-5xl font-serif text-white mb-6">Let's Connect</h3>
