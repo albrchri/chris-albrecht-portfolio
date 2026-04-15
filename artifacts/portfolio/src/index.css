@@ -144,3 +144,37 @@
     @apply font-sans antialiased bg-background text-foreground;
   }
 }
+
+/* ── Full-viewport scroll snapping — desktop only ───────────────────── */
+@media (min-width: 1024px) {
+  html {
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: 80px;
+  }
+
+  .snap-section {
+    scroll-snap-align: start;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(0.97) translateY(12px);
+    transition:
+      opacity 0.65s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+      transform 0.65s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  .snap-section.section-visible {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Mobile: sections flow naturally, no opacity override */
+@media (max-width: 1023px) {
+  .snap-section {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
