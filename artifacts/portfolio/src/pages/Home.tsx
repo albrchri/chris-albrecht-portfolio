@@ -84,7 +84,7 @@ export default function Home() {
         </FadeIn>
         <div className="grid sm:grid-cols-3 gap-6">
 
-          <FadeIn delay={0.1} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
+          <FadeIn delay={0.1} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
             <div className="text-[#A1A1A6] font-mono text-2xl mb-5 leading-none">I.</div>
             <h4 className="text-white font-serif text-xl mb-4">Operational Excellence</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
@@ -106,7 +106,7 @@ export default function Home() {
             </button>
           </FadeIn>
 
-          <FadeIn delay={0.2} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
+          <FadeIn delay={0.2} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
             <div className="text-[#A1A1A6] font-mono text-2xl mb-5 leading-none">II.</div>
             <h4 className="text-white font-serif text-xl mb-4">Stakeholder Alignment</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
@@ -128,7 +128,7 @@ export default function Home() {
             </button>
           </FadeIn>
 
-          <FadeIn delay={0.3} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
+          <FadeIn delay={0.3} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
             <div className="text-[#A1A1A6] font-mono text-2xl mb-5 leading-none">III.</div>
             <h4 className="text-white font-serif text-xl mb-4">Adaptive Leadership</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
@@ -154,7 +154,8 @@ export default function Home() {
       </section>
 
       {/* ── Signature Initiatives ────────────────────────────────── */}
-      <section id="accomplishments" className="scroll-mt-20 pt-16 pb-24 container mx-auto px-6 md:px-12">
+      <section id="accomplishments" className="scroll-mt-20 pt-16 pb-24 bg-[#0C0C0C]">
+        <div className="container mx-auto px-6 md:px-12">
         <FadeIn>
           <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Highlights</h2>
           <h3 className="text-4xl md:text-5xl font-serif text-white mb-20">Signature Accomplishments</h3>
@@ -163,7 +164,7 @@ export default function Home() {
         <div className="grid md:grid-cols-3 gap-6 items-stretch">
 
           {/* Card 1 */}
-          <FadeIn delay={0.1} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col h-full">
+          <FadeIn delay={0.1} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col h-full">
             <Sparkles className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-white font-sans font-semibold text-sm mb-4">AI-Enabled Transaction Review</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
@@ -188,7 +189,7 @@ export default function Home() {
           </FadeIn>
 
           {/* Card 2 */}
-          <FadeIn delay={0.2} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col h-full">
+          <FadeIn delay={0.2} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col h-full">
             <Cloud className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-white font-sans font-semibold text-sm mb-4">Legacy-to-Cloud Migration</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
@@ -213,7 +214,7 @@ export default function Home() {
           </FadeIn>
 
           {/* Card 3 */}
-          <FadeIn delay={0.3} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col h-full">
+          <FadeIn delay={0.3} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col h-full">
             <Layers className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-white font-sans font-semibold text-sm mb-4">Enterprise Platform Transformation</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
@@ -238,7 +239,7 @@ export default function Home() {
           </FadeIn>
 
           {/* Card 4 */}
-          <FadeIn delay={0.4} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col h-full">
+          <FadeIn delay={0.4} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col h-full">
             <ShieldCheck className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-white font-sans font-semibold text-sm mb-4">Fraud Prevention RFP & Rollout</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
@@ -263,7 +264,7 @@ export default function Home() {
           </FadeIn>
 
           {/* Card 5 */}
-          <FadeIn delay={0.5} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col h-full">
+          <FadeIn delay={0.5} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col h-full">
             <Users className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-white font-sans font-semibold text-sm mb-4">Cross-Functional Client Experience Launch</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
@@ -288,7 +289,7 @@ export default function Home() {
           </FadeIn>
 
           {/* Card 6 */}
-          <FadeIn delay={0.6} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col h-full">
+          <FadeIn delay={0.6} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col h-full">
             <Zap className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-white font-sans font-semibold text-sm mb-4">High-Velocity Agile Evolution</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
@@ -313,10 +314,11 @@ export default function Home() {
           </FadeIn>
 
         </div>
+        </div>
       </section>
 
       {/* ── Social Proof ─────────────────────────────────────────── */}
-      <section id="endorsements" className="scroll-mt-20 py-32 bg-black border-b border-white/8">
+      <section id="endorsements" className="scroll-mt-20 py-32 bg-black">
         <div className="container mx-auto px-6 md:px-12">
           <FadeIn>
             <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Endorsements</h2>
@@ -338,7 +340,7 @@ export default function Home() {
       </section>
 
       {/* ── Professional Tenure ──────────────────────────────────── */}
-      <section id="experience" className="scroll-mt-20 pt-20 pb-28 bg-[#121212] border-y border-white/8">
+      <section id="experience" className="scroll-mt-20 pt-20 pb-28 bg-black">
         <div className="container mx-auto px-6 md:px-12">
           <FadeIn>
             <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Experience</h2>
@@ -497,7 +499,8 @@ export default function Home() {
       </section>
 
       {/* ── Credentials & Expertise ──────────────────────────────── */}
-      <section id="credentials" className="scroll-mt-20 pt-16 pb-28 container mx-auto px-6 md:px-12">
+      <section id="credentials" className="scroll-mt-20 pt-16 pb-28 bg-[#0C0C0C]">
+        <div className="container mx-auto px-6 md:px-12">
         <FadeIn>
           <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Credentials</h2>
           <h3 className="text-4xl md:text-5xl font-serif text-white mb-20">Credentials & Expertise</h3>
@@ -505,7 +508,7 @@ export default function Home() {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
-          <FadeIn delay={0.1} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
+          <FadeIn delay={0.1} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
             <GraduationCap className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-3">Academic</h4>
             <p className="text-white font-sans font-medium mb-2">Master of Science in Computer Science</p>
@@ -515,7 +518,7 @@ export default function Home() {
             </div>
           </FadeIn>
 
-          <FadeIn delay={0.2} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
+          <FadeIn delay={0.2} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
             <GraduationCap className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-3">Academic</h4>
             <p className="text-white font-sans font-medium mb-2">Master of Business Administration</p>
@@ -525,7 +528,7 @@ export default function Home() {
             </div>
           </FadeIn>
 
-          <FadeIn delay={0.3} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
+          <FadeIn delay={0.3} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
             <GraduationCap className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-3">Academic</h4>
             <p className="text-white font-sans font-medium mb-2">Bachelor of Science in Computer Science</p>
@@ -535,7 +538,7 @@ export default function Home() {
             </div>
           </FadeIn>
 
-          <FadeIn delay={0.4} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
+          <FadeIn delay={0.4} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
             <BadgeCheck className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-3">Certification</h4>
             <p className="text-white font-sans font-medium mb-1">Project Management Professional (PMP)®</p>
@@ -550,7 +553,7 @@ export default function Home() {
             </a>
           </FadeIn>
 
-          <FadeIn delay={0.5} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
+          <FadeIn delay={0.5} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
             <BadgeCheck className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-3">Certification</h4>
             <p className="text-white font-sans font-medium mb-1">Certified Scrum Professional® (CSP-SM)</p>
@@ -565,7 +568,7 @@ export default function Home() {
             </a>
           </FadeIn>
 
-          <FadeIn delay={0.6} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
+          <FadeIn delay={0.6} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200 flex flex-col">
             <BadgeCheck className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-3">Certification</h4>
             <p className="text-white font-sans font-medium mb-1">UBS Certified Initiative Manager</p>
@@ -581,10 +584,11 @@ export default function Home() {
           </FadeIn>
 
         </div>
+        </div>
       </section>
 
       {/* ── Stack & Skills ───────────────────────────────────────── */}
-      <section id="skills" className="scroll-mt-20 pt-16 pb-28 bg-[#121212] border-y border-white/8">
+      <section id="skills" className="scroll-mt-20 pt-16 pb-28 bg-[#0C0C0C]">
         <div className="container mx-auto px-6 md:px-12">
           <FadeIn>
             <div className="mb-20">
@@ -595,7 +599,7 @@ export default function Home() {
           </FadeIn>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <FadeIn delay={0.1} className="bg-black border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200">
+            <FadeIn delay={0.1} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200">
               <Sparkles className="text-[#A1A1A6] mb-5" size={20} />
               <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">AI Strategy & Autonomous Agents</h4>
               <ul className="space-y-2 text-white font-sans text-sm leading-relaxed">
@@ -607,7 +611,7 @@ export default function Home() {
               </ul>
             </FadeIn>
 
-            <FadeIn delay={0.2} className="bg-black border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200">
+            <FadeIn delay={0.2} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200">
               <Target className="text-[#A1A1A6] mb-5" size={20} />
               <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Initiative Leadership & Delivery</h4>
               <ul className="space-y-2 text-white font-sans text-sm leading-relaxed">
@@ -619,7 +623,7 @@ export default function Home() {
               </ul>
             </FadeIn>
 
-            <FadeIn delay={0.3} className="bg-black border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200">
+            <FadeIn delay={0.3} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200">
               <BookOpen className="text-[#A1A1A6] mb-5" size={20} />
               <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Coaching & Organizational Playbook</h4>
               <ul className="space-y-2 text-white font-sans text-sm leading-relaxed">
@@ -631,7 +635,7 @@ export default function Home() {
               </ul>
             </FadeIn>
 
-            <FadeIn delay={0.4} className="bg-black border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200">
+            <FadeIn delay={0.4} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200">
               <Layers className="text-[#A1A1A6] mb-5" size={20} />
               <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Modern Methodologies</h4>
               <ul className="space-y-2 text-white font-sans text-sm leading-relaxed">
@@ -643,7 +647,7 @@ export default function Home() {
               </ul>
             </FadeIn>
 
-            <FadeIn delay={0.5} className="bg-black border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200">
+            <FadeIn delay={0.5} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200">
               <Database className="text-[#A1A1A6] mb-5" size={20} />
               <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Technical & Tooling Strategy</h4>
               <ul className="space-y-2 text-white font-sans text-sm leading-relaxed">
@@ -655,7 +659,7 @@ export default function Home() {
               </ul>
             </FadeIn>
 
-            <FadeIn delay={0.6} className="bg-black border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200">
+            <FadeIn delay={0.6} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200">
               <Scale className="text-[#A1A1A6] mb-5" size={20} />
               <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Strategic Governance & Risk</h4>
               <ul className="space-y-2 text-white font-sans text-sm leading-relaxed">
@@ -681,19 +685,19 @@ export default function Home() {
         </FadeIn>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <FadeIn delay={0.1} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200">
+          <FadeIn delay={0.1} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200">
             <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Discipline</h4>
             <p className="text-white font-sans text-sm leading-relaxed">Completed my first half-marathon in 2025. Training for a full marathon in the fall of 2026. The sustained commitment mirrors the stamina required to shepherd multi-year enterprise programs without losing momentum.</p>
           </FadeIn>
-          <FadeIn delay={0.2} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200">
+          <FadeIn delay={0.2} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200">
             <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Mentorship</h4>
             <p className="text-white font-sans text-sm leading-relaxed">Chess teacher for elementary and middle school students. Teaching strategic thinking applies the same patience and pattern recognition I use mentoring engineers and PMs.</p>
           </FadeIn>
-          <FadeIn delay={0.3} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200">
+          <FadeIn delay={0.3} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200">
             <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Process</h4>
             <p className="text-white font-sans text-sm leading-relaxed">Wood-Fire BBQ Enthusiast. The precision and patience of low-and-slow smoking mirrors the process discipline I bring to software delivery.</p>
           </FadeIn>
-          <FadeIn delay={0.4} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/25 transition-all duration-200">
+          <FadeIn delay={0.4} className="bg-[#1C1C1E] border border-[#2C2C2E] p-8 rounded-sm hover:border-white/25 transition-all duration-200">
             <h4 className="text-[#A1A1A6] font-sans font-medium text-xs uppercase tracking-widest mb-4">Growth</h4>
             <p className="text-white font-sans text-sm leading-relaxed">Exploring how blockchain technologies, smart contracts, and decentralized finance can reshape global markets, including as an Ethereum home staker.</p>
           </FadeIn>
@@ -701,7 +705,7 @@ export default function Home() {
       </section>
 
       {/* ── Bottom CTA ───────────────────────────────────────────── */}
-      <section id="contact" className="scroll-mt-20 py-24 bg-[#121212] border-t border-white/8">
+      <section id="contact" className="scroll-mt-20 py-24 bg-black">
         <div className="container mx-auto px-6 md:px-12 text-center">
           <FadeIn>
             <h3 className="text-4xl md:text-5xl font-serif text-white mb-6">Let's Connect</h3>

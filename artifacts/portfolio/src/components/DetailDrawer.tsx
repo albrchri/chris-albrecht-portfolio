@@ -48,7 +48,7 @@ export function DetailDrawer({ isOpen, onClose, title, subtitle, jobTitle, child
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
             transition={{ type: "spring", damping: 32, stiffness: 280 }}
-            className="fixed top-0 right-0 h-full w-full md:w-[560px] bg-[#121212] border-l border-white/10 z-50 overflow-y-auto"
+            className="fixed top-0 right-0 h-full w-full md:w-[560px] bg-[#141414] border-l border-[#2C2C2E] z-50 overflow-y-auto"
           >
             <div className="p-8 md:p-12">
               <div className="flex items-start justify-between mb-10">
