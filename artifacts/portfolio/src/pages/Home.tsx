@@ -160,14 +160,14 @@ export default function Home() {
           <h3 className="text-4xl md:text-5xl font-serif text-white mb-20">Signature Accomplishments</h3>
         </FadeIn>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-3 gap-6 items-stretch">
 
           {/* Card 1 */}
-          <FadeIn delay={0.1} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col">
+          <FadeIn delay={0.1} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col h-full">
             <Sparkles className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-white font-sans font-semibold text-sm mb-4">AI-Enabled Transaction Review</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Deployed autonomous agents to summarize transaction behavior and customer risk into standardized, reviewer-ready outputs, significantly increasing analyst capacity and consistency.
+              Operationalized autonomous agents summarizing transaction behavior and risk into reviewer-ready outputs, significantly increasing analyst capacity and consistency.
             </p>
             <button
               onClick={() => openDrawer(
@@ -188,7 +188,7 @@ export default function Home() {
           </FadeIn>
 
           {/* Card 2 */}
-          <FadeIn delay={0.2} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col">
+          <FadeIn delay={0.2} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col h-full">
             <Cloud className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-white font-sans font-semibold text-sm mb-4">Legacy-to-Cloud Migration</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
@@ -213,7 +213,7 @@ export default function Home() {
           </FadeIn>
 
           {/* Card 3 */}
-          <FadeIn delay={0.3} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col">
+          <FadeIn delay={0.3} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col h-full">
             <Layers className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-white font-sans font-semibold text-sm mb-4">Enterprise Platform Transformation</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
@@ -238,7 +238,7 @@ export default function Home() {
           </FadeIn>
 
           {/* Card 4 */}
-          <FadeIn delay={0.4} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col">
+          <FadeIn delay={0.4} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col h-full">
             <ShieldCheck className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-white font-sans font-semibold text-sm mb-4">Fraud Prevention RFP & Rollout</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
@@ -263,7 +263,7 @@ export default function Home() {
           </FadeIn>
 
           {/* Card 5 */}
-          <FadeIn delay={0.5} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col">
+          <FadeIn delay={0.5} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col h-full">
             <Users className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-white font-sans font-semibold text-sm mb-4">Cross-Functional Client Experience Launch</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
@@ -288,11 +288,11 @@ export default function Home() {
           </FadeIn>
 
           {/* Card 6 */}
-          <FadeIn delay={0.6} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col">
+          <FadeIn delay={0.6} className="bg-[#121212] border border-white/10 p-8 rounded-sm hover:border-white/30 hover:scale-[1.02] transition-all duration-200 flex flex-col h-full">
             <Zap className="text-[#A1A1A6] mb-5" size={20} />
             <h4 className="text-white font-sans font-semibold text-sm mb-4">High-Velocity Agile Evolution</h4>
             <p className="text-[#A1A1A6] font-sans text-sm leading-relaxed mb-6 flex-1">
-              Led the evolution of a traditional waterfall development approach into a high-velocity Agile delivery organization, increasing deployment cadence from quarterly to weekly through CI/CD integration and modern engineering standards.
+              Evolved waterfall development into high-velocity Agile delivery, increasing deployment cadence from quarterly to weekly through CI/CD and modern standards.
             </p>
             <button
               onClick={() => openDrawer(
