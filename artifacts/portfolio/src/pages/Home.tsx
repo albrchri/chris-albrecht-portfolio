@@ -50,7 +50,7 @@ export default function Home() {
       </DetailDrawer>
 
       {/* ── Hero ─────────────────────────────────────────────────── */}
-      <section id="intro" className="min-h-screen flex flex-col justify-center container mx-auto px-6 md:px-12 relative pt-24">
+      <section id="intro" className="scroll-mt-20 min-h-screen flex flex-col justify-center container mx-auto px-6 md:px-12 relative pt-24">
         <FadeIn className="max-w-4xl relative z-10 -translate-y-16">
           <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-14">
             <span className="text-4xl md:text-5xl font-serif font-bold text-white tracking-tight">Chris Albrecht</span>
@@ -77,7 +77,7 @@ export default function Home() {
       </section>
 
       {/* ── Leadership Philosophy ────────────────────────────────── */}
-      <section id="philosophy" className="py-48 container mx-auto px-6 md:px-12">
+      <section id="philosophy" className="scroll-mt-20 py-32 container mx-auto px-6 md:px-12">
         <FadeIn>
           <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Philosophy</h2>
           <h3 className="text-4xl md:text-5xl font-serif text-white mb-20">Leadership Philosophy</h3>
@@ -154,7 +154,7 @@ export default function Home() {
       </section>
 
       {/* ── Signature Initiatives ────────────────────────────────── */}
-      <section id="accomplishments" className="pt-48 pb-24 container mx-auto px-6 md:px-12">
+      <section id="accomplishments" className="scroll-mt-20 pt-32 pb-24 container mx-auto px-6 md:px-12">
         <FadeIn>
           <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Highlights</h2>
           <h3 className="text-4xl md:text-5xl font-serif text-white mb-20">Signature Accomplishments</h3>
@@ -316,23 +316,29 @@ export default function Home() {
       </section>
 
       {/* ── Social Proof ─────────────────────────────────────────── */}
-      <section id="endorsements" className="pt-32 pb-64 bg-black border-b border-white/8">
-        <div className="container mx-auto px-6 md:px-12 max-w-3xl">
+      <section id="endorsements" className="scroll-mt-20 py-32 bg-black border-b border-white/8">
+        <div className="container mx-auto px-6 md:px-12">
           <FadeIn>
-            <div className="flex flex-col gap-8">
-              <blockquote className="text-2xl md:text-3xl font-serif text-white leading-relaxed">
-                "Chris consistently delivers results in high-stakes environments, balancing technical precision with executive-level strategy."
-              </blockquote>
-              <p className="text-sm font-sans font-medium text-[#A1A1A6] uppercase tracking-widest">
-                Ana Soric — Managing Director, UBS
-              </p>
-            </div>
+            <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Endorsements</h2>
+            <h3 className="text-4xl md:text-5xl font-serif text-white mb-20">What Leaders Say</h3>
           </FadeIn>
+          <div className="max-w-3xl py-16">
+            <FadeIn delay={0.1}>
+              <div className="flex flex-col gap-8">
+                <blockquote className="text-2xl md:text-3xl font-serif text-white leading-relaxed">
+                  "Chris consistently delivers results in high-stakes environments, balancing technical precision with executive-level strategy."
+                </blockquote>
+                <p className="text-sm font-sans font-medium text-[#A1A1A6] uppercase tracking-widest">
+                  Ana Soric — Managing Director, UBS
+                </p>
+              </div>
+            </FadeIn>
+          </div>
         </div>
       </section>
 
       {/* ── Professional Tenure ──────────────────────────────────── */}
-      <section id="experience" className="pt-20 pb-64 bg-[#121212] border-y border-white/8">
+      <section id="experience" className="scroll-mt-20 pt-20 pb-28 bg-[#121212] border-y border-white/8">
         <div className="container mx-auto px-6 md:px-12">
           <FadeIn>
             <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Experience</h2>
@@ -491,7 +497,7 @@ export default function Home() {
       </section>
 
       {/* ── Credentials & Expertise ──────────────────────────────── */}
-      <section id="credentials" className="py-48 container mx-auto px-6 md:px-12">
+      <section id="credentials" className="scroll-mt-20 py-28 container mx-auto px-6 md:px-12">
         <FadeIn>
           <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Credentials</h2>
           <h3 className="text-4xl md:text-5xl font-serif text-white mb-20">Credentials & Expertise</h3>
@@ -578,7 +584,7 @@ export default function Home() {
       </section>
 
       {/* ── Stack & Skills ───────────────────────────────────────── */}
-      <section id="skills" className="py-48 bg-[#121212] border-y border-white/8">
+      <section id="skills" className="scroll-mt-20 py-28 bg-[#121212] border-y border-white/8">
         <div className="container mx-auto px-6 md:px-12">
           <FadeIn>
             <div className="mb-20">
@@ -665,7 +671,7 @@ export default function Home() {
       </section>
 
       {/* ── Beyond the Boardroom ─────────────────────────────────── */}
-      <section id="personal" className="py-64 container mx-auto px-6 md:px-12">
+      <section id="personal" className="scroll-mt-20 py-28 container mx-auto px-6 md:px-12">
         <FadeIn>
           <div className="text-center mb-28 max-w-2xl mx-auto">
             <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Personal Pursuits</h2>
@@ -695,7 +701,7 @@ export default function Home() {
       </section>
 
       {/* ── Bottom CTA ───────────────────────────────────────────── */}
-      <section id="contact" className="py-40 bg-[#121212] border-t border-white/8">
+      <section id="contact" className="scroll-mt-20 py-24 bg-[#121212] border-t border-white/8">
         <div className="container mx-auto px-6 md:px-12 text-center">
           <FadeIn>
             <h3 className="text-4xl md:text-5xl font-serif text-white mb-6">Let's Connect</h3>
