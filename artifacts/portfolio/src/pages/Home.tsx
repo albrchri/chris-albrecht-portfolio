@@ -2,6 +2,7 @@ import { useState, useCallback } from "react";
 import { useSeo } from "@/hooks/use-seo";
 import { PageTransition, FadeIn } from "@/components/PageTransition";
 import { DetailDrawer } from "@/components/DetailDrawer";
+import { ScrollSpy } from "@/components/ScrollSpy";
 import {
   ArrowRight, Target, BookOpen, Layers, Database,
   GraduationCap, BadgeCheck, Cloud, ShieldCheck, Sparkles, Scale, Plus, Users, Zap, ExternalLink
@@ -37,6 +38,7 @@ export default function Home() {
 
   return (
     <PageTransition>
+      <ScrollSpy />
       <DetailDrawer
         isOpen={drawer.isOpen}
         onClose={closeDrawer}
@@ -48,7 +50,7 @@ export default function Home() {
       </DetailDrawer>
 
       {/* ── Hero ─────────────────────────────────────────────────── */}
-      <section className="min-h-screen flex flex-col justify-center container mx-auto px-6 md:px-12 relative pt-24">
+      <section id="intro" className="min-h-screen flex flex-col justify-center container mx-auto px-6 md:px-12 relative pt-24">
         <FadeIn className="max-w-4xl relative z-10 -translate-y-16">
           <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-14">
             <span className="text-4xl md:text-5xl font-serif font-bold text-white tracking-tight">Chris Albrecht</span>
@@ -152,7 +154,7 @@ export default function Home() {
       </section>
 
       {/* ── Signature Initiatives ────────────────────────────────── */}
-      <section className="pt-48 pb-24 container mx-auto px-6 md:px-12">
+      <section id="accomplishments" className="pt-48 pb-24 container mx-auto px-6 md:px-12">
         <FadeIn>
           <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Highlights</h2>
           <h3 className="text-4xl md:text-5xl font-serif text-white mb-20">Signature Accomplishments</h3>
@@ -314,7 +316,7 @@ export default function Home() {
       </section>
 
       {/* ── Social Proof ─────────────────────────────────────────── */}
-      <section className="pt-32 pb-64 bg-black border-b border-white/8">
+      <section id="endorsements" className="pt-32 pb-64 bg-black border-b border-white/8">
         <div className="container mx-auto px-6 md:px-12 max-w-3xl">
           <FadeIn>
             <div className="flex flex-col gap-8">
@@ -489,7 +491,7 @@ export default function Home() {
       </section>
 
       {/* ── Credentials & Expertise ──────────────────────────────── */}
-      <section className="py-48 container mx-auto px-6 md:px-12">
+      <section id="credentials" className="py-48 container mx-auto px-6 md:px-12">
         <FadeIn>
           <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Credentials</h2>
           <h3 className="text-4xl md:text-5xl font-serif text-white mb-20">Credentials & Expertise</h3>
@@ -576,7 +578,7 @@ export default function Home() {
       </section>
 
       {/* ── Stack & Skills ───────────────────────────────────────── */}
-      <section className="py-48 bg-[#121212] border-y border-white/8">
+      <section id="skills" className="py-48 bg-[#121212] border-y border-white/8">
         <div className="container mx-auto px-6 md:px-12">
           <FadeIn>
             <div className="mb-20">
@@ -663,7 +665,7 @@ export default function Home() {
       </section>
 
       {/* ── Beyond the Boardroom ─────────────────────────────────── */}
-      <section className="py-64 container mx-auto px-6 md:px-12">
+      <section id="personal" className="py-64 container mx-auto px-6 md:px-12">
         <FadeIn>
           <div className="text-center mb-28 max-w-2xl mx-auto">
             <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Personal Pursuits</h2>
@@ -693,7 +695,7 @@ export default function Home() {
       </section>
 
       {/* ── Bottom CTA ───────────────────────────────────────────── */}
-      <section className="py-40 bg-[#121212] border-t border-white/8">
+      <section id="contact" className="py-40 bg-[#121212] border-t border-white/8">
         <div className="container mx-auto px-6 md:px-12 text-center">
           <FadeIn>
             <h3 className="text-4xl md:text-5xl font-serif text-white mb-6">Let's Connect</h3>
