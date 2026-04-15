@@ -8,37 +8,51 @@ const SECTIONS = [
   { id: "experience",      label: "TENURE" },
   { id: "credentials",     label: "CREDENTIALS" },
   { id: "skills",          label: "SKILLS" },
-  { id: "personal",        label: "PERSONAL" },
+  { id: "personal",        label: "INTERESTS" },
   { id: "contact",         label: "CONTACT" },
 ];
+
+function getActiveSection(): string {
+  const scrollY = window.scrollY;
+  const windowHeight = window.innerHeight;
+  const trigger = scrollY + windowHeight * 0.35;
+
+  let current = SECTIONS[0].id;
+  for (const { id } of SECTIONS) {
+    const el = document.getElementById(id);
+    if (!el) continue;
+    if (el.offsetTop <= trigger) {
+      current = id;
+    }
+  }
+  return current;
+}
 
 export function ScrollSpy() {
   const [active, setActive] = useState("intro");
   const [hovered, setHovered] = useState<string | null>(null);
-  const observerRef = useRef<IntersectionObserver | null>(null);
+  const rafRef = useRef<number | null>(null);
 
   useEffect(() => {
-    const sectionEls = SECTIONS.map(s => document.getElementById(s.id)).filter(Boolean) as HTMLElement[];
+    const onScroll = () => {
+      if (rafRef.current !== null) cancelAnimationFrame(rafRef.current);
+      rafRef.current = requestAnimationFrame(() => {
+        setActive(getActiveSection());
+      });
+    };
 
-    observerRef.current = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter(e => e.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
-        if (visible.length > 0) {
-          setActive(visible[0].target.id);
-        }
-      },
-      { threshold: [0.15, 0.3, 0.5] }
-    );
-
-    sectionEls.forEach(el => observerRef.current?.observe(el));
-    return () => observerRef.current?.disconnect();
+    setActive(getActiveSection());
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      if (rafRef.current !== null) cancelAnimationFrame(rafRef.current);
+    };
   }, []);
 
   const scrollTo = (id: string) => {
     const el = document.getElementById(id);
-    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (!el) return;
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   return (
@@ -55,7 +69,7 @@ export function ScrollSpy() {
                 onClick={() => scrollTo(id)}
                 onMouseEnter={() => setHovered(id)}
                 onMouseLeave={() => setHovered(null)}
-                className="relative flex items-center group"
+                className="relative flex items-center"
                 aria-label={label}
               >
                 <span
@@ -64,12 +78,12 @@ export function ScrollSpy() {
                     width: 8,
                     height: 8,
                     backgroundColor: isActive ? "#FFFFFF" : "transparent",
-                    border: isActive ? "1.5px solid #FFFFFF" : "1.5px solid #86868B",
-                    transform: isActive ? "scale(1.25)" : "scale(1)",
+                    border: `1.5px solid ${isActive ? "#FFFFFF" : "#86868B"}`,
+                    transform: isActive ? "scale(1.3)" : "scale(1)",
                   }}
                 />
                 <span
-                  className="absolute left-5 whitespace-nowrap font-sans text-[10px] font-medium tracking-widest text-white transition-all duration-200 pointer-events-none"
+                  className="absolute left-5 whitespace-nowrap font-sans text-[10px] font-medium tracking-widest text-white pointer-events-none transition-all duration-200"
                   style={{
                     opacity: isHovered ? 1 : 0,
                     transform: isHovered ? "translateX(0)" : "translateX(-4px)",
