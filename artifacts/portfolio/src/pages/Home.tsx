@@ -77,7 +77,7 @@ export default function Home() {
       </section>
 
       {/* ── Leadership Philosophy ────────────────────────────────── */}
-      <section id="philosophy" className="scroll-mt-20 py-32 container mx-auto px-6 md:px-12">
+      <section id="philosophy" className="scroll-mt-20 pt-16 pb-32 container mx-auto px-6 md:px-12">
         <FadeIn>
           <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Philosophy</h2>
           <h3 className="text-4xl md:text-5xl font-serif text-white mb-20">Leadership Philosophy</h3>
@@ -154,7 +154,7 @@ export default function Home() {
       </section>
 
       {/* ── Signature Initiatives ────────────────────────────────── */}
-      <section id="accomplishments" className="scroll-mt-20 pt-32 pb-24 container mx-auto px-6 md:px-12">
+      <section id="accomplishments" className="scroll-mt-20 pt-16 pb-24 container mx-auto px-6 md:px-12">
         <FadeIn>
           <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Highlights</h2>
           <h3 className="text-4xl md:text-5xl font-serif text-white mb-20">Signature Accomplishments</h3>
@@ -497,7 +497,7 @@ export default function Home() {
       </section>
 
       {/* ── Credentials & Expertise ──────────────────────────────── */}
-      <section id="credentials" className="scroll-mt-20 py-28 container mx-auto px-6 md:px-12">
+      <section id="credentials" className="scroll-mt-20 pt-16 pb-28 container mx-auto px-6 md:px-12">
         <FadeIn>
           <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Credentials</h2>
           <h3 className="text-4xl md:text-5xl font-serif text-white mb-20">Credentials & Expertise</h3>
@@ -584,7 +584,7 @@ export default function Home() {
       </section>
 
       {/* ── Stack & Skills ───────────────────────────────────────── */}
-      <section id="skills" className="scroll-mt-20 py-28 bg-[#121212] border-y border-white/8">
+      <section id="skills" className="scroll-mt-20 pt-16 pb-28 bg-[#121212] border-y border-white/8">
         <div className="container mx-auto px-6 md:px-12">
           <FadeIn>
             <div className="mb-20">
