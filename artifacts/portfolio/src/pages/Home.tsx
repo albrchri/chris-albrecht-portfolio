@@ -77,7 +77,7 @@ export default function Home() {
       </section>
 
       {/* ── Leadership Philosophy ────────────────────────────────── */}
-      <section id="philosophy" className="scroll-mt-20 pt-16 pb-32 container mx-auto px-6 md:px-12">
+      <section id="philosophy" className="scroll-mt-20 pt-16 pb-[40vh] container mx-auto px-6 md:px-12">
         <FadeIn>
           <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Philosophy</h2>
           <h3 className="text-4xl md:text-5xl font-serif text-white mb-20">Leadership Philosophy</h3>
@@ -318,7 +318,7 @@ export default function Home() {
       </section>
 
       {/* ── Social Proof ─────────────────────────────────────────── */}
-      <section id="endorsements" className="scroll-mt-20 py-32 bg-black">
+      <section id="endorsements" className="scroll-mt-20 pt-32 pb-[40vh] bg-black">
         <div className="container mx-auto px-6 md:px-12">
           <FadeIn>
             <h2 className="text-xs font-sans font-medium text-[#A1A1A6] uppercase tracking-widest mb-4">Endorsements</h2>
