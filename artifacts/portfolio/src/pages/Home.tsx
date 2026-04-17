@@ -53,7 +53,7 @@ export default function Home() {
       {/* ── Hero ─────────────────────────────────────────────────── */}
       <section id="intro" className="scroll-mt-20 min-h-screen relative bg-black">
         <div className="container mx-auto px-6 md:px-12 min-h-screen flex items-center">
-          <div className="w-full grid lg:grid-cols-[3fr_2fr] gap-12 lg:gap-20 items-center lg:items-start pt-28 pb-16 lg:pt-8 lg:pb-24">
+          <div className="w-full grid lg:grid-cols-[3fr_2fr] gap-12 lg:gap-20 items-center lg:items-start pt-28 pb-16 lg:pt-0 lg:pb-24">
 
             {/* Text — always first (mobile + desktop left) */}
             <FadeIn className="relative z-10">
