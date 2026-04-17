@@ -53,7 +53,7 @@ export default function Home() {
       {/* ── Hero ─────────────────────────────────────────────────── */}
       <section id="intro" className="scroll-mt-20 min-h-screen relative bg-black">
         <div className="container mx-auto px-6 md:px-12 min-h-screen flex items-center">
-          <div className="w-full grid lg:grid-cols-2 gap-12 lg:gap-20 items-center pt-28 pb-16 lg:py-24">
+          <div className="w-full grid lg:grid-cols-[13fr_7fr] gap-12 lg:gap-28 items-center pt-28 pb-16 lg:py-24">
 
             {/* Text — always first (mobile + desktop left) */}
             <FadeIn className="relative z-10">
@@ -82,16 +82,16 @@ export default function Home() {
             {/* Portrait — stacks below text on mobile, right column on desktop */}
             <FadeIn delay={0.25} className="flex justify-center lg:justify-end">
               <div
-                className="w-full max-w-[340px] sm:max-w-[400px] lg:max-w-none lg:max-h-[80vh]"
+                className="w-full max-w-[340px] sm:max-w-[400px] lg:max-w-[420px] ml-auto"
                 style={{
                   WebkitMaskImage: [
-                    "linear-gradient(to bottom, transparent 0%, black 18%, black 82%, transparent 100%)",
-                    "linear-gradient(to right,  transparent 0%, black 12%, black 88%, transparent 100%)",
+                    "linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%)",
+                    "linear-gradient(to right,  transparent 0%, black 28%, black 92%, transparent 100%)",
                   ].join(", "),
                   WebkitMaskComposite: "destination-in",
                   maskImage: [
-                    "linear-gradient(to bottom, transparent 0%, black 18%, black 82%, transparent 100%)",
-                    "linear-gradient(to right,  transparent 0%, black 12%, black 88%, transparent 100%)",
+                    "linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%)",
+                    "linear-gradient(to right,  transparent 0%, black 28%, black 92%, transparent 100%)",
                   ].join(", "),
                   maskComposite: "intersect",
                 }}
@@ -99,7 +99,7 @@ export default function Home() {
                 <img
                   src={portraitSrc}
                   alt="Chris Albrecht"
-                  className="w-full h-full object-cover object-top"
+                  className="w-full h-auto object-cover object-top"
                 />
               </div>
             </FadeIn>
