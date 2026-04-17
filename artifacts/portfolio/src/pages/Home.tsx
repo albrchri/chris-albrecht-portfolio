@@ -1,5 +1,5 @@
 import { useState, useCallback } from "react";
-import portraitSrc from "@assets/chris-portfolio-site_1776440803224.png";
+import portraitSrc from "@assets/chris-portfolio-site_1776449589289.png";
 import { useSeo } from "@/hooks/use-seo";
 import { PageTransition, FadeIn } from "@/components/PageTransition";
 import { DetailDrawer } from "@/components/DetailDrawer";
