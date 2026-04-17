@@ -53,7 +53,7 @@ export default function Home() {
       {/* ── Hero ─────────────────────────────────────────────────── */}
       <section id="intro" className="scroll-mt-20 min-h-screen relative bg-black">
         <div className="container mx-auto px-6 md:px-12 min-h-screen flex items-center">
-          <div className="w-full grid lg:grid-cols-[13fr_7fr] gap-12 lg:gap-28 items-center pt-28 pb-16 lg:py-24">
+          <div className="w-full grid lg:grid-cols-[3fr_2fr] gap-12 lg:gap-20 items-center lg:items-start pt-28 pb-16 lg:py-24">
 
             {/* Text — always first (mobile + desktop left) */}
             <FadeIn className="relative z-10">
@@ -61,7 +61,7 @@ export default function Home() {
                 <span className="text-4xl md:text-5xl font-serif font-bold text-white tracking-tight">Chris Albrecht</span>
                 <span className="text-2xl md:text-3xl font-serif font-normal text-white/30 tracking-tight">{CREDENTIALS}</span>
               </div>
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-white leading-[1.1] mb-6 tracking-tight">
+              <h1 className="text-5xl md:text-7xl lg:text-6xl font-serif font-bold text-white leading-[1.1] mb-6 tracking-tight">
                 Bridging Software <br className="hidden md:block" />
                 <span className="text-[#A1A1A6] italic">Strategy</span> & Execution.
               </h1>
@@ -80,9 +80,9 @@ export default function Home() {
             </FadeIn>
 
             {/* Portrait — stacks below text on mobile, right column on desktop */}
-            <FadeIn delay={0.25} className="flex justify-center lg:justify-end">
+            <FadeIn delay={0.25} className="flex justify-center lg:justify-end lg:items-start">
               <div
-                className="w-full max-w-[340px] sm:max-w-[400px] lg:max-w-[420px] ml-auto"
+                className="w-full max-w-[340px] sm:max-w-[400px] lg:max-w-[500px] ml-auto"
                 style={{
                   WebkitMaskImage: [
                     "linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%)",
