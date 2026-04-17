@@ -1,4 +1,5 @@
 import { useState, useCallback } from "react";
+import portraitSrc from "@assets/chris-portfolio-site_1776440803224.png";
 import { useSeo } from "@/hooks/use-seo";
 import { PageTransition, FadeIn } from "@/components/PageTransition";
 import { DetailDrawer } from "@/components/DetailDrawer";
@@ -50,30 +51,61 @@ export default function Home() {
       </DetailDrawer>
 
       {/* ── Hero ─────────────────────────────────────────────────── */}
-      <section id="intro" className="scroll-mt-20 min-h-screen flex flex-col justify-center container mx-auto px-6 md:px-12 relative pt-24">
-        <FadeIn className="max-w-4xl relative z-10 -translate-y-16">
-          <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-14">
-            <span className="text-4xl md:text-5xl font-serif font-bold text-white tracking-tight">Chris Albrecht</span>
-            <span className="text-2xl md:text-3xl font-serif font-normal text-white/30 tracking-tight">{CREDENTIALS}</span>
-          </div>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-white leading-[1.1] mb-6 tracking-tight">
-            Bridging Software <br className="hidden md:block" />
-            <span className="text-[#A1A1A6] italic">Strategy</span> & Execution.
-          </h1>
-          <p className="text-xl md:text-2xl text-[#A1A1A6] font-sans font-light max-w-2xl leading-relaxed mb-12">
-            AI-native delivery leader driving platform transformations, cloud migrations, and AI-enabled solutions at enterprise scale.
-          </p>
+      <section id="intro" className="scroll-mt-20 min-h-screen relative bg-black">
+        <div className="container mx-auto px-6 md:px-12 min-h-screen flex items-center">
+          <div className="w-full grid lg:grid-cols-2 gap-12 lg:gap-20 items-center pt-28 pb-16 lg:py-24">
 
-          <div className="flex flex-wrap gap-4">
-            <a
-              href="#philosophy"
-              className="inline-flex items-center gap-2 px-7 py-[14px] text-base font-sans font-medium border border-white text-white rounded-sm hover:bg-white hover:text-black transition-all duration-200"
-              data-testid="link-hero-experience"
-            >
-              ↓ Explore Profile
-            </a>
+            {/* Text — always first (mobile + desktop left) */}
+            <FadeIn className="relative z-10">
+              <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-14">
+                <span className="text-4xl md:text-5xl font-serif font-bold text-white tracking-tight">Chris Albrecht</span>
+                <span className="text-2xl md:text-3xl font-serif font-normal text-white/30 tracking-tight">{CREDENTIALS}</span>
+              </div>
+              <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-white leading-[1.1] mb-6 tracking-tight">
+                Bridging Software <br className="hidden md:block" />
+                <span className="text-[#A1A1A6] italic">Strategy</span> & Execution.
+              </h1>
+              <p className="text-xl md:text-2xl text-[#A1A1A6] font-sans font-light max-w-2xl leading-relaxed mb-12">
+                AI-native delivery leader driving platform transformations, cloud migrations, and AI-enabled solutions at enterprise scale.
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <a
+                  href="#philosophy"
+                  className="inline-flex items-center gap-2 px-7 py-[14px] text-base font-sans font-medium border border-white text-white rounded-sm hover:bg-white hover:text-black transition-all duration-200"
+                  data-testid="link-hero-experience"
+                >
+                  ↓ Explore Profile
+                </a>
+              </div>
+            </FadeIn>
+
+            {/* Portrait — stacks below text on mobile, right column on desktop */}
+            <FadeIn delay={0.25} className="flex justify-center lg:justify-end">
+              <div
+                className="w-full max-w-[340px] sm:max-w-[400px] lg:max-w-none lg:max-h-[80vh]"
+                style={{
+                  WebkitMaskImage: [
+                    "linear-gradient(to bottom, transparent 0%, black 18%, black 82%, transparent 100%)",
+                    "linear-gradient(to right,  transparent 0%, black 12%, black 88%, transparent 100%)",
+                  ].join(", "),
+                  WebkitMaskComposite: "destination-in",
+                  maskImage: [
+                    "linear-gradient(to bottom, transparent 0%, black 18%, black 82%, transparent 100%)",
+                    "linear-gradient(to right,  transparent 0%, black 12%, black 88%, transparent 100%)",
+                  ].join(", "),
+                  maskComposite: "intersect",
+                }}
+              >
+                <img
+                  src={portraitSrc}
+                  alt="Chris Albrecht"
+                  className="w-full h-full object-cover object-top"
+                />
+              </div>
+            </FadeIn>
+
           </div>
-        </FadeIn>
+        </div>
       </section>
 
       {/* ── Leadership Philosophy ────────────────────────────────── */}
