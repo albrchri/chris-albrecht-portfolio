@@ -80,7 +80,7 @@ export default function Home() {
             </FadeIn>
 
             {/* Portrait — stacks below text on mobile, right column on desktop */}
-            <FadeIn delay={0.25} className="flex justify-center lg:justify-end lg:items-start lg:-mt-6">
+            <FadeIn delay={0.25} className="flex justify-center lg:justify-end lg:items-start lg:-mt-16">
               <div
                 className="w-full max-w-[340px] sm:max-w-[400px] lg:max-w-[500px] ml-auto"
                 style={{
