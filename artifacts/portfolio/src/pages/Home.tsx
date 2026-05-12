@@ -360,7 +360,7 @@ export default function Home() {
             <FadeIn delay={0.1}>
               <div className="flex flex-col gap-8">
                 <blockquote className="text-2xl md:text-3xl font-serif text-white leading-relaxed">
-                  "Chris consistently delivers results in high-stakes environments, balancing technical precision with executive-level strategy."
+                  "Chris is a highly proactive, results‑driven professional who consistently delivers impactful outcomes in high-stakes environments, through strong leadership and executive‑level engagement."
                 </blockquote>
                 <p className="text-sm font-sans font-medium text-[#A1A1A6] uppercase tracking-widest">
                   Ana Soric — Managing Director, UBS
