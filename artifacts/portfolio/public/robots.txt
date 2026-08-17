@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://881f4a95-4895-4c20-9593-37d1448521a2-00-1eisvgtna18e0-tcyw9sc4.worf.replit.dev/sitemap.xml
