@@ -6,7 +6,8 @@ import { Link } from "wouter";
 export default function AgileCultureShift() {
   useSeo({
     title: "Case Study: Agile Culture Shift | Christopher J. Albrecht",
-    description: "A deep dive into the enterprise-wide Agile culture shift initiative led by Christopher J. Albrecht at UBS."
+    description: "A deep dive into the enterprise-wide Agile culture shift initiative led by Christopher J. Albrecht at UBS.",
+    noindex: true
   });
 
   return (

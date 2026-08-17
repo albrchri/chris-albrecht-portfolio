@@ -6,7 +6,8 @@ import { Link } from "wouter";
 export default function SimCorpDimensionIntegration() {
   useSeo({
     title: "Case Study: SimCorp Dimension Integration | Chris Albrecht",
-    description: "How Chris Albrecht led the SimCorp Dimension (SCD) technical integration and go-live at UBS."
+    description: "How Chris Albrecht led the SimCorp Dimension (SCD) technical integration and go-live at UBS.",
+    noindex: true
   });
 
   return (

@@ -6,7 +6,8 @@ import { Link } from "wouter";
 export default function LegacyCloudTransformation() {
   useSeo({
     title: "Case Study: Legacy-to-Cloud Transformation | Chris Albrecht",
-    description: "How Chris Albrecht led the transformation of a locally hosted monolith into scalable Azure microservices at UBS."
+    description: "How Chris Albrecht led the transformation of a locally hosted monolith into scalable Azure microservices at UBS.",
+    noindex: true
   });
 
   return (

@@ -6,7 +6,8 @@ import { Link } from "wouter";
 export default function MajorTradingTransformation() {
   useSeo({
     title: "Case Study: Major Trading Transformation | Christopher J. Albrecht",
-    description: "A deep dive into the major trading platform transformation initiative led by Christopher J. Albrecht at UBS."
+    description: "A deep dive into the major trading platform transformation initiative led by Christopher J. Albrecht at UBS.",
+    noindex: true
   });
 
   return (

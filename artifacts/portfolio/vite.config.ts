@@ -1,8 +1,42 @@
-import { defineConfig } from "vite";
+import { defineConfig, type Plugin } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
+
+/**
+ * Paths whose pages contain placeholder content not ready for indexing.
+ * The plugin injects `X-Robots-Tag: noindex` in HTTP responses for these
+ * routes so crawlers receive the directive even without executing JavaScript.
+ * Remove a path from this list once the page has real, indexable content.
+ */
+const NOINDEX_PATHS = [
+  "/projects/legacy-cloud-transformation",
+  "/projects/simcorp-dimension-integration",
+  "/projects/major-trading-transformation",
+  "/projects/agile-culture-shift",
+];
+
+function noindexHeadersPlugin(): Plugin {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const addHeaders = (server: any) => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    server.middlewares.use((req: any, res: any, next: () => void) => {
+      const rawUrl: string = req.url ?? "";
+      // Strip query string for matching
+      const pathname = rawUrl.split("?")[0];
+      if (NOINDEX_PATHS.some((p) => pathname === p || pathname.endsWith(p))) {
+        res.setHeader("X-Robots-Tag", "noindex");
+      }
+      next();
+    });
+  };
+  return {
+    name: "noindex-headers",
+    configureServer: addHeaders,
+    configurePreviewServer: addHeaders,
+  };
+}
 
 const rawPort = process.env.PORT;
 
@@ -32,6 +66,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
     runtimeErrorOverlay(),
+    noindexHeadersPlugin(),
     ...(process.env.NODE_ENV !== "production" &&
     process.env.REPL_ID !== undefined
       ? [
