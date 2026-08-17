@@ -402,6 +402,8 @@ function buildHeadTags(route) {
     ``,
     `    <!-- Open Graph -->`,
     `    <meta property="og:type" content="website" />`,
+    `    <meta property="og:site_name" content="Chris Albrecht — Portfolio" />`,
+    `    <meta property="og:locale" content="en_US" />`,
     `    <meta property="og:url" content="${canonicalUrl}" />`,
     `    <meta property="og:title" content="${route.ogTitle}" />`,
     `    <meta property="og:description" content="${route.ogDescription}" />`,
