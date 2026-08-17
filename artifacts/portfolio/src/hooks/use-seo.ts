@@ -7,21 +7,59 @@ interface SeoProps {
   noindex?: boolean;
 }
 
+function setMeta(selector: string, attrName: string, attrValue: string, value: string) {
+  let el = document.querySelector(selector);
+  if (!el) {
+    el = document.createElement("meta");
+    el.setAttribute(attrName, attrValue);
+    document.head.appendChild(el);
+  }
+  el.setAttribute("content", value);
+}
+
+function setCanonical(href: string) {
+  let el = document.querySelector('link[rel="canonical"]');
+  if (!el) {
+    el = document.createElement("link");
+    el.setAttribute("rel", "canonical");
+    document.head.appendChild(el);
+  }
+  el.setAttribute("href", href);
+}
+
 export function useSeo({ title, description, noindex }: SeoProps) {
   useEffect(() => {
+    // Primary
     document.title = title;
+    const canonical = window.location.href.split("?")[0].split("#")[0];
 
     if (description) {
-      let meta = document.querySelector('meta[name="description"]');
-      if (!meta) {
-        meta = document.createElement("meta");
-        meta.setAttribute("name", "description");
-        document.head.appendChild(meta);
-      }
-      meta.setAttribute("content", description);
+      setMeta('meta[name="description"]', "name", "description", description);
     }
 
-    // Manage robots meta tag
+    // Canonical URL
+    if (!noindex) {
+      setCanonical(canonical);
+    } else {
+      // Remove canonical for noindex pages
+      document.querySelector('link[rel="canonical"]')?.remove();
+    }
+
+    // Open Graph
+    setMeta('meta[property="og:title"]', "property", "og:title", title);
+    setMeta('meta[property="og:url"]', "property", "og:url", canonical);
+    if (description) {
+      setMeta('meta[property="og:description"]', "property", "og:description", description);
+    }
+
+    // Twitter Card
+    setMeta('meta[name="twitter:title"]', "name", "twitter:title", title);
+    setMeta('meta[name="twitter:url"]', "name", "twitter:url", canonical);
+    if (description) {
+      setMeta('meta[name="twitter:description"]', "name", "twitter:description", description);
+    }
+
+    // Robots meta tag
     let robotsMeta = document.querySelector('meta[name="robots"]');
     if (noindex) {
       if (!robotsMeta) {
