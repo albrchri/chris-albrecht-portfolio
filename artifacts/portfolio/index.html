@@ -24,6 +24,35 @@
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://chrisalbrecht.com/#person",
+          "name": "Christopher J. Albrecht",
+          "alternateName": "Chris Albrecht",
+          "jobTitle": "Senior Initiative Manager",
+          "description": "AI-native strategic delivery leader with 15+ years in global financial services.",
+          "url": "https://chrisalbrecht.com/",
+          "sameAs": [
+            "https://www.linkedin.com/in/albrchri/",
+            "https://github.com/albrchri"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://chrisalbrecht.com/#website",
+          "url": "https://chrisalbrecht.com/",
+          "name": "Chris Albrecht — Portfolio",
+          "publisher": { "@id": "https://chrisalbrecht.com/#person" }
+        }
+      ]
+    }
+    </script>
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
